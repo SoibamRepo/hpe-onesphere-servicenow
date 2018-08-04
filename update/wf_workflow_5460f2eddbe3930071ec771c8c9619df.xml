@@ -1,0 +1,3357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["209adb7fdbab530071ec771c8c961923"],"subflows":[],"stages":{},"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>a89adb7fdbab530071ec771c8c96192e,249adb7fdbab530071ec771c8c961925,e49adb7fdbab530071ec771c8c96191f,649adb7fdbab530071ec771c8c961928,e49adb7fdbab530071ec771c8c961921,249adb7fdbab530071ec771c8c961922,609adb7fdbab530071ec771c8c961930,209adb7fdbab530071ec771c8c961923</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>a89adb7fdbab530071ec771c8c96192e,249adb7fdbab530071ec771c8c961925,e49adb7fdbab530071ec771c8c96191f,209adb7fdbab530071ec771c8c961923,649adb7fdbab530071ec771c8c961928,e49adb7fdbab530071ec771c8c961921,249adb7fdbab530071ec771c8c96192f,249adb7fdbab530071ec771c8c961922,689adb7fdbab530071ec771c8c961926,609adb7fdbab530071ec771c8c961930,289adb7fdbab530071ec771c8c961923</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>OneSphere_project_mod</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">a89adb7fdbab530071ec771c8c96192e</start>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9a9b7fdbab530071ec771c8c96190b</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 06:08:36</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="OneSphere_project_mod">5460f2eddbe3930071ec771c8c9619df</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>OneSphere_project_mod</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-27 02:46:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5460f2eddbe3930071ec771c8c9619df</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>OneSphere_project_mod</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>wf_workflow_5460f2eddbe3930071ec771c8c9619df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-03 04:04:38</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9a9b7fdbab530071ec771c8c96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9a9b7fdbab530071ec771c8c96190c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c96191e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval Failed</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>289adb7fdbab530071ec771c8c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>1081</x>
+        <y>88</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=289adb7fdbab530071ec771c8c961923"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your approval for Project name: ${project_name} failed. Please contact  ServiceNow administrator.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Approval failed</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Approval failed</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your approval for Project name: ${project_name} failed. Please contact  ServiceNow administrator.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>289adb7fdbab530071ec771c8c961923</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Failed">289adb7fdbab530071ec771c8c961923</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c961924</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval notification Manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>141</x>
+        <y>130</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e49adb7fdbab530071ec771c8c96191f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>OneSphere project creation request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi ${project_owner.manager},&#13;
+&#13;
+Pending approval request for OneSphere Project creation.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e89adb7fdbab530071ec771c8c96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_owner.manager}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e89adb7fdbab530071ec771c8c96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_owner.manager}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>OneSphere project creation request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi ${project_owner.manager},&#13;
+&#13;
+Pending approval request for OneSphere Project creation.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c96191f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval notification Manager">e49adb7fdbab530071ec771c8c96191f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c961920</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval Reject Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>576</x>
+        <y>583</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=689adb7fdbab530071ec771c8c961926"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>OneSphere project request rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your OneSphere project request rejected.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e89adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e89adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>OneSphere project request rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your OneSphere project request rejected.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>689adb7fdbab530071ec771c8c961926</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Reject Notification">689adb7fdbab530071ec771c8c961926</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c961927</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>10</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval Success notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>970</x>
+        <y>381</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=609adb7fdbab530071ec771c8c961930"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Request for OneSphere project is approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a09adb7fdbab530071ec771c8c961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your request for OneSphere project is approved. You should receive a email with project details separately.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a09adb7fdbab530071ec771c8c961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Request for OneSphere project is approved</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your request for OneSphere project is approved. You should receive a email with project details separately.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>609adb7fdbab530071ec771c8c961930</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Success notification">609adb7fdbab530071ec771c8c961930</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=a89adb7fdbab530071ec771c8c96192e"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">a89adb7fdbab530071ec771c8c96192e</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c96192e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check if  Project Owner has manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>140</x>
+        <y>9</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=249adb7fdbab530071ec771c8c961925"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961925</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+&#13;
+answer = userHasManager();&#13;
+&#13;
+function userHasManager() {&#13;
+	if (current.variables.project_owner.manager != ""){&#13;
+		return 'yes';&#13;
+	}&#13;
+	gs.warn("Please make sure that Project owner has manager.");&#13;
+	return 'no';&#13;
+}</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961925</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961925</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961925</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961925</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961925</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961925</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+&#13;
+answer = userHasManager();&#13;
+&#13;
+function userHasManager() {&#13;
+	if (current.variables.project_owner.manager != ""){&#13;
+		return 'yes';&#13;
+	}&#13;
+	gs.warn("Please make sure that Project owner has manager.");&#13;
+	return 'no';&#13;
+}</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check if  Project Owner has manager">249adb7fdbab530071ec771c8c961925</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check if  Project Owner has manager">249adb7fdbab530071ec771c8c961925</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a09adb7fdbab530071ec771c8c961926</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c961923</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>1357</x>
+        <y>509</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=209adb7fdbab530071ec771c8c961923"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Manager Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>649adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>148</x>
+        <y>217</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=649adb7fdbab530071ec771c8c961928"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>289adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>649adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a09adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_owner.manager}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+answer = [];&#13;
+answer.push(current.variables.project_owner.manager);</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e89adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ac9adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a09adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>${project_owner.manager}</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>289adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>649adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e89adb7fdbab530071ec771c8c96192a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>209adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9adb7fdbab530071ec771c8c961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961928</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>649adb7fdbab530071ec771c8c961928</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e09adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+answer = [];&#13;
+answer.push(current.variables.project_owner.manager);</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Manager Approval">649adb7fdbab530071ec771c8c961928</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Manager Approval">649adb7fdbab530071ec771c8c961928</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9adb7fdbab530071ec771c8c96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>13</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Project creation</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961922</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 06:05:41</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>520</x>
+        <y>261</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=249adb7fdbab530071ec771c8c961922"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961922</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961922</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:39:21</sys_updated_on>
+        <value>/*&#13;
+	# Copyright (2018-2019) Hewlett Packard Enterprise Development LP&#13;
+	#&#13;
+	# Licensed under the Apache License, Version 2.0 (the "License");&#13;
+	# You may not use this file except in compliance with the License.&#13;
+	# You may obtain a copy of the License at&#13;
+	#&#13;
+	# http://www.apache.org/licenses/LICENSE-2.0&#13;
+&#13;
+	#&#13;
+	# Unless required by applicable law or agreed to in writing, software&#13;
+	# distributed under the License is distributed on an "AS IS" BASIS,&#13;
+	# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#13;
+	# See the License for the specific language governing permissions and&#13;
+	# limitations under the License.&#13;
+*/&#13;
+/*&#13;
+Authors: Gandharva, Sahana, Manjunath, Krishnakanth and Shivakumar&#13;
+*/&#13;
+// Please provide your OneSphere details and creds below&#13;
+var oneSphereUri = "https://deic-gse02-hpe.hpeonesphere.com";&#13;
+var oneSphereUser = "soibam.ana.singh@hpe.com";&#13;
+var oneSpherePassword = "GSE#admin1";&#13;
+var rollback = false;&#13;
+var authToken = null;&#13;
+&#13;
+// Trim extra spaces if any&#13;
+function trimStr(str) {&#13;
+	if(str == null) return str;&#13;
+    return str.replace(/^\s+|\s+$/g, '');&#13;
+}&#13;
+&#13;
+function validateResponseStatus(userResponseStatus) {&#13;
+	if(userResponseStatus!=200 &amp;&amp; userResponseStatus!=201 &amp;&amp; userResponseStatus!=202 &amp;&amp; userResponseStatus!=204){&#13;
+		gs.error("Error response code: "+ userResponseStatus);&#13;
+		throw userResponseStatus;&#13;
+	}&#13;
+}&#13;
+&#13;
+function getAuthToken(){&#13;
+	try {&#13;
+		oneSphereUser = '\"'+oneSphereUser+'\"';&#13;
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';&#13;
+        var Session_request = new sn_ws.RESTMessageV2();&#13;
+        Session_request.setHttpMethod('post');&#13;
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');&#13;
+        Session_request.setRequestHeader("Content-Type","application/json");&#13;
+        var body = '{"username":'+oneSphereUser+',"password":'+oneSpherePassword+'}';&#13;
+        Session_request.setRequestBody(body);&#13;
+&#13;
+        var Auth_response = Session_request.execute();&#13;
+        var httpResponseStatus = Auth_response.getStatusCode();&#13;
+        var responseBody = Auth_response.getBody();&#13;
+        session = JSON.parse(responseBody);&#13;
+	}&#13;
+    catch (ex) {&#13;
+		var message = Auth_response.getErrorMessage();&#13;
+        gs.error("Error while acquring Auth Token: " +message);&#13;
+	}&#13;
+	return session.token;&#13;
+}&#13;
+&#13;
+function deleteSession(authToken) {&#13;
+	try {&#13;
+		oneSphereUser = '\"'+oneSphereUser+'\"';&#13;
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';&#13;
+        var Session_request = new sn_ws.RESTMessageV2();&#13;
+        Session_request.setHttpMethod('delete');&#13;
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');&#13;
+        Session_request.setRequestHeader("Content-Type","application/json");&#13;
+        Session_request.setRequestHeader("Authorization", String(authToken));&#13;
+&#13;
+        var Auth_response = Session_request.execute();&#13;
+        var httpResponseStatus = Auth_response.getStatusCode();&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = Auth_response.getErrorMessage();&#13;
+        gs.error("Error while delete session: " +message);&#13;
+	}&#13;
+}&#13;
+&#13;
+function getTags(authToken){&#13;
+	try {&#13;
+		tags = [];&#13;
+		var tagKeys_request = new sn_ws.RESTMessageV2();&#13;
+        tagKeys_request.setHttpMethod('get');&#13;
+        tagKeys_request.setEndpoint(oneSphereUri+'/rest/tags');&#13;
+        tagKeys_request.setRequestHeader("Content-Type","application/json");&#13;
+        tagKeys_request.setRequestHeader("Authorization", String(authToken));&#13;
+&#13;
+		var tag_response = tagKeys_request.execute();&#13;
+        var httpResponseStatus = tag_response.getStatusCode();&#13;
+        var responseBody = tag_response.getBody();&#13;
+        tag_keys= JSON.parse(responseBody);&#13;
+		for (keys=0;keys&lt;tag_keys.members.length;keys++) {&#13;
+			if (current.tier == tag_keys.members[keys].name){&#13;
+                tags.push('"'+tag_keys.members[keys].uri+'"');&#13;
+			}&#13;
+			if (current.line_of_business == tag_keys.members[keys].name){&#13;
+				tags.push('"'+tag_keys.members[keys].uri+'"');&#13;
+			}&#13;
+			if (current.environment == tag_keys.members[keys].name){&#13;
+				tags.push('"'+tag_keys.members[keys].uri+'"');&#13;
+			}&#13;
+		}&#13;
+	}&#13;
+    catch (ex) {&#13;
+        var message = response.getErrorMessage();&#13;
+        gs.error("Error while getting tags: " +message);&#13;
+        rollback = true;&#13;
+        throw ex;&#13;
+    }&#13;
+	return '['+tags+']';&#13;
+}&#13;
+&#13;
+function createProject(authToken, current){&#13;
+	try {&#13;
+		gs.info("Inside createProject");&#13;
+		var Projrequest = new sn_ws.RESTMessageV2();&#13;
+        Projrequest.setHttpMethod('post');&#13;
+        Projrequest.setEndpoint(oneSphereUri+'/rest/projects');&#13;
+        Projrequest.setRequestHeader("Content-Type","application/json");&#13;
+        Projrequest.setRequestHeader("Authorization", String(authToken));&#13;
+        project_name = '\"'+ current.variables.project_name +'\"';&#13;
+		//tag_body = getTags(authToken);&#13;
+        //var body = '{"description": "string1", "name": '+project_name+',"tagUris":'+ tag_body +'}';&#13;
+		var body = '{"description": "string1", "name": '+project_name+'}';&#13;
+        Projrequest.setRequestBody(body);&#13;
+        var response = Projrequest.execute();&#13;
+        userResponseStatus = response.getStatusCode();&#13;
+        validateResponseStatus(userResponseStatus);&#13;
+        var responseBody = response.getBody();&#13;
+        project = JSON.parse(responseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+        gs.error("Error while Creating Project: " +message);&#13;
+        rollback = true;&#13;
+        throw ex;&#13;
+	}&#13;
+	return project;&#13;
+}&#13;
+&#13;
+function deleteProject(authToken, projectUri){&#13;
+	try {&#13;
+		var Projrequest = new sn_ws.RESTMessageV2();&#13;
+		Projrequest.setHttpMethod('delete');&#13;
+        Projrequest.setEndpoint(oneSphereUri + projectUri) ;&#13;
+        Projrequest.setRequestHeader("Content-Type","application/json");&#13;
+        Projrequest.setRequestHeader("Authorization", String(authToken));&#13;
+        var response = Projrequest.execute();&#13;
+        var responseBody = response.getBody();&#13;
+        project = JSON.parse(responseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+        gs.error("Error while deleting Project: " +message);&#13;
+        throw ex;&#13;
+	}&#13;
+}&#13;
+&#13;
+function getUsers(authToken){&#13;
+	try{&#13;
+		//Get the user list&#13;
+		var userRequest = new sn_ws.RESTMessageV2();&#13;
+        userRequest.setHttpMethod('get');&#13;
+        userRequest.setEndpoint(oneSphereUri+'/rest/users');&#13;
+        userRequest.setRequestHeader("Content-Type","application/json");&#13;
+        userRequest.setRequestHeader("Authorization", authToken);&#13;
+        var userGetResponse = userRequest.execute();&#13;
+        var userResponseBody = userGetResponse.getBody();&#13;
+        users = JSON.parse(userResponseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = userGetResponse.getErrorMessage();&#13;
+        gs.error("Error while getting all users: " +message);&#13;
+		rollback = true;&#13;
+        throw ex;&#13;
+	}&#13;
+	return users;&#13;
+}&#13;
+&#13;
+function getMembershipRoleUris(authToken){&#13;
+	// Script to Get membership roles of Project Owner/User&#13;
+	try{&#13;
+		var memberRequest = new sn_ws.RESTMessageV2();&#13;
+        memberRequest.setHttpMethod('get');&#13;
+        memberRequest.setEndpoint(oneSphereUri+'/rest/membership-roles');&#13;
+        memberRequest.setRequestHeader("Content-Type","application/json");&#13;
+        memberRequest.setRequestHeader("Authorization", authToken);&#13;
+		var response = memberRequest.execute();&#13;
+        var responseBody = response.getBody();&#13;
+        rolesUris= JSON.parse(responseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+        gs.error("Error while getting all membership roles: " +message);&#13;
+        rollback = true;&#13;
+		throw ex;&#13;
+	}&#13;
+	return rolesUris;&#13;
+}&#13;
+&#13;
+function createUser(authToken, name, email, role){&#13;
+	try{&#13;
+		//Get the user list&#13;
+        var userRequest = new sn_ws.RESTMessageV2();&#13;
+        userRequest.setHttpMethod('post');&#13;
+        userRequest.setEndpoint(oneSphereUri+'/rest/users');&#13;
+        userRequest.setRequestHeader("Content-Type","application/json");&#13;
+        userRequest.setRequestHeader("Authorization", authToken);&#13;
+        var userBody = '{"name": '+name+', "email": '+email+', "password": "Procurve@123", "role": '+role+'}';&#13;
+		gs.info(userBody);&#13;
+        userRequest.setRequestBody(userBody);&#13;
+        var userResponse = userRequest.execute();&#13;
+        userResponseStatus = userResponse.getStatusCode();&#13;
+        validateResponseStatus(userResponseStatus);&#13;
+                &#13;
+        var userResponseBody = userResponse.getBody();&#13;
+        response = JSON.parse(userResponseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = userResponse.getErrorMessage();&#13;
+        gs.error("Error while creating User: "+name+"\n" +message);&#13;
+        rollback = true;&#13;
+        throw ex;&#13;
+	}&#13;
+	return response;&#13;
+}&#13;
+&#13;
+function passwordReset(authToken, email){&#13;
+	try{&#13;
+		//Get the user list&#13;
+        var passwordResetRequest = new sn_ws.RESTMessageV2();&#13;
+        passwordResetRequest.setHttpMethod('post');&#13;
+        passwordResetRequest.setEndpoint(oneSphereUri+'/rest/password-reset');&#13;
+        passwordResetRequest.setRequestHeader("Content-Type","application/json");&#13;
+        passwordResetRequest.setRequestHeader("Authorization", authToken);&#13;
+        var body = '{"email": '+email+'}';&#13;
+		passwordResetRequest.setRequestBody(body);&#13;
+		var response = passwordResetRequest.execute();&#13;
+        userResponseStatus = response.getStatusCode();&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+		gs.debug("Error during Password Reset");&#13;
+	}&#13;
+	return userResponseStatus;&#13;
+}&#13;
+&#13;
+function processUser(authToken, name, email, role){&#13;
+	try{&#13;
+		gs.info("Inside processUser function");&#13;
+		// Get Existing Users&#13;
+		users = getUsers(authToken);&#13;
+        createUserFlag = true;&#13;
+        for (var j=0; j&lt;users.members.length; j++){&#13;
+			member= users.members[j];&#13;
+            if (email == '\"'+member.email+'\"'){&#13;
+				user = member;&#13;
+                createUserFlag = false;&#13;
+			}&#13;
+		}&#13;
+		if (createUserFlag == true){&#13;
+			// Create user with specific role&#13;
+			user = createUser(authToken, name, email,  '\"'+role+ '\"');&#13;
+			// Password Reset Mail is sent for the newly created user&#13;
+			passwordReset(authToken, email);&#13;
+		}&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = ex.getErrorMessage();&#13;
+		gs.error("Error while processing each User: " +message);&#13;
+		rollback = true;&#13;
+		throw ex;&#13;
+	}&#13;
+	return user;&#13;
+}&#13;
+&#13;
+function addUserToProject(authToken, projectUri, projectMemberUri, userUri){&#13;
+	try{&#13;
+		// Add user to the project&#13;
+        var memberRequest = new sn_ws.RESTMessageV2();&#13;
+		memberRequest.setHttpMethod('post');&#13;
+		memberRequest.setEndpoint(oneSphereUri+'/rest/memberships');&#13;
+        memberRequest.setRequestHeader("Content-Type","application/json");&#13;
+        memberRequest.setRequestHeader("Authorization", authToken);&#13;
+        var memberRequestBody = '{"membershipRoleUri":'+projectMemberUri+', "projectUri": '+projectUri+', "userUri": '+userUri+'}';&#13;
+        memberRequest.setRequestBody(memberRequestBody);&#13;
+        var memberResponse = memberRequest.execute();&#13;
+        memberResponseStatus = memberResponse.getStatusCode();&#13;
+        validateResponseStatus(memberResponseStatus);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = memberResponse.getErrorMessage();&#13;
+        gs.error("Error while adding user to the project: " +message);&#13;
+        rollback = true;      &#13;
+        throw ex;&#13;
+	}&#13;
+	return memberResponseStatus;&#13;
+}&#13;
+&#13;
+function UpdateAwsAccount(authToken,accessKey,secretKey,projectUri)&#13;
+{&#13;
+	try {&#13;
+		var providerTypeUri='\"/rest/provider-types/aws\"';		&#13;
+		var updateProjectUri = '\['+projectUri+'\]';&#13;
+		&#13;
+		var accessKey1 = '\"'+accessKey+'\"';&#13;
+		var secretKey1 = '\"'+secretKey+'\"';&#13;
+		var state = '\"Enabled\"';&#13;
+		&#13;
+		gs.info("accesskey" +accessKey1);&#13;
+		gs.info("secretkey" +secretKey1);&#13;
+		gs.info("updateProjectUri" +updateProjectUri);&#13;
+		gs.info("providerTypeUri" +providerTypeUri);&#13;
+		&#13;
+		var awsRequest = new sn_ws.RESTMessageV2();&#13;
+		awsRequest.setHttpMethod('post');&#13;
+		awsRequest.setEndpoint(oneSphereUri+'/rest/providers');&#13;
+        awsRequest.setRequestHeader("Content-Type","application/json");&#13;
+        awsRequest.setRequestHeader("Authorization", authToken);&#13;
+        //var memberRequestBody = '{"membershipRoleUri":'+projectMemberUri+', "projectUri": '+projectUri+', "userUri": '+userUri+'}';&#13;
+		var awsRequestBody = '{"secretKey":'+secretKey1+', "accessKey": '+accessKey1+', "providerTypeUri": '+providerTypeUri+',"state": '+state+',"projectUris": '+updateProjectUri+'}';&#13;
+        awsRequest.setRequestBody(awsRequestBody);&#13;
+        var awsResponse = awsRequest.execute();&#13;
+        awsResponseStatus = awsResponse.getStatusCode();&#13;
+        validateResponseStatus(awsResponseStatus);&#13;
+		&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = awsResponse.getErrorMessage();&#13;
+        gs.error("Error while updating AWS account to the project: " +message);&#13;
+        rollback = true;      &#13;
+        throw ex;&#13;
+	}&#13;
+}&#13;
+&#13;
+executeRule();&#13;
+&#13;
+function executeRule() {&#13;
+	try{&#13;
+		// Get Auth Token&#13;
+		authToken = getAuthToken();&#13;
+        // Create project&#13;
+        project = createProject(authToken, current);&#13;
+        try{&#13;
+			// Get Membership Role Uris for Project Owner and Project Member&#13;
+            rolesUris = getMembershipRoleUris(authToken);&#13;
+            for(var i=0; i&lt;rolesUris.members.length; i++){&#13;
+				member = rolesUris.members[i];&#13;
+                if (member.name == "project-owner"){&#13;
+					projectOwnerUri = member.uri;&#13;
+				}&#13;
+				if (member.name == "project-member"){&#13;
+					projectMemberUri = member.uri;&#13;
+				}&#13;
+			}&#13;
+			// Get Project Owner name and email&#13;
+            var project_owner_name = current.variables.project_owner.name;&#13;
+			gs.info("project_owner_name" + project_owner_name);&#13;
+            var project_owner_email = current.variables.project_owner.email;&#13;
+			gs.info("project_owner_email" + project_owner_email);&#13;
+&#13;
+            // Check whether Project Owner User is present, if not create a project owner user and &#13;
+            // add that user as administrator and finally add that user to the created project&#13;
+            user = processUser(authToken, '\"'+project_owner_name+'\"', '\"'+project_owner_email+'\"', "administrator");&#13;
+			// TODO we need to check if the user is added to the project and then add that user&#13;
+            addUserToProject(authToken, '\"'+project.uri+'\"', '\"'+projectOwnerUri+'\"', '\"'+user.uri+'\"');&#13;
+			&#13;
+			var member_list = current.variable_pool.project_member.getDisplayValue();&#13;
+            var member_array = member_list.split(",");&#13;
+&#13;
+            for(i = 0; i &lt; member_array.length ; i++){&#13;
+				//Fetch each User from table&#13;
+                var sysUser1 = new GlideRecord('sys_user');&#13;
+				sysUser1.get('name',trimStr(member_array[i]));&#13;
+                name = '\"' + sysUser1.getValue('name') +'\"';&#13;
+				gs.info("User name" + name);&#13;
+                email = '\"'+ sysUser1.getValue('email')+'\"';&#13;
+				gs.info("User email" + email);&#13;
+				&#13;
+				// Check whether the project users already exist if not create them and&#13;
+                // add those users to the project as consumer&#13;
+                user = processUser(authToken, name, email, "consumer");&#13;
+                // TODO we need to check if the user is added to the project and then add that user&#13;
+                addUserToProject(authToken, '\"'+project.uri+'\"', '\"'+projectMemberUri+'\"', '\"'+user.uri+'\"');&#13;
+			}&#13;
+			&#13;
+			//Update AWS credentials to project&#13;
+			var accessKey = current.variables.access_key;&#13;
+			var secretKey = current.variables.secret_id;&#13;
+			//UpdateAwsAccount(authToken,accessKey,secretKey,'\"'+project.uri+'\"');&#13;
+			&#13;
+			&#13;
+		}&#13;
+		catch (ex) {&#13;
+            if (rollback) {&#13;
+				gs.error("Process Failed, Rollback is in progress ");&#13;
+				deleteProject(authToken, project.uri);&#13;
+				&#13;
+                // Set the Request State value back to failed&#13;
+				//current.request_state.setValue("Failed");&#13;
+				current.state.setValue("Closed Incomplete");&#13;
+				activity.result = "Failed";&#13;
+				&#13;
+			}&#13;
+			throw ex;&#13;
+		}&#13;
+		//current.request_state.setValue("Success");&#13;
+		current.state.setValue("Closed Complete");&#13;
+		activity.result = "Success";&#13;
+		&#13;
+	} catch (ex) {&#13;
+        gs.error("Process failed. Please check the logs");&#13;
+        //current.request_state.setValue("Failed");&#13;
+		current.state.setValue("Closed Incomplete");&#13;
+		activity.result = "Failed";&#13;
+		&#13;
+	}&#13;
+	finally {&#13;
+		if (authToken != null){&#13;
+        deleteSession(authToken);&#13;
+		}&#13;
+	}&#13;
+	//current.process_state.setValue("True");&#13;
+	&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c961922</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961922</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:39:21</sys_updated_on>
+        <value>/*&#13;
+	# Copyright (2018-2019) Hewlett Packard Enterprise Development LP&#13;
+	#&#13;
+	# Licensed under the Apache License, Version 2.0 (the "License");&#13;
+	# You may not use this file except in compliance with the License.&#13;
+	# You may obtain a copy of the License at&#13;
+	#&#13;
+	# http://www.apache.org/licenses/LICENSE-2.0&#13;
+&#13;
+	#&#13;
+	# Unless required by applicable law or agreed to in writing, software&#13;
+	# distributed under the License is distributed on an "AS IS" BASIS,&#13;
+	# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.&#13;
+	# See the License for the specific language governing permissions and&#13;
+	# limitations under the License.&#13;
+*/&#13;
+/*&#13;
+Authors: Gandharva, Sahana, Manjunath, Krishnakanth and Shivakumar&#13;
+*/&#13;
+// Please provide your OneSphere details and creds below&#13;
+var oneSphereUri = "https://deic-gse02-hpe.hpeonesphere.com";&#13;
+var oneSphereUser = "soibam.ana.singh@hpe.com";&#13;
+var oneSpherePassword = "GSE#admin1";&#13;
+var rollback = false;&#13;
+var authToken = null;&#13;
+&#13;
+// Trim extra spaces if any&#13;
+function trimStr(str) {&#13;
+	if(str == null) return str;&#13;
+    return str.replace(/^\s+|\s+$/g, '');&#13;
+}&#13;
+&#13;
+function validateResponseStatus(userResponseStatus) {&#13;
+	if(userResponseStatus!=200 &amp;&amp; userResponseStatus!=201 &amp;&amp; userResponseStatus!=202 &amp;&amp; userResponseStatus!=204){&#13;
+		gs.error("Error response code: "+ userResponseStatus);&#13;
+		throw userResponseStatus;&#13;
+	}&#13;
+}&#13;
+&#13;
+function getAuthToken(){&#13;
+	try {&#13;
+		oneSphereUser = '\"'+oneSphereUser+'\"';&#13;
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';&#13;
+        var Session_request = new sn_ws.RESTMessageV2();&#13;
+        Session_request.setHttpMethod('post');&#13;
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');&#13;
+        Session_request.setRequestHeader("Content-Type","application/json");&#13;
+        var body = '{"username":'+oneSphereUser+',"password":'+oneSpherePassword+'}';&#13;
+        Session_request.setRequestBody(body);&#13;
+&#13;
+        var Auth_response = Session_request.execute();&#13;
+        var httpResponseStatus = Auth_response.getStatusCode();&#13;
+        var responseBody = Auth_response.getBody();&#13;
+        session = JSON.parse(responseBody);&#13;
+	}&#13;
+    catch (ex) {&#13;
+		var message = Auth_response.getErrorMessage();&#13;
+        gs.error("Error while acquring Auth Token: " +message);&#13;
+	}&#13;
+	return session.token;&#13;
+}&#13;
+&#13;
+function deleteSession(authToken) {&#13;
+	try {&#13;
+		oneSphereUser = '\"'+oneSphereUser+'\"';&#13;
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';&#13;
+        var Session_request = new sn_ws.RESTMessageV2();&#13;
+        Session_request.setHttpMethod('delete');&#13;
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');&#13;
+        Session_request.setRequestHeader("Content-Type","application/json");&#13;
+        Session_request.setRequestHeader("Authorization", String(authToken));&#13;
+&#13;
+        var Auth_response = Session_request.execute();&#13;
+        var httpResponseStatus = Auth_response.getStatusCode();&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = Auth_response.getErrorMessage();&#13;
+        gs.error("Error while delete session: " +message);&#13;
+	}&#13;
+}&#13;
+&#13;
+function getTags(authToken){&#13;
+	try {&#13;
+		tags = [];&#13;
+		var tagKeys_request = new sn_ws.RESTMessageV2();&#13;
+        tagKeys_request.setHttpMethod('get');&#13;
+        tagKeys_request.setEndpoint(oneSphereUri+'/rest/tags');&#13;
+        tagKeys_request.setRequestHeader("Content-Type","application/json");&#13;
+        tagKeys_request.setRequestHeader("Authorization", String(authToken));&#13;
+&#13;
+		var tag_response = tagKeys_request.execute();&#13;
+        var httpResponseStatus = tag_response.getStatusCode();&#13;
+        var responseBody = tag_response.getBody();&#13;
+        tag_keys= JSON.parse(responseBody);&#13;
+		for (keys=0;keys&lt;tag_keys.members.length;keys++) {&#13;
+			if (current.tier == tag_keys.members[keys].name){&#13;
+                tags.push('"'+tag_keys.members[keys].uri+'"');&#13;
+			}&#13;
+			if (current.line_of_business == tag_keys.members[keys].name){&#13;
+				tags.push('"'+tag_keys.members[keys].uri+'"');&#13;
+			}&#13;
+			if (current.environment == tag_keys.members[keys].name){&#13;
+				tags.push('"'+tag_keys.members[keys].uri+'"');&#13;
+			}&#13;
+		}&#13;
+	}&#13;
+    catch (ex) {&#13;
+        var message = response.getErrorMessage();&#13;
+        gs.error("Error while getting tags: " +message);&#13;
+        rollback = true;&#13;
+        throw ex;&#13;
+    }&#13;
+	return '['+tags+']';&#13;
+}&#13;
+&#13;
+function createProject(authToken, current){&#13;
+	try {&#13;
+		gs.info("Inside createProject");&#13;
+		var Projrequest = new sn_ws.RESTMessageV2();&#13;
+        Projrequest.setHttpMethod('post');&#13;
+        Projrequest.setEndpoint(oneSphereUri+'/rest/projects');&#13;
+        Projrequest.setRequestHeader("Content-Type","application/json");&#13;
+        Projrequest.setRequestHeader("Authorization", String(authToken));&#13;
+        project_name = '\"'+ current.variables.project_name +'\"';&#13;
+		//tag_body = getTags(authToken);&#13;
+        //var body = '{"description": "string1", "name": '+project_name+',"tagUris":'+ tag_body +'}';&#13;
+		var body = '{"description": "string1", "name": '+project_name+'}';&#13;
+        Projrequest.setRequestBody(body);&#13;
+        var response = Projrequest.execute();&#13;
+        userResponseStatus = response.getStatusCode();&#13;
+        validateResponseStatus(userResponseStatus);&#13;
+        var responseBody = response.getBody();&#13;
+        project = JSON.parse(responseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+        gs.error("Error while Creating Project: " +message);&#13;
+        rollback = true;&#13;
+        throw ex;&#13;
+	}&#13;
+	return project;&#13;
+}&#13;
+&#13;
+function deleteProject(authToken, projectUri){&#13;
+	try {&#13;
+		var Projrequest = new sn_ws.RESTMessageV2();&#13;
+		Projrequest.setHttpMethod('delete');&#13;
+        Projrequest.setEndpoint(oneSphereUri + projectUri) ;&#13;
+        Projrequest.setRequestHeader("Content-Type","application/json");&#13;
+        Projrequest.setRequestHeader("Authorization", String(authToken));&#13;
+        var response = Projrequest.execute();&#13;
+        var responseBody = response.getBody();&#13;
+        project = JSON.parse(responseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+        gs.error("Error while deleting Project: " +message);&#13;
+        throw ex;&#13;
+	}&#13;
+}&#13;
+&#13;
+function getUsers(authToken){&#13;
+	try{&#13;
+		//Get the user list&#13;
+		var userRequest = new sn_ws.RESTMessageV2();&#13;
+        userRequest.setHttpMethod('get');&#13;
+        userRequest.setEndpoint(oneSphereUri+'/rest/users');&#13;
+        userRequest.setRequestHeader("Content-Type","application/json");&#13;
+        userRequest.setRequestHeader("Authorization", authToken);&#13;
+        var userGetResponse = userRequest.execute();&#13;
+        var userResponseBody = userGetResponse.getBody();&#13;
+        users = JSON.parse(userResponseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = userGetResponse.getErrorMessage();&#13;
+        gs.error("Error while getting all users: " +message);&#13;
+		rollback = true;&#13;
+        throw ex;&#13;
+	}&#13;
+	return users;&#13;
+}&#13;
+&#13;
+function getMembershipRoleUris(authToken){&#13;
+	// Script to Get membership roles of Project Owner/User&#13;
+	try{&#13;
+		var memberRequest = new sn_ws.RESTMessageV2();&#13;
+        memberRequest.setHttpMethod('get');&#13;
+        memberRequest.setEndpoint(oneSphereUri+'/rest/membership-roles');&#13;
+        memberRequest.setRequestHeader("Content-Type","application/json");&#13;
+        memberRequest.setRequestHeader("Authorization", authToken);&#13;
+		var response = memberRequest.execute();&#13;
+        var responseBody = response.getBody();&#13;
+        rolesUris= JSON.parse(responseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+        gs.error("Error while getting all membership roles: " +message);&#13;
+        rollback = true;&#13;
+		throw ex;&#13;
+	}&#13;
+	return rolesUris;&#13;
+}&#13;
+&#13;
+function createUser(authToken, name, email, role){&#13;
+	try{&#13;
+		//Get the user list&#13;
+        var userRequest = new sn_ws.RESTMessageV2();&#13;
+        userRequest.setHttpMethod('post');&#13;
+        userRequest.setEndpoint(oneSphereUri+'/rest/users');&#13;
+        userRequest.setRequestHeader("Content-Type","application/json");&#13;
+        userRequest.setRequestHeader("Authorization", authToken);&#13;
+        var userBody = '{"name": '+name+', "email": '+email+', "password": "Procurve@123", "role": '+role+'}';&#13;
+		gs.info(userBody);&#13;
+        userRequest.setRequestBody(userBody);&#13;
+        var userResponse = userRequest.execute();&#13;
+        userResponseStatus = userResponse.getStatusCode();&#13;
+        validateResponseStatus(userResponseStatus);&#13;
+                &#13;
+        var userResponseBody = userResponse.getBody();&#13;
+        response = JSON.parse(userResponseBody);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = userResponse.getErrorMessage();&#13;
+        gs.error("Error while creating User: "+name+"\n" +message);&#13;
+        rollback = true;&#13;
+        throw ex;&#13;
+	}&#13;
+	return response;&#13;
+}&#13;
+&#13;
+function passwordReset(authToken, email){&#13;
+	try{&#13;
+		//Get the user list&#13;
+        var passwordResetRequest = new sn_ws.RESTMessageV2();&#13;
+        passwordResetRequest.setHttpMethod('post');&#13;
+        passwordResetRequest.setEndpoint(oneSphereUri+'/rest/password-reset');&#13;
+        passwordResetRequest.setRequestHeader("Content-Type","application/json");&#13;
+        passwordResetRequest.setRequestHeader("Authorization", authToken);&#13;
+        var body = '{"email": '+email+'}';&#13;
+		passwordResetRequest.setRequestBody(body);&#13;
+		var response = passwordResetRequest.execute();&#13;
+        userResponseStatus = response.getStatusCode();&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = response.getErrorMessage();&#13;
+		gs.debug("Error during Password Reset");&#13;
+	}&#13;
+	return userResponseStatus;&#13;
+}&#13;
+&#13;
+function processUser(authToken, name, email, role){&#13;
+	try{&#13;
+		gs.info("Inside processUser function");&#13;
+		// Get Existing Users&#13;
+		users = getUsers(authToken);&#13;
+        createUserFlag = true;&#13;
+        for (var j=0; j&lt;users.members.length; j++){&#13;
+			member= users.members[j];&#13;
+            if (email == '\"'+member.email+'\"'){&#13;
+				user = member;&#13;
+                createUserFlag = false;&#13;
+			}&#13;
+		}&#13;
+		if (createUserFlag == true){&#13;
+			// Create user with specific role&#13;
+			user = createUser(authToken, name, email,  '\"'+role+ '\"');&#13;
+			// Password Reset Mail is sent for the newly created user&#13;
+			passwordReset(authToken, email);&#13;
+		}&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = ex.getErrorMessage();&#13;
+		gs.error("Error while processing each User: " +message);&#13;
+		rollback = true;&#13;
+		throw ex;&#13;
+	}&#13;
+	return user;&#13;
+}&#13;
+&#13;
+function addUserToProject(authToken, projectUri, projectMemberUri, userUri){&#13;
+	try{&#13;
+		// Add user to the project&#13;
+        var memberRequest = new sn_ws.RESTMessageV2();&#13;
+		memberRequest.setHttpMethod('post');&#13;
+		memberRequest.setEndpoint(oneSphereUri+'/rest/memberships');&#13;
+        memberRequest.setRequestHeader("Content-Type","application/json");&#13;
+        memberRequest.setRequestHeader("Authorization", authToken);&#13;
+        var memberRequestBody = '{"membershipRoleUri":'+projectMemberUri+', "projectUri": '+projectUri+', "userUri": '+userUri+'}';&#13;
+        memberRequest.setRequestBody(memberRequestBody);&#13;
+        var memberResponse = memberRequest.execute();&#13;
+        memberResponseStatus = memberResponse.getStatusCode();&#13;
+        validateResponseStatus(memberResponseStatus);&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = memberResponse.getErrorMessage();&#13;
+        gs.error("Error while adding user to the project: " +message);&#13;
+        rollback = true;      &#13;
+        throw ex;&#13;
+	}&#13;
+	return memberResponseStatus;&#13;
+}&#13;
+&#13;
+function UpdateAwsAccount(authToken,accessKey,secretKey,projectUri)&#13;
+{&#13;
+	try {&#13;
+		var providerTypeUri='\"/rest/provider-types/aws\"';		&#13;
+		var updateProjectUri = '\['+projectUri+'\]';&#13;
+		&#13;
+		var accessKey1 = '\"'+accessKey+'\"';&#13;
+		var secretKey1 = '\"'+secretKey+'\"';&#13;
+		var state = '\"Enabled\"';&#13;
+		&#13;
+		gs.info("accesskey" +accessKey1);&#13;
+		gs.info("secretkey" +secretKey1);&#13;
+		gs.info("updateProjectUri" +updateProjectUri);&#13;
+		gs.info("providerTypeUri" +providerTypeUri);&#13;
+		&#13;
+		var awsRequest = new sn_ws.RESTMessageV2();&#13;
+		awsRequest.setHttpMethod('post');&#13;
+		awsRequest.setEndpoint(oneSphereUri+'/rest/providers');&#13;
+        awsRequest.setRequestHeader("Content-Type","application/json");&#13;
+        awsRequest.setRequestHeader("Authorization", authToken);&#13;
+        //var memberRequestBody = '{"membershipRoleUri":'+projectMemberUri+', "projectUri": '+projectUri+', "userUri": '+userUri+'}';&#13;
+		var awsRequestBody = '{"secretKey":'+secretKey1+', "accessKey": '+accessKey1+', "providerTypeUri": '+providerTypeUri+',"state": '+state+',"projectUris": '+updateProjectUri+'}';&#13;
+        awsRequest.setRequestBody(awsRequestBody);&#13;
+        var awsResponse = awsRequest.execute();&#13;
+        awsResponseStatus = awsResponse.getStatusCode();&#13;
+        validateResponseStatus(awsResponseStatus);&#13;
+		&#13;
+	}&#13;
+	catch (ex) {&#13;
+		var message = awsResponse.getErrorMessage();&#13;
+        gs.error("Error while updating AWS account to the project: " +message);&#13;
+        rollback = true;      &#13;
+        throw ex;&#13;
+	}&#13;
+}&#13;
+&#13;
+executeRule();&#13;
+&#13;
+function executeRule() {&#13;
+	try{&#13;
+		// Get Auth Token&#13;
+		authToken = getAuthToken();&#13;
+        // Create project&#13;
+        project = createProject(authToken, current);&#13;
+        try{&#13;
+			// Get Membership Role Uris for Project Owner and Project Member&#13;
+            rolesUris = getMembershipRoleUris(authToken);&#13;
+            for(var i=0; i&lt;rolesUris.members.length; i++){&#13;
+				member = rolesUris.members[i];&#13;
+                if (member.name == "project-owner"){&#13;
+					projectOwnerUri = member.uri;&#13;
+				}&#13;
+				if (member.name == "project-member"){&#13;
+					projectMemberUri = member.uri;&#13;
+				}&#13;
+			}&#13;
+			// Get Project Owner name and email&#13;
+            var project_owner_name = current.variables.project_owner.name;&#13;
+			gs.info("project_owner_name" + project_owner_name);&#13;
+            var project_owner_email = current.variables.project_owner.email;&#13;
+			gs.info("project_owner_email" + project_owner_email);&#13;
+&#13;
+            // Check whether Project Owner User is present, if not create a project owner user and &#13;
+            // add that user as administrator and finally add that user to the created project&#13;
+            user = processUser(authToken, '\"'+project_owner_name+'\"', '\"'+project_owner_email+'\"', "administrator");&#13;
+			// TODO we need to check if the user is added to the project and then add that user&#13;
+            addUserToProject(authToken, '\"'+project.uri+'\"', '\"'+projectOwnerUri+'\"', '\"'+user.uri+'\"');&#13;
+			&#13;
+			var member_list = current.variable_pool.project_member.getDisplayValue();&#13;
+            var member_array = member_list.split(",");&#13;
+&#13;
+            for(i = 0; i &lt; member_array.length ; i++){&#13;
+				//Fetch each User from table&#13;
+                var sysUser1 = new GlideRecord('sys_user');&#13;
+				sysUser1.get('name',trimStr(member_array[i]));&#13;
+                name = '\"' + sysUser1.getValue('name') +'\"';&#13;
+				gs.info("User name" + name);&#13;
+                email = '\"'+ sysUser1.getValue('email')+'\"';&#13;
+				gs.info("User email" + email);&#13;
+				&#13;
+				// Check whether the project users already exist if not create them and&#13;
+                // add those users to the project as consumer&#13;
+                user = processUser(authToken, name, email, "consumer");&#13;
+                // TODO we need to check if the user is added to the project and then add that user&#13;
+                addUserToProject(authToken, '\"'+project.uri+'\"', '\"'+projectMemberUri+'\"', '\"'+user.uri+'\"');&#13;
+			}&#13;
+			&#13;
+			//Update AWS credentials to project&#13;
+			var accessKey = current.variables.access_key;&#13;
+			var secretKey = current.variables.secret_id;&#13;
+			//UpdateAwsAccount(authToken,accessKey,secretKey,'\"'+project.uri+'\"');&#13;
+			&#13;
+			&#13;
+		}&#13;
+		catch (ex) {&#13;
+            if (rollback) {&#13;
+				gs.error("Process Failed, Rollback is in progress ");&#13;
+				deleteProject(authToken, project.uri);&#13;
+				&#13;
+                // Set the Request State value back to failed&#13;
+				//current.request_state.setValue("Failed");&#13;
+				current.state.setValue("Closed Incomplete");&#13;
+				activity.result = "Failed";&#13;
+				&#13;
+			}&#13;
+			throw ex;&#13;
+		}&#13;
+		//current.request_state.setValue("Success");&#13;
+		current.state.setValue("Closed Complete");&#13;
+		activity.result = "Success";&#13;
+		&#13;
+	} catch (ex) {&#13;
+        gs.error("Process failed. Please check the logs");&#13;
+        //current.request_state.setValue("Failed");&#13;
+		current.state.setValue("Closed Incomplete");&#13;
+		activity.result = "Failed";&#13;
+		&#13;
+	}&#13;
+	finally {&#13;
+		if (authToken != null){&#13;
+        deleteSession(authToken);&#13;
+		}&#13;
+	}&#13;
+	//current.process_state.setValue("True");&#13;
+	&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Project creation">249adb7fdbab530071ec771c8c961922</activity>
+        <condition>activity.result == "Failed"</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Failed</name>
+        <order>2</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 06:02:56</sys_created_on>
+        <sys_id>be60a773dbeb530071ec771c8c96194d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 06:02:56</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Project creation">249adb7fdbab530071ec771c8c961922</activity>
+        <condition>activity.result == "Success"</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Success</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 06:02:01</sys_created_on>
+        <sys_id>7530efffdbab530071ec771c8c961936</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 06:02:01</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>State Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>403</x>
+        <y>152</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=e49adb7fdbab530071ec771c8c961921"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c961921</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>request_state=Approved^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>e49adb7fdbab530071ec771c8c961921</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>request_state=Approved^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="State Approved">e49adb7fdbab530071ec771c8c961921</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>6c9adb7fdbab530071ec771c8c961921</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>State Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+        <x>376</x>
+        <y>483</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=249adb7fdbab530071ec771c8c96192f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c96192f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>request_state=Rejected^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>249adb7fdbab530071ec771c8c96192f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <value>request_state=Rejected^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="State Rejected">249adb7fdbab530071ec771c8c96192f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ac9adb7fdbab530071ec771c8c961920</condition>
+        <from display_value="Approval notification Manager">e49adb7fdbab530071ec771c8c96191f</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="Manager Approval">649adb7fdbab530071ec771c8c961928</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6c9adb7fdbab530071ec771c8c961924</condition>
+        <from display_value="Approval Failed">289adb7fdbab530071ec771c8c961923</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>249adb7fdbab530071ec771c8c961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="End">209adb7fdbab530071ec771c8c961923</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a49adb7fdbab530071ec771c8c961931</condition>
+        <from display_value="Approval Success notification">609adb7fdbab530071ec771c8c961930</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="End">209adb7fdbab530071ec771c8c961923</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">ec9adb7fdbab530071ec771c8c96192c</condition>
+        <from display_value="Manager Approval">649adb7fdbab530071ec771c8c961928</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>2c9adb7fdbab530071ec771c8c961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="State Rejected">249adb7fdbab530071ec771c8c96192f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">a09adb7fdbab530071ec771c8c961926</condition>
+        <from display_value="Check if  Project Owner has manager">249adb7fdbab530071ec771c8c961925</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>609adb7fdbab530071ec771c8c961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="Approval notification Manager">e49adb7fdbab530071ec771c8c96191f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">a89adb7fdbab530071ec771c8c96192f</condition>
+        <from display_value="State Rejected">249adb7fdbab530071ec771c8c96192f</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>689adb7fdbab530071ec771c8c961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="Approval Reject Notification">689adb7fdbab530071ec771c8c961926</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Failed">be60a773dbeb530071ec771c8c96194d</condition>
+        <from display_value="Project creation">249adb7fdbab530071ec771c8c961922</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 06:03:04</sys_created_on>
+        <sys_id>9b80a333dbeb530071ec771c8c96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 06:03:04</sys_updated_on>
+        <to display_value="Approval Failed">289adb7fdbab530071ec771c8c961923</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6c9adb7fdbab530071ec771c8c96192e</condition>
+        <from display_value="Begin">a89adb7fdbab530071ec771c8c96192e</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a49adb7fdbab530071ec771c8c961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="Check if  Project Owner has manager">249adb7fdbab530071ec771c8c961925</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">6c9adb7fdbab530071ec771c8c96192c</condition>
+        <from display_value="Manager Approval">649adb7fdbab530071ec771c8c961928</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="State Approved">e49adb7fdbab530071ec771c8c961921</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">6c9adb7fdbab530071ec771c8c961921</condition>
+        <from display_value="State Approved">e49adb7fdbab530071ec771c8c961921</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>a89adb7fdbab530071ec771c8c961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="Project creation">249adb7fdbab530071ec771c8c961922</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Success">7530efffdbab530071ec771c8c961936</condition>
+        <from display_value="Project creation">249adb7fdbab530071ec771c8c961922</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 06:02:20</sys_created_on>
+        <sys_id>e460a773dbeb530071ec771c8c96191b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 06:02:20</sys_updated_on>
+        <to display_value="Approval Success notification">609adb7fdbab530071ec771c8c961930</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ac9adb7fdbab530071ec771c8c961927</condition>
+        <from display_value="Approval Reject Notification">689adb7fdbab530071ec771c8c961926</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>e49adb7fdbab530071ec771c8c961934</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="End">209adb7fdbab530071ec771c8c961923</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">209adb7fdbab530071ec771c8c961926</condition>
+        <from display_value="Check if  Project Owner has manager">249adb7fdbab530071ec771c8c961925</from>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9adb7fdbab530071ec771c8c961933</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <to display_value="End">209adb7fdbab530071ec771c8c961923</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-03 05:36:55</sys_created_on>
+        <sys_id>ec9a9b7fdbab530071ec771c8c96190b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-03 05:36:55</sys_updated_on>
+        <workflow_version display_value="OneSphere_project_mod">6c9a9b7fdbab530071ec771c8c96190b</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=5460f2eddbe3930071ec771c8c9619df^sys_id!=6c9a9b7fdbab530071ec771c8c96190b">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

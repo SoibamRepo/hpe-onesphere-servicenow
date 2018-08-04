@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>GetUsersFromOneSphere</name>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-07-30 08:40:55</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[/*
+	# Copyright (2018-2019) Hewlett Packard Enterprise Development LP
+	#
+	# Licensed under the Apache License, Version 2.0 (the "License");
+	# You may not use this file except in compliance with the License.
+	# You may obtain a copy of the License at
+	#
+	# http://www.apache.org/licenses/LICENSE-2.0
+
+	#
+	# Unless required by applicable law or agreed to in writing, software
+	# distributed under the License is distributed on an "AS IS" BASIS,
+	# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	# See the License for the specific language governing permissions and
+	# limitations under the License.
+*/
+/*
+Authors: Soibam Anando Singh
+*/
+//Please provide your OneSphere details and creds below
+var oneSphereUri = "https://deic-gse02-hpe.hpeonesphere.com";
+var oneSphereUser = "soibam.ana.singh@hpe.com";
+var oneSpherePassword = "GSE#admin1";
+//Please provide your SNOW details and creds below
+var SnowUri = 'https://dev40986.service-now.com';
+var SnowUser = 'admin';
+var SnowPassword = 'Servicenow@531982;';
+var rollback = false;
+var authToken = null;
+
+function deleteSession(authToken) {
+	try {
+		oneSphereUser = '\"'+oneSphereUser+'\"';
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';
+        var Session_request = new sn_ws.RESTMessageV2();
+        Session_request.setHttpMethod('delete');
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');
+        Session_request.setRequestHeader("Content-Type","application/json");
+        Session_request.setRequestHeader("Authorization", String(authToken));
+
+        var Auth_response = Session_request.execute();
+        var httpResponseStatus = Auth_response.getStatusCode();
+	}
+	catch (ex) {
+		var message = Auth_response.getErrorMessage();
+        gs.error("Error while delete session: " +message);
+	}
+}
+
+
+function wait(ms)
+{
+   var start = new Date().getTime();
+     
+   var end = start;
+   while(end < start + ms) 
+   {
+     end = new Date().getTime();
+   }
+}
+
+
+
+function addUsersToSnow(email, name)
+{
+    
+	 
+	 try {
+	      var userRequest = new sn_ws.RESTMessageV2();
+
+userRequest.setEndpoint(SnowUri+'/api/now/table/sys_user');
+userRequest.setHttpMethod('post');
+userRequest.setBasicAuth(SnowUser,SnowPassword);
+userRequest.setRequestHeader("Content-Type","application/json");
+userRequest.setStringParameterNoEscape('name', name);
+userRequest.setStringParameterNoEscape('email', email);
+userRequest.setRequestBody("{\"name\":\"${name}\",\"email\":\"${email}\",\"user_name\":\"${name}\"}");
+
+var userGetResponse = userRequest.execute();
+gs.info(userGetResponse.getBody());
+		   
+	    } catch (ex) 
+		{
+		   var message = userGetResponse.getErrorMessage();
+           gs.error("Error while adding all users into SNOW: " +message);
+		   rollback = true;
+           throw ex;
+	    }
+	 
+
+}
+
+function getUsers(authToken){
+	try{
+		//Get the user list
+		var userRequest = new sn_ws.RESTMessageV2();
+        userRequest.setHttpMethod('get');
+        userRequest.setEndpoint(oneSphereUri+'/rest/users');
+        userRequest.setRequestHeader("Content-Type","application/json");
+        userRequest.setRequestHeader("Authorization", authToken);
+        var userGetResponse = userRequest.execute();
+        var userResponseBody = userGetResponse.getBody();
+        users = JSON.parse(userResponseBody);
+		var key;
+        var email;
+        var name;
+        for (key in users.members) 
+		{	
+  		    gs.info(users.members[key].email);
+	        email = users.members[key].email;	 
+	        wait(3000);
+            gs.info(users.members[key].name);
+	        wait(3000);
+	        name =  users.members[key].name;
+            //add OneSpehere members to  SNOW user list
+	        addUsersToSnow(email, name); 
+		}	
+	}
+	catch (ex) {
+		var message = userGetResponse.getErrorMessage();
+        gs.error("Error while getting all users: " +message);
+		rollback = true;
+        throw ex;
+	}
+	
+}
+
+function getAuthToken(){
+	try {
+		oneSphereUser = '\"'+oneSphereUser+'\"';
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';
+        var Session_request = new sn_ws.RESTMessageV2();
+        Session_request.setHttpMethod('post');
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');
+        Session_request.setRequestHeader("Content-Type","application/json");
+        var body = '{"username":'+oneSphereUser+',"password":'+oneSpherePassword+'}';
+        Session_request.setRequestBody(body);
+
+        var Auth_response = Session_request.execute();
+        var httpResponseStatus = Auth_response.getStatusCode();
+        var responseBody = Auth_response.getBody();
+        session = JSON.parse(responseBody);
+	}
+    catch (ex) {
+		var message = Auth_response.getErrorMessage();
+        gs.error("Error while acquring Auth Token: " +message);
+	}
+	return session.token;
+}
+
+
+start();
+function start()
+{
+  try {
+        //Get Auth Token
+		authToken = getAuthToken();
+		getUsers(authToken, current);   
+  }catch (ex) {
+        gs.error("Process failed. Please check the logs");
+        //current.request_state.setValue("Failed");
+  }  
+  finally {
+		if (authToken != null){
+        deleteSession(authToken);
+		}
+	}
+	//current.process_state.setValue("True");
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-30 08:42:17</sys_created_on>
+        <sys_id>4d5e9f22db6b170071ec771c8c961986</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>GetUsersFromOneSphere</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sysauto_script_4d5e9f22db6b170071ec771c8c961986</sys_update_name>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-02 02:27:20</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

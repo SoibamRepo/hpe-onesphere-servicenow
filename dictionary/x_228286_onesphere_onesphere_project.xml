@@ -35,5 +35,8 @@
                 <element label="silver" value="silver"/>
             </choice>
         </element>
+        <index name="index">
+            <element name="project_owner"/>
+        </index>
     </element>
 </database>

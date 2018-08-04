@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="System Diagnostics">f14e1167dbab130071ec771c8c9619b3</dashboard>
+        <home>false</home>
+        <homepage display_value="System Diagnostics">3e8f33360a6a803f001e6ab4bdfe584c</homepage>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-02 01:55:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd4e1167dbab130071ec771c8c9619b8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>f14e1167dbab130071ec771c8c9619b3</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_fd4e1167dbab130071ec771c8c9619b8</sys_update_name>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-02 01:55:24</sys_updated_on>
+        <tab display_value="New Tab">fd4e1167dbab130071ec771c8c9619b6</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="PA New Tab">bd4e1167dbab130071ec771c8c9619b4</canvas_page>
+        <name>New Tab</name>
+        <page display_value="PA New Tab">b14e1167dbab130071ec771c8c9619b4</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-02 01:55:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd4e1167dbab130071ec771c8c9619b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>pa_tabs_fd4e1167dbab130071ec771c8c9619b6</sys_update_name>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-02 01:55:24</sys_updated_on>
+    </pa_tabs>
+</record_update>

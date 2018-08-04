@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>100</order>
+        <question display_value="Provider">b75a7b32dbe3570071ec771c8c961951</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-07-31 05:24:17</sys_created_on>
+        <sys_id>0fda7f32dbe3570071ec771c8c9619ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>aws</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>question_choice_0fda7f32dbe3570071ec771c8c9619ed</sys_update_name>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-07-31 05:24:17</sys_updated_on>
+        <text>aws</text>
+        <value>aws</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=0fda7f32dbe3570071ec771c8c9619ed"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>0fda7f32dbe3570071ec771c8c9619ed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-07-31 05:24:17</sys_created_on>
+        <sys_id>1eea7f32dbe3570071ec771c8c9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-07-31 05:24:17</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>0fda7f32dbe3570071ec771c8c9619ed</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-07-31 05:24:17</sys_created_on>
+        <sys_id>d2ea7f32dbe3570071ec771c8c9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-07-31 05:24:17</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>
