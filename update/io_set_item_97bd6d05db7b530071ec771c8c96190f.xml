@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>400</order>
+        <sc_cat_item display_value="OneSphere - VM Provisioing">c29ae7b8db37530071ec771c8c961904</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-06 18:53:50</sys_created_on>
+        <sys_id>97bd6d05db7b530071ec771c8c96190f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>VM Catalog.OneSphere - Deploy Catalog</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>io_set_item_97bd6d05db7b530071ec771c8c96190f</sys_update_name>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-06 18:57:34</sys_updated_on>
+        <variable_set display_value="VM Catalog">0e8de5c5db7b530071ec771c8c961971</variable_set>
+    </io_set_item>
+</record_update>

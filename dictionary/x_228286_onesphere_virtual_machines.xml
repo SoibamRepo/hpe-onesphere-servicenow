@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="x_228286_onesphere_onesphere_project" label="Virtual machines" max_length="40" name="x_228286_onesphere_virtual_machines" type="collection"/>
+</database>

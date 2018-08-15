@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_both</availability>
+        <billable>false</billable>
+        <category display_value="Services">f0320751db2f530071ec771c8c961916</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <entitlement_script/>
+        <group/>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>OneSphere - VM Provisioing</name>
+        <no_cart>true</no_cart>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>true</no_quantity>
+        <no_search>false</no_search>
+        <omit_price>false</omit_price>
+        <order>300</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=c29ae7b8db37530071ec771c8c961904&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <roles/>
+        <sc_catalogs>a8c9f25ddbeb530071ec771c8c961949</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description>Request for a VM Provision</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-06 09:21:41</sys_created_on>
+        <sys_id>c29ae7b8db37530071ec771c8c961904</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>OneSphere - VM Provisioing</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sc_cat_item_c29ae7b8db37530071ec771c8c961904</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-10 14:48:11</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>false</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="OneSphere_VM_Provisioin">42452935db33130071ec771c8c96191f</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=c29ae7b8db37530071ec771c8c961904"/>
+    <fx_price action="delete_multiple" query="id=c29ae7b8db37530071ec771c8c961904"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>c29ae7b8db37530071ec771c8c961904</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-06 09:21:41</sys_created_on>
+        <sys_id>92ca2ff4db37530071ec771c8c961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-06 09:21:41</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>c29ae7b8db37530071ec771c8c961904</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-06 09:21:41</sys_created_on>
+        <sys_id>daca2ff4db37530071ec771c8c961987</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>anando</sys_updated_by>
+        <sys_updated_on>2018-08-06 09:21:41</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

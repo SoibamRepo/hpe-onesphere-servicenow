@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>u_deleteVM</action_name>
+        <active>true</active>
+        <client>true</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>true</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>true</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Delete VM</name>
+        <onclick>deleteVM()</onclick>
+        <order>100</order>
+        <script><![CDATA[/*
+	# Copyright (2018-2019) Hewlett Packard Enterprise Development LP
+	#
+	# Licensed under the Apache License, Version 2.0 (the "License");
+	# You may not use this file except in compliance with the License.
+	# You may obtain a copy of the License at
+	#
+	# http://www.apache.org/licenses/LICENSE-2.0
+
+	#
+	# Unless required by applicable law or agreed to in writing, software
+	# distributed under the License is distributed on an "AS IS" BASIS,
+	# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+	# See the License for the specific language governing permissions and
+	# limitations under the License.
+*/
+/*
+Authors: Soibam Anando Singh
+*/
+function deleteVM()
+{
+	var state = g_form.getValue('state');
+	//alert(state);
+	if (state != 'Removing')
+	gsftSubmit(null, g_form.getFormElement(), 'u_deleteVM');	
+}
+
+if(typeof window == 'undefined')
+   serverDeleteVM();
+
+function serverDeleteVM(){
+	
+	//SNOW and OneShere credentials
+	var oneSphereUri = "https://deic-gse02-hpe.hpeonesphere.com";
+    var oneSphereUser = "soibam.ana.singh@hpe.com";
+    var oneSpherePassword = "GSE#admin1";
+    var SnowUri = 'https://dev40986.service-now.com';
+    var SnowUser = 'admin';
+    var SnowPassword = 'Servicenow@531982;';
+    var authToken = null;
+	
+	//Authentication Token
+	oneSphereUser = '\"'+oneSphereUser+'\"';
+    oneSpherePassword = '\"'+oneSpherePassword +'\"';
+    var Session_request = new sn_ws.RESTMessageV2();
+    Session_request.setHttpMethod('post');
+    Session_request.setEndpoint(oneSphereUri+'/rest/session');
+    Session_request.setRequestHeader("Content-Type","application/json");
+    var body = '{"username":'+oneSphereUser+',"password":'+oneSpherePassword+'}';
+    Session_request.setRequestBody(body);    
+
+    var Auth_response = Session_request.execute();
+    var httpResponseStatus = Auth_response.getStatusCode();
+    var responseBody = Auth_response.getBody();
+    session = JSON.parse(responseBody);
+	authToken = session.token;
+	
+	//Get Deployment ID
+   	var vmName = current.name;
+	gs.info("VM Name" + ' ' +vmName);
+	
+	var vmNameRequest = new sn_ws.RESTMessageV2();
+	vmNameRequest.setEndpoint(oneSphereUri+'/rest/deployments?userQuery=' + vmName);
+	vmNameRequest.setHttpMethod('get');
+	vmNameRequest.setRequestHeader("Content-Type","application/json");
+	vmNameRequest.setRequestHeader("Authorization", authToken);
+	var vmNameRequestGetResponse = vmNameRequest.execute();
+	var vmNameRequestResponseBody = vmNameRequestGetResponse.getBody();
+    gs.info(vmNameRequestResponseBody);			
+	var deploymentDetails =   JSON.parse(vmNameRequestResponseBody);
+	deploymentId = deploymentDetails.members[0].id;
+	gs.info("Deployment ID" + ' ' +deploymentId);
+	
+	//Delete Deployment
+	var deleteVM = new sn_ws.RESTMessageV2();
+	deleteVM.setEndpoint(oneSphereUri+'/rest/deployments/' +deploymentId);
+	deleteVM.setHttpMethod('delete');
+	deleteVM.setRequestHeader("Content-Type","application/json");
+	deleteVM.setRequestHeader("Authorization", authToken);
+	var deleteVMGetResponse = deleteVM.execute();
+	var deleteVMResponseBody = deleteVMGetResponse.getBody();
+    gs.info(deleteVMResponseBody);
+	//var vm = JSON.parse(deleteVMResponseBody);
+	
+	//update VM state on SNOW
+	var sysId = current.sys_id;
+	gs.info("Current sys_id"+ ' ' +sysId);
+	
+	var userRequest = new sn_ws.RESTMessageV2();
+    //userRequest.setEndpoint(SnowUri+'/api/now/table/x_228286_onesphere_onesphere_project/' +sysId);
+	userRequest.setEndpoint(SnowUri+'/api/now/table/x_228286_onesphere_soibam_test/' +sysId);
+    userRequest.setHttpMethod('put');
+    userRequest.setBasicAuth(SnowUser,SnowPassword);
+    userRequest.setRequestHeader("Content-Type","application/json");
+    var vmRequestBody = '{"state":\"Removing\"}';
+    userRequest.setRequestBody(vmRequestBody);
+    var userGetResponse = userRequest.execute();
+    gs.info(userGetResponse.getBody());	
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-15 04:17:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d75b787bdbfb170071ec771c8c9619de</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Delete VM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_ui_action_d75b787bdbfb170071ec771c8c9619de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-15 06:28:04</sys_updated_on>
+        <table>x_228286_onesphere_soibam_test</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

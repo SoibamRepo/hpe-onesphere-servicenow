@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="OneSphere - VM Provisioing">c29ae7b8db37530071ec771c8c961904</catalog_item>
+        <catalog_variable>IO:0e8de5c5db7b530071ec771c8c961971</catalog_variable>
+        <disabled>ignore</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-06 19:44:34</sys_created_on>
+        <sys_id>1f4971cddb7b530071ec771c8c961924</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>VM Catalog</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1f4971cddb7b530071ec771c8c961924</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-13 18:23:36</sys_updated_on>
+        <table/>
+        <ui_policy display_value="OneSphere - VM Catalog">58e83d8ddb7b530071ec771c8c96193e</ui_policy>
+        <variable>VM Catalog</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

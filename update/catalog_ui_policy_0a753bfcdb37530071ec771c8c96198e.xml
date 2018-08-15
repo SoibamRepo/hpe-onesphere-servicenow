@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <catalog_conditions/>
+        <catalog_item display_value="OneSphere - VM Provisioing">c29ae7b8db37530071ec771c8c961904</catalog_item>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	   var ga = new GlideAjax('ListCatalogTypes') ;
+   ga.addParam('sysparm_name','process');
+   ga.addParam('sysparm_user_name',"Bob");
+   ga.getXML(ListCatalogTypesParse);
+   
+	
+   function ListCatalogTypesParse(response) 
+   {	  
+      var answer = response.responseXML.documentElement.getAttribute("answer");
+/*	   
+      alert(answer);	   
+      answer = JSON.parse(answer);
+      for( var i=0 ; i < answer.length ; i++)
+      {  
+	    g_form.addOption('regions',answer[i],answer[i]);		   
+      }
+*/     //alert(answer);
+	   //g_form.addInfoMessage(answer); //JSON String
+	   
+	   //alert(answer);
+	   answer = JSON.parse(answer);
+	   //alert(answer[0]);
+	   //alert(answer[0].zone);
+	   //alert(answer[1].network);
+	   for( var i=0 ; i < answer.length ; i++)
+		   {
+			   //g_form.addOption('regions',answer[i].zone,answer[i].zone);
+			   //g_form.addOption('regions','A','A');
+			   //g_form.addOption('project_networks',answer[i].network,answer[i].network);  
+			   g_form.addOption('catalog_types',answer[i],answer[i]);
+           }
+   }
+
+}]]></script_true>
+        <set_values/>
+        <short_description>OneSphere - List of Catalog Types</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>anando</sys_created_by>
+        <sys_created_on>2018-08-06 10:09:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0a753bfcdb37530071ec771c8c96198e</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>OneSphere - List of Catalog Types</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>catalog_ui_policy_0a753bfcdb37530071ec771c8c96198e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 18:14:25</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_ui_policy>
+</record_update>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2b3305ffdbfb170071ec771c8c96199e" sys_domain="global" table="x_228286_onesphere_soibam_test" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-15 04:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>633305ffdbfb170071ec771c8c96199f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_228286_onesphere_soibam_test" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">2b3305ffdbfb170071ec771c8c96199e</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">a71bb47bdbfb170071ec771c8c9619aa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:51:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-15 04:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6733cdffdbfb170071ec771c8c961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_228286_onesphere_soibam_test" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">2b3305ffdbfb170071ec771c8c96199e</sys_ui_form>
+            <sys_ui_section caption="Details" display_value="Details" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">ab33cdffdbfb170071ec771c8c961911</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:51:28</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-15 04:52:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c7349ffdbfb170071ec771c8c961914</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_228286_onesphere_soibam_test" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">2b3305ffdbfb170071ec771c8c96199e</sys_ui_form>
+            <sys_ui_section caption="Profile" display_value="Profile" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">507349ffdbfb170071ec771c8c961913</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:52:20</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-15 04:54:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ead30133db3f170071ec771c8c9619d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_228286_onesphere_soibam_test" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">2b3305ffdbfb170071ec771c8c96199e</sys_ui_form>
+            <sys_ui_section caption="Location" display_value="Location" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">2ed30133db3f170071ec771c8c9619d5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:54:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-15 04:55:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40240933db3f170071ec771c8c9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_228286_onesphere_soibam_test" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">2b3305ffdbfb170071ec771c8c96199e</sys_ui_form>
+            <sys_ui_section caption="Network" display_value="Network" name="x_228286_onesphere_soibam_test" sys_domain="global" view="Default view">0824c5ffdbfb170071ec771c8c9619c6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:55:18</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_228286_onesphere_soibam_test</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-15 04:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2b3305ffdbfb170071ec771c8c96199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_228286_onesphere_soibam_test</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2b3305ffdbfb170071ec771c8c96199e</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-15 04:51:28</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
