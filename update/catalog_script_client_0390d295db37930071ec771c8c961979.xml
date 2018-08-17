@@ -26,28 +26,12 @@
 	
    function ListProjectParse(response) 
    {	  
-      var answer = response.responseXML.documentElement.getAttribute("answer");
-/*	   
-      alert(answer);	   
-      answer = JSON.parse(answer);
-      for( var i=0 ; i < answer.length ; i++)
-      {  
-	    g_form.addOption('regions',answer[i],answer[i]);		   
-      }
-*/     //alert(answer);
-	   //g_form.addInfoMessage(answer); //JSON String
-	   
-	   //alert(answer);
-	   answer = JSON.parse(answer);
-	   //alert(answer[0]);
-	   //alert(answer[0].zone);
-	   //alert(answer[1].network);
+      var answer = response.responseXML.documentElement.getAttribute("answer");	   
+	  
+	   answer = JSON.parse(answer);	   
 	   for( var i=0 ; i < answer.length ; i++)
 		   {
-			   //g_form.addOption('regions',answer[i].zone,answer[i].zone);
-			   //g_form.addOption('regions','A','A');
-			   //g_form.addOption('project_networks',answer[i].network,answer[i].network);  
-			   g_form.addOption('project',answer[i],answer[i]);
+			 g_form.addOption('project',answer[i],answer[i]);
            }
    }
    
@@ -58,7 +42,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0390d295db37930071ec771c8c961979</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>OneSphere - Listing Projects</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -66,7 +50,7 @@
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>catalog_script_client_0390d295db37930071ec771c8c961979</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-09 16:21:33</sys_updated_on>
+        <sys_updated_on>2018-08-17 14:31:14</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>0</ui_type>

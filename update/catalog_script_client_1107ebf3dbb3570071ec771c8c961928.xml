@@ -9,52 +9,39 @@
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
         <cat_item display_value="OneSphere - Project Creation">f4b28751db2f530071ec771c8c9619e9</cat_item>
-        <cat_variable>IO:82ce8799db2f530071ec771c8c96191a</cat_variable>
+        <cat_variable/>
         <condition/>
         <description/>
         <field/>
         <global>true</global>
         <messages/>
-        <name>OneSphere - Check for Manager presence</name>
+        <name>OneSphere - Change "Order to Create "</name>
         <order/>
-        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
-   if (isLoading || newValue == '') {
-      return;
-   }
-
+        <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
-   //var owner = g_form.getValue('project_owner');
-   var user = g_form.getReference('project_owner', fetchManager);    
-
-
-function fetchManager(user)
-{
-  var manager = user.manager;
-  if (manager == "")
-  {
-      alert("Please make sure that Project owner has manager");
-  }
-}
 	
+	var button = document.getElementById("order_now");
+button.text = 'Submit';
+  
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
-        <sys_created_by>anando</sys_created_by>
-        <sys_created_on>2018-07-30 18:04:21</sys_created_on>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-15 16:50:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>bdab153adb6f170071ec771c8c9619be</sys_id>
-        <sys_mod_count>18</sys_mod_count>
-        <sys_name>OneSphere - Check for Manager presence</sys_name>
+        <sys_id>1107ebf3dbb3570071ec771c8c961928</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>OneSphere - Change "Order to Create "</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
-        <sys_update_name>catalog_script_client_bdab153adb6f170071ec771c8c9619be</sys_update_name>
+        <sys_update_name>catalog_script_client_1107ebf3dbb3570071ec771c8c961928</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 14:36:28</sys_updated_on>
+        <sys_updated_on>2018-08-15 18:17:59</sys_updated_on>
         <table/>
-        <type>onChange</type>
-        <ui_type>0</ui_type>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
         <variable_set/>
         <view/>
     </catalog_script_client>

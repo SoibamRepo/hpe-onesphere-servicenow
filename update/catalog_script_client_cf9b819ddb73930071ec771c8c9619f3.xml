@@ -30,37 +30,15 @@
 	
    function ListProfilesParse(response) 
    {	  
-      var answer = response.responseXML.documentElement.getAttribute("answer");
-/*	   
-      alert(answer);	   
-      answer = JSON.parse(answer);
-      for( var i=0 ; i < answer.length ; i++)
-      {  
-	    g_form.addOption('regions',answer[i],answer[i]);		   
-      }
-*/     //alert(answer);
-	   //g_form.addInfoMessage(answer); //JSON String
-	   
-	   //alert(answer);
-	   answer = JSON.parse(answer);
-	   //g_form.addOption('profile',answer,answer);
-	   //alert(answer[0]);
-	   //alert(answer[0].zone);
-	   //alert(answer[1].network);
-	   g_form.clearOptions('profile');
-	   
-	   for( var i=0 ; i < answer.length ; i++)
-		   {
-			    //g_form.clearOptions('services');
-			   //g_form.addOption('regions',answer[i].zone,answer[i].zone);
-			   //g_form.addOption('regions','A','A');
-			   //g_form.addOption('project_networks',answer[i].network,answer[i].network);  
+      var answer = response.responseXML.documentElement.getAttribute("answer"); 
+	  answer = JSON.parse(answer);
+	  g_form.clearOptions('profile');	   
+	  for( var i=0 ; i < answer.length ; i++)
+		   {			    
 			   g_form.addOption('profile',answer[i],answer[i]);
            }
 		  
-   }
-   
-   //Type appropriate comment here, and begin script below
+   }  
    
 }]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
@@ -69,15 +47,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>cf9b819ddb73930071ec771c8c9619f3</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>OneSphere - Virtual machines profiles</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>catalog_script_client_cf9b819ddb73930071ec771c8c9619f3</sys_update_name>
-        <sys_updated_by>anando</sys_updated_by>
-        <sys_updated_on>2018-08-07 11:56:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-17 14:30:21</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

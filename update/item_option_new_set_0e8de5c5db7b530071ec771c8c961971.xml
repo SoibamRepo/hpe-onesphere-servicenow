@@ -2,7 +2,7 @@
 <record_update table="item_option_new_set">
     <item_option_new_set action="INSERT_OR_UPDATE">
         <description/>
-        <display_title>true</display_title>
+        <display_title>false</display_title>
         <layout>normal</layout>
         <name>VM Catalog</name>
         <order>100</order>
@@ -10,14 +10,14 @@
         <sys_created_by>anando</sys_created_by>
         <sys_created_on>2018-08-06 18:53:50</sys_created_on>
         <sys_id>0e8de5c5db7b530071ec771c8c961971</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>VM Catalog</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>item_option_new_set_0e8de5c5db7b530071ec771c8c961971</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 03:22:16</sys_updated_on>
+        <sys_updated_on>2018-08-16 11:43:43</sys_updated_on>
         <title/>
     </item_option_new_set>
 </record_update>

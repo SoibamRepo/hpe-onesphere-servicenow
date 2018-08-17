@@ -18,7 +18,7 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <example_text>Enater a name</example_text>
+        <example_text>Enater a unique VM name</example_text>
         <field/>
         <global>false</global>
         <help_tag>More information</help_tag>
@@ -41,7 +41,7 @@
         <order>100</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>name</question_text>
+        <question_text>VM Name</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>anando</sys_created_by>
         <sys_created_on>2018-08-06 18:54:33</sys_created_on>
         <sys_id>30dda9c5db7b530071ec771c8c9619a8</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>name</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>VM Name</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>item_option_new_30dda9c5db7b530071ec771c8c9619a8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 02:53:33</sys_updated_on>
+        <sys_updated_on>2018-08-16 11:45:16</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
