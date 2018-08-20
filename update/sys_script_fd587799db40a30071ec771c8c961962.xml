@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_228286_onesphere_soibam_test</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_228286_onesphere_soibam_test">nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>OneSphere - Update Network Details</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[//SNOW and OneShere credentials
+	var oneSphereUri = "https://deic-gse02-hpe.hpeonesphere.com";
+    var oneSphereUser = "soibam.ana.singh@hpe.com";
+    var oneSpherePassword = "GSE#admin1";
+    var SnowUri = 'https://dev40986.service-now.com';
+    var SnowUser = 'admin';
+    var SnowPassword = 'Servicenow@531982;';
+    var authToken = null;
+    var vmName = null;
+    var sysId = null;
+    var deploymentUri = null;
+    var flag = 0;
+
+function deleteSession(authToken)
+{
+	try {
+		oneSphereUser = '\"'+oneSphereUser+'\"';
+        oneSpherePassword = '\"'+oneSpherePassword +'\"';
+        Session_request = new sn_ws.RESTMessageV2();
+        Session_request.setHttpMethod('delete');
+        Session_request.setEndpoint(oneSphereUri+'/rest/session');
+        Session_request.setRequestHeader("Content-Type","application/json");
+        Session_request.setRequestHeader("Authorization", String(authToken));
+
+        Auth_response = Session_request.execute();
+        httpResponseStatus = Auth_response.getStatusCode();
+	}
+	catch (ex) {
+		var message = Auth_response.getErrorMessage();
+        gs.error("Error while delete session: " +message);
+	}
+
+}
+
+function updateNetworkDetails(authToken,deploymentUri,sysId)
+{
+	   gs.info("Inside updateNetworkDetails"); 
+    var vmUpdateRequest = new sn_ws.RESTMessageV2();
+	vmUpdateRequest.setEndpoint(oneSphereUri+deploymentUri+'?view=full');
+	vmUpdateRequest.setHttpMethod('get');
+	vmUpdateRequest.setRequestHeader("Content-Type","application/json");
+	vmUpdateRequest.setRequestHeader("Authorization", authToken);
+	var vmUpdateRequestGetResponse = vmUpdateRequest.execute();
+	var vmUpdateRequestResponseBody = vmUpdateRequestGetResponse.getBody();
+	var vmDetails = JSON.parse(vmUpdateRequestResponseBody);
+	networkName = vmDetails.deploymentEndpoints[0].name;
+	ipAddress = vmDetails.deploymentEndpoints[0].address;
+    status = vmDetails.state;
+		
+    var userRequest = new sn_ws.RESTMessageV2();
+	//userRequest.setEndpoint(SnowUri+'/api/now/table/x_228286_onesphere_onesphere_project/'+sysId);
+	userRequest.setEndpoint(SnowUri+'/api/now/table/x_228286_onesphere_soibam_test/'+sysId);
+	userRequest.setHttpMethod('put');
+	userRequest.setBasicAuth(SnowUser,SnowPassword);
+	userRequest.setRequestHeader("Content-Type","application/json");
+	vmRequestBody = '{"network_name":\"'+networkName+'\","ip_address":\"'+ipAddress+'\","state":\"'+status+'\"}';
+	userRequest.setRequestBody(vmRequestBody);
+	userGetResponse = userRequest.execute();
+	gs.info(userGetResponse.getBody());
+}
+
+function checkDeploymentEndPoints(authToken,deploymentUri)
+{
+	    // Check for Deployment End-Points
+	    gs.info("Inside checkDeploymentEndPoints");
+        var vmUpdateRequest = new sn_ws.RESTMessageV2();
+		vmUpdateRequest.setEndpoint(oneSphereUri+deploymentUri+'?view=full');
+		vmUpdateRequest.setHttpMethod('get');
+		vmUpdateRequest.setRequestHeader("Content-Type","application/json");
+		vmUpdateRequest.setRequestHeader("Authorization", authToken);
+		var vmUpdateRequestGetResponse = vmUpdateRequest.execute();
+		var vmUpdateRequestResponseBody = vmUpdateRequestGetResponse.getBody();
+		var vmDetails = JSON.parse(vmUpdateRequestResponseBody);
+		return vmDetails;
+}
+
+function getDeploymentUri(authToken, vmName)
+{
+	// get Deployment URI
+    var vmNameRequest = new sn_ws.RESTMessageV2();
+	vmNameRequest.setEndpoint(oneSphereUri+'/rest/deployments?userQuery=' + vmName);
+	vmNameRequest.setHttpMethod('get');
+	vmNameRequest.setRequestHeader("Content-Type","application/json");
+	vmNameRequest.setRequestHeader("Authorization", authToken);
+	var vmNameRequestGetResponse = vmNameRequest.execute();
+	var vmNameRequestResponseBody = vmNameRequestGetResponse.getBody();
+    gs.info(vmNameRequestResponseBody);			
+	var deploymentDetails =   JSON.parse(vmNameRequestResponseBody);
+	uri = deploymentDetails.members[0].uri;
+	gs.info("Deployment URI" + ' ' +uri);
+	
+    return uri;
+}
+
+function getAuthToken()
+{
+   //Authentication Token
+	oneSphereUser = '\"'+oneSphereUser+'\"';
+    oneSpherePassword = '\"'+oneSpherePassword +'\"';
+    var Session_request = new sn_ws.RESTMessageV2();
+    Session_request.setHttpMethod('post');
+    Session_request.setEndpoint(oneSphereUri+'/rest/session');
+    Session_request.setRequestHeader("Content-Type","application/json");
+    var body = '{"username":'+oneSphereUser+',"password":'+oneSpherePassword+'}';
+    Session_request.setRequestBody(body);    
+
+    var Auth_response = Session_request.execute();
+    var httpResponseStatus = Auth_response.getStatusCode();
+    var responseBody = Auth_response.getBody();
+    session = JSON.parse(responseBody);
+	
+    return session.token;
+}
+
+(function executeRule(current, previous /*null when async*/) {
+
+	try {
+		    gs.info("From Business Rules");
+			vmName = current.name;
+		    gs.info("VM name:"+ ' '+vmName);
+			sysId = current.sys_id;
+		    gs.info("Sys Id:"+ ' '+sysId);
+			authToken = getAuthToken();
+			deploymentUri = getDeploymentUri(authToken, vmName);
+		    while (1)
+			{
+					endPoints = checkDeploymentEndPoints(authToken,deploymentUri);
+					if ( typeof endPoints.deploymentEndpoints != 'undefined' )
+						   flag = 1;		  	   
+	       
+					if ( flag == 1 )
+					{
+						updateNetworkDetails(authToken,deploymentUri,sysId); 
+						break;
+					}
+			} 
+		    current.state.setValue("Started");
+		    current.update();
+		
+	     } catch(x) {
+			gs.error("Process failed. Please check the logs");
+            current.state.setValue("Failed");
+		    current.update();
+		 }
+	   finally {
+		if (authToken != null){
+        deleteSession(authToken);
+		}
+	   }  
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-20 10:00:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd587799db40a30071ec771c8c961962</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>OneSphere - Update Network Details</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_fd587799db40a30071ec771c8c961962</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-20 12:04:17</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=fd587799db40a30071ec771c8c961962"/>
+</record_update>
