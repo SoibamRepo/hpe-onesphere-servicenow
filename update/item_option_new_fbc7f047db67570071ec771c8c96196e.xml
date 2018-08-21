@@ -33,7 +33,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -60,14 +60,14 @@
         <sys_created_by>anando</sys_created_by>
         <sys_created_on>2018-07-31 09:50:51</sys_created_on>
         <sys_id>fbc7f047db67570071ec771c8c96196e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>AWS Access Key ID</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>item_option_new_fbc7f047db67570071ec771c8c96196e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-09 17:18:05</sys_updated_on>
+        <sys_updated_on>2018-08-20 15:53:54</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
