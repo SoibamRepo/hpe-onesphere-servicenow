@@ -4,7 +4,7 @@
         <active>true</active>
         <category>service-catalog</category>
         <content><![CDATA[ <h1 class="title topictitle1">Service catalog cart layouts</h1>  <div class="body conbody">    <p class="p"><span class="ph">Service catalog enables catalog administrators to configure the          layout and functionality of the service catalog cart used in your organization to          place requests for          catalog items.</span></p>    <div class="p">You can perform the following:<ul class="ul" id="sc_layout-normal__d25211e121"><li class="li">Remove components. For example, hide prices throughout the cart if your catalog does            not use pricing.</li><li class="li">Change labels. For example, change the <span class="ph uicontrol">Order now</span> button label            to <span class="ph uicontrol">Request Item</span> in the shopping cart.</li><li class="li">Change the order of elements. For example, change the order of the columns on the            order status screen.</li><li class="li">Configure, hide, or create functionality. For example, add a <span class="ph uicontrol">Requested              For</span> reference field to the shopping cart.</li></ul></div>  </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Maintain-Cart-Layout&amp;version&#61;jakarta" target="_blank" rel="nofollow">Maintain cart layout</a></div></div></div></div>]]></content>
-        <last_sync>2018-08-30 16:40:12</last_sync>
+        <last_sync>2018-09-16 14:40:47</last_sync>
         <modifier>normal</modifier>
         <name>sc_layout_list-normal</name>
         <page>sc_layout_list</page>
@@ -17,14 +17,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2018-08-15 16:40:06</sys_created_on>
         <sys_id>4c756bb3dbb3570071ec771c8c9619bb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>sc_layout_list-normal</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_embedded_help_content_4c756bb3dbb3570071ec771c8c9619bb</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-30 16:40:12</sys_updated_on>
+        <sys_updated_on>2018-09-16 14:40:47</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=4c756bb3dbb3570071ec771c8c9619bb"/>

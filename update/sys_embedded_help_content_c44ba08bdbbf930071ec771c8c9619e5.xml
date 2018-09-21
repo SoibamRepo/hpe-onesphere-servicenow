@@ -4,7 +4,7 @@
         <active>true</active>
         <category>reporting</category>
         <content><![CDATA[ <h1 class="title topictitle1">Chart Colors list</h1>  <div class="body conbody">  <p class="p"><span class="ph">Report administrators can change the look of charts by specifying      colors used to represent specific report data categories.</span>  </p>  <p class="p"><span class="ph">Click the column headers to search, sort, filter, and    edit data. </span></p>  <div class="p">The <span class="ph uicontrol">Chart Colors</span> list has the following columns:<ul class="ul" id="sys_report_chart_color_list-normal__ul_pf4_dvj_dz"><li class="li">Name Table used for the report. <div class="note note"><span class="notetitle">Note:</span> The list shows only tables and database views that are            in the same scope as the chart colors record.</div></li><li class="li">Color – Hexadecimal value used to specify a color that is not already defined in the Color          Definition module.</li><li class="li">Color name – Color name, as defined in the <span class="ph uicontrol">Color Definition</span> module.          When a report is generated, this color is used to represent the specified value. </li><li class="li">Display – A bar in the color defined by hexadecimal value indicated in the            <span class="ph uicontrol">Color</span> or <span class="ph uicontrol">Color name</span> field.</li><li class="li">Element – Column name specific to the selected table. </li><li class="li">Value – Value for which the specified color should be displayed.</li><li class="li">Updated – The date and time the color was last modified.</li></ul></div> </div>  <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Application-Scope&amp;version&#61;jakarta" target="_blank" rel="nofollow">Application scope</a></div></div></div></div>]]></content>
-        <last_sync>2018-08-28 01:21:34</last_sync>
+        <last_sync>2018-09-12 01:22:13</last_sync>
         <modifier>normal</modifier>
         <name>sys_report_chart_color_list-normal</name>
         <page>sys_report_chart_color_list</page>
@@ -17,14 +17,14 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2018-08-12 19:11:11</sys_created_on>
         <sys_id>c44ba08bdbbf930071ec771c8c9619e5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>sys_report_chart_color_list-normal</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_embedded_help_content_c44ba08bdbbf930071ec771c8c9619e5</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-08-28 01:21:34</sys_updated_on>
+        <sys_updated_on>2018-09-12 01:22:13</sys_updated_on>
         <version>j</version>
     </sys_embedded_help_content>
     <sys_translated_text action="delete_multiple" query="documentkey=c44ba08bdbbf930071ec771c8c9619e5"/>
