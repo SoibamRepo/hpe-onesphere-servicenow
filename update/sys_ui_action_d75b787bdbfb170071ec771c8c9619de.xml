@@ -56,7 +56,7 @@ if(typeof window == 'undefined')
 function serverDeleteVM(){
 	
 	//SNOW and OneShere credentials
-	var oneSphereUri = "https://deic-gse02-hpe.hpeonesphere.com";
+	var oneSphereUri = "https://deic-gse03-hpe.hpeonesphere.com";
     var oneSphereUser = "soibam.ana.singh@hpe.com";
     var oneSpherePassword = "GSE#admin1";
     var SnowUri = 'https://dev40986.service-now.com';
@@ -152,7 +152,7 @@ function serverDeleteVM(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d75b787bdbfb170071ec771c8c9619de</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Delete VM</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -160,7 +160,7 @@ function serverDeleteVM(){
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_ui_action_d75b787bdbfb170071ec771c8c9619de</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 14:24:32</sys_updated_on>
+        <sys_updated_on>2018-11-01 04:56:49</sys_updated_on>
         <table>x_228286_onesphere_soibam_test</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
