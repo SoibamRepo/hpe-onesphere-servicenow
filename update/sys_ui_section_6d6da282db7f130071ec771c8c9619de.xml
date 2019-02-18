@@ -9,7 +9,7 @@
             <sys_id>975ea282db7f130071ec771c8c961995</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_228286_onesphere_onesphere_project" sys_domain="global" view="faba2e02db7f130071ec771c8c961953">6d6da282db7f130071ec771c8c9619de</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_228286_onesphere_onesphere_project" sys_domain="global" view="c225f3a0dba72300afb0bd513996194c">6d6da282db7f130071ec771c8c9619de</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-08-10 02:10:06</sys_updated_on>
             <sys_user/>
@@ -37,7 +37,7 @@
             <sys_updated_on>2018-08-10 02:05:53</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Testing" name="testing">faba2e02db7f130071ec771c8c961953</view>
+            <view display_value="Testing" name="testing">c225f3a0dba72300afb0bd513996194c</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

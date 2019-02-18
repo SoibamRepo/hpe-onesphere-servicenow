@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="osb">45949183dba76300afb0bd513996191b</basic_auth_profile>
+        <basic_auth_user/>
+        <content>{&#13;
+     "service_id": ${service_id},&#13;
+     "plan_id": ${plan_id},&#13;
+     "organization_guid": ${organization_guid},&#13;
+     "space_guid": ${space_guid},&#13;
+     "parameters": {&#13;
+             "parameter1": ${parameter1},&#13;
+            "parameter2": ${parameter2}&#13;
+  }&#13;
+}</content>
+        <function_name>Update</function_name>
+        <http_method>patch</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>OSB [ Update ]</qualified_name>
+        <rest_endpoint>http://${url}/v2/service_instances/${instance_id}</rest_endpoint>
+        <rest_message display_value="OSB">de645507db276300afb0bd513996196d</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 08:21:04</sys_created_on>
+        <sys_id>78d61d83dba76300afb0bd5139961938</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Update</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_78d61d83dba76300afb0bd5139961938</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-16 11:06:52</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

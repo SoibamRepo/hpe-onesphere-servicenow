@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>state</field>
+        <global>true</global>
+        <messages/>
+        <name>DeleteVM</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+	//Type appropriate comment here, and begin script below
+	
+   var ga = new GlideAjax('DeleteVM');
+   ga.addParam('sysparm_name','process');
+   ga.addParam('sysparm_state',g_form.getValue('state'));
+   ga.addParam('sysparm_name',g_form.getValue('name'));
+   ga.getXML(Delete_VM);
+   
+	
+   function Delete_VM(response) 
+   {	  
+      var answer = response.responseXML.documentElement.getAttribute("answer");
+	  answer = JSON.parse(answer); 
+	  alert(answer);
+	   
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 03:56:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2c9580fdbe36300afb0bd5139961905</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DeleteVM</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_client_c2c9580fdbe36300afb0bd5139961905</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 04:32:23</sys_updated_on>
+        <table>cmdb_ci_vmware_instance</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

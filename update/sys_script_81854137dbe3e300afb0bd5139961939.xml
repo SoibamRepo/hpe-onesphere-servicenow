@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>sc_request</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="sc_request">approval=approved^ORapproval=rejected^EQ<item endquery="false" field="approval" goto="false" newquery="false" operator="=" or="false" value="approved"/>
+            <item endquery="false" field="approval" goto="false" newquery="false" operator="=" or="true" value="rejected"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>approval_status</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	gs.info("Inside Request Approval Status Check");
+	
+	// Add your code here
+	 var plan_id = "b0c4f438-316d-4324-ba23-d16eb6608b32";
+	 //var service_id = "a462269586efc82505103ba096bea2ab";	                  
+	 var space_guid = "940376c1-1a08-4eab-8f56-5c2335fb7ab2";
+	 //var instance_id = "5365e672-44c1-4433-8fd8-812dec51d522"; 
+	 var organization_guid = "df401993-ed47-41c4-b6ee-84da0fe89f1d";
+	 var url = "http://ec2-3-80-177-50.compute-1.amazonaws.com:7098/v2/service_instances/";
+	 var usbUser = "ubuntu";
+	 var usbPassword = "ubuntu";
+	
+	 var number = current.number;
+	 var approval = current.approval;
+	 var sys_id = current.sys_id;
+	
+	 var gr = new GlideRecord('sc_req_item');
+	 gr.addQuery('number', number);
+     gr.query();
+     if (gr.next())
+     {
+         gs.info(gr.variable_pool.instance_id);
+		 instnace_id = gr.variable_pool.instance_id;
+		 service_id = gr.variable_pool.instance_id;
+     }
+	 
+	
+	 gs.info("Request Number: " + number);
+	 gs.info("Approval Status: " + approval);
+
+     number= '\"'+number+'\"';
+     approval= '\"'+approval+'\"';	
+	 plan_id= '\"'+plan_id+'\"';
+     service_id= '\"'+service_id+'\"';
+	 sys_id= '\"'+sys_id+'\"';
+	 instnace_id= '\"'+instnace_id+'\"';		
+	
+	 /*
+     var r = new sn_ws.RESTMessageV2('x_228286_onesphere.OSB', 'Update');	 
+     r.setStringParameterNoEscape('url', url);
+	 r.setStringParameterNoEscape('instance_id', instance_id);
+	 */
+	 
+	 var r = new sn_ws.RESTMessageV2();
+     r.setEndpoint(url+instance_id);
+     r.setHttpMethod('patch');
+	 r.setRequestHeader("Content-Type","application/json");
+	
+     var body = '{"instnace_id":'+instnace_id+',"service_id":'+service_id+',"Approval Status":{"request_no":'+number+',"sys_id":'+sys_id+',"status":'+approval+'}}';
+     r.setRequestBody(body); 
+
+    //override authentication profile 
+    //authentication type ='basic'/ 'oauth2'
+    r.setBasicAuth("ubuntu","ubuntu");
+
+    var response = r.execute();
+    var responseBody = response.getBody();
+	alert(responseBody);
+    var httpStatus = response.getStatusCode();
+
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 14:58:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81854137dbe3e300afb0bd5139961939</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>approval_status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_81854137dbe3e300afb0bd5139961939</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-18 01:30:25</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=81854137dbe3e300afb0bd5139961939"/>
+</record_update>

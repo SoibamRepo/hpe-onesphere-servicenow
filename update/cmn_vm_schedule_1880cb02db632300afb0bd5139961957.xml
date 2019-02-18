@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="cmn_vm_schedule">
+    <cmn_vm_schedule action="INSERT_OR_UPDATE">
+        <description>VM schedule SNOW77410 requested</description>
+        <document/>
+        <document_key/>
+        <name>SNOW77410</name>
+        <parent/>
+        <read_only>false</read_only>
+        <sys_class_name>cmn_vm_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-12 13:24:49</sys_created_on>
+        <sys_id>1880cb02db632300afb0bd5139961957</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>SNOW77410</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>cmn_vm_schedule_1880cb02db632300afb0bd5139961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-12 13:30:10</sys_updated_on>
+        <time_zone/>
+        <type>Virtual Provisioning</type>
+    </cmn_vm_schedule>
+</record_update>

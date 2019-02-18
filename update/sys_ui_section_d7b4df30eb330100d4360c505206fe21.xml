@@ -2,18 +2,102 @@
 <record_update>
     <sys_ui_section caption="Question" section_id="d7b4df30eb330100d4360c505206fe21" sys_domain="global" table="item_option_new" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>example_text</element>
+            <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-15 07:43:03</sys_created_on>
-            <sys_id>0d8aad7bdb7f170071ec771c8c961951</sys_id>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>fe7ba8b3dba3e300afb0bd5139961947</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-15 07:43:03</sys_updated_on>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>example_text</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>727ba8b3dba3e300afb0bd5139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_name</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>f27ba8b3dba3e300afb0bd5139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>display_title</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>767ba8b3dba3e300afb0bd5139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>question_text</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>f67ba8b3dba3e300afb0bd5139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>7a7ba8b3dba3e300afb0bd5139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-17 13:03:06</sys_created_on>
+            <sys_id>fa7ba8b3dba3e300afb0bd5139961948</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Question" display_value="Question" name="item_option_new" sys_domain="global" view="Default view">d7b4df30eb330100d4360c505206fe21</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-17 13:03:06</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Question</caption>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>plan_id</name>
+        <rest_message_function display_value="Update">78d61d83dba76300afb0bd5139961938</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-15 08:59:28</sys_created_on>
+        <sys_id>fd70ad4bdba76300afb0bd513996199e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>plan_id</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_fd70ad4bdba76300afb0bd513996199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-15 10:00:11</sys_updated_on>
+        <type>string</type>
+        <value>"b0c4f438-316d-4324-ba23-d16eb6608b32"</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

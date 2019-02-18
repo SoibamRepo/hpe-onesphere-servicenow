@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>snow</name>
+        <password>MPZGKGUl6CkkHzVT+CX3fSW8p3xhgofi</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-02-17 17:04:40</sys_created_on>
+        <sys_id>e9b2a9b7db27e300afb0bd51399619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>snow</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_e9b2a9b7db27e300afb0bd51399619e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-02-17 17:04:40</sys_updated_on>
+        <username>admin</username>
+    </sys_auth_profile_basic>
+</record_update>
