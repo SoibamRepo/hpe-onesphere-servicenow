@@ -4,92 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">2303614d47812200e0ef563dbb9a712e</list_id>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-08-03 12:41:02</sys_created_on>
-            <sys_id>e303614d47812200e0ef563dbb9a712e</sys_id>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>51de5c12db3323000080e1bb4b96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-08-03 12:41:02</sys_updated_on>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">2303614d47812200e0ef563dbb9a712e</list_id>
+            <element>active</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-08-03 12:41:02</sys_created_on>
-            <sys_id>2b03a14d47812200e0ef563dbb9a718a</sys_id>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>59de5c12db3323000080e1bb4b96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-08-03 12:41:02</sys_updated_on>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">2303614d47812200e0ef563dbb9a712e</list_id>
+            <element>activity_due</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-08-03 12:41:02</sys_created_on>
-            <sys_id>6b03a14d47812200e0ef563dbb9a718a</sys_id>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>d9de5c12db3323000080e1bb4b96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-08-03 12:41:02</sys_updated_on>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">2303614d47812200e0ef563dbb9a712e</list_id>
+            <element>additional_assignee_list</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-08-03 12:41:02</sys_created_on>
-            <sys_id>ab03a14d47812200e0ef563dbb9a718a</sys_id>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>5dde5c12db3323000080e1bb4b96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-08-03 12:41:02</sys_updated_on>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">2303614d47812200e0ef563dbb9a712e</list_id>
+            <element>approval</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-08-03 12:41:02</sys_created_on>
-            <sys_id>eb03a14d47812200e0ef563dbb9a718a</sys_id>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>ddde5c12db3323000080e1bb4b96198c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-08-03 12:41:02</sys_updated_on>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">2303614d47812200e0ef563dbb9a712e</list_id>
+            <element>approval_history</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2016-08-03 12:41:02</sys_created_on>
-            <sys_id>2f03a14d47812200e0ef563dbb9a718a</sys_id>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>51de5c12db3323000080e1bb4b96198d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2016-08-03 12:41:02</sys_updated_on>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_set</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>d1de5c12db3323000080e1bb4b96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>55de5c12db3323000080e1bb4b96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>d5de5c12db3323000080e1bb4b96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_duration</element>
+            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="7d03a14d47812200e0ef563dbb9a7171">15de5c12db3323000080e1bb4b96198b</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-02-25 06:32:39</sys_created_on>
+            <sys_id>59de5c12db3323000080e1bb4b96198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-02-25 06:32:39</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -108,11 +168,11 @@
             <sys_domain_path>/</sys_domain_path>
             <sys_id>4d67f3f7dbabe300afb0bd5139961975</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>task</sys_name>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
             <sys_policy/>
             <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_task_my_request</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-02-18 03:54:00</sys_updated_on>
             <sys_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user>

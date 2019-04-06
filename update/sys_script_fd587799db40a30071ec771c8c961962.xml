@@ -31,12 +31,19 @@
         <rest_variables/>
         <role_conditions/>
         <script><![CDATA[//SNOW and OneShere credentials
-	var oneSphereUri = "https://deic-gse04-hpe.hpeonesphere.com";
-    var oneSphereUser = "soibam.ana.singh@hpe.com";
-    var oneSpherePassword = "GSE#admin1";
-    var SnowUri = 'https://dev67671.service-now.com';
-    var SnowUser = 'admin';
-    var SnowPassword = 'Servicenow@531982;';
+	//var oneSphereUri = "https://deic-gse04-hpe.hpeonesphere.com";
+    //var oneSphereUser = "soibam.ana.singh@hpe.com";
+    //var oneSpherePassword = "GSE#admin1";
+    //var SnowUri = 'https://dev70341.service-now.com';
+    //var SnowUser = 'admin';
+    //var SnowPassword = 'Servicenow@531982;';
+
+    var oneSphereUri = "";
+    var oneSphereUser = "";
+    var oneSpherePassword = "";
+    var SnowUri = "";
+    var SnowUser = "";
+    var SnowPassword = "";
     var authToken = null;
     var vmName = null;
     var sysId = null;
@@ -144,6 +151,51 @@ function getAuthToken()
     return session.token;
 }
 
+function getOneSphereCredentials()
+{
+	var number = "OneSphere";
+    var gr = new GlideRecord('x_228286_onesphere_environment_credentials');
+    gr.addQuery('number', number);
+    gr.query();
+    if (gr.next())
+    {
+         gs.info("OneSphere URL:" + gr.onesphere_url);
+		 oneSphereUri = gr.onesphere_url;
+		
+         gs.info("OneSphere User:" + gr.onesphere_user);
+		 oneSphereUser = gr.onesphere_user;		 
+		
+         gs.info("OneSphere Password:" + gr.onesphere_password);
+         encripted_password = gr.onesphere_password;
+    }
+    var Encrypter = new GlideEncrypter();   
+    oneSpherePassword = Encrypter.decrypt(encripted_password);    
+    //gs.addInfoMessage("decrypted..   " + decrypted);
+}
+
+function getServiceNowCredentials()
+{
+	var number = "ServiceNow";
+    var gr = new GlideRecord('x_228286_onesphere_environment_credentials');
+    gr.addQuery('number', number);
+    gr.query();
+    if (gr.next())
+    {
+         gs.info("OneSphere URL:" + gr.onesphere_url);
+		 SnowUri = gr.onesphere_url;
+		
+         gs.info("OneSphere User:" + gr.onesphere_user);
+		 SnowUser = gr.onesphere_user;		 
+		
+         gs.info("OneSphere Password:" + gr.onesphere_password);
+         encripted_password = gr.onesphere_password;
+    }
+    var Encrypter = new GlideEncrypter();   
+    SnowPassword = Encrypter.decrypt(encripted_password);    
+    //gs.addInfoMessage("decrypted..   " + decrypted);
+}
+
+
 (function executeRule(current, previous /*null when async*/) {
 
 	try {
@@ -187,7 +239,7 @@ function getAuthToken()
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>fd587799db40a30071ec771c8c961962</sys_id>
-        <sys_mod_count>19</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_name>OneSphere - Update Network Details</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -195,7 +247,7 @@ function getAuthToken()
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_script_fd587799db40a30071ec771c8c961962</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-02-08 01:28:11</sys_updated_on>
+        <sys_updated_on>2019-03-12 11:16:05</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

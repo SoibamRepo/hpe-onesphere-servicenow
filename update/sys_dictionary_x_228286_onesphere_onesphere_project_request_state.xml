@@ -52,7 +52,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-30 18:06:31</sys_created_on>
-        <sys_id>f615bf60dba72300afb0bd5139961951</sys_id>
+        <sys_id>de7db961db7323000080e1bb4b961985</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Request state</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -60,7 +60,7 @@
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_dictionary_x_228286_onesphere_onesphere_project_request_state</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-02-08 01:23:50</sys_updated_on>
+        <sys_updated_on>2019-02-23 05:30:46</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
