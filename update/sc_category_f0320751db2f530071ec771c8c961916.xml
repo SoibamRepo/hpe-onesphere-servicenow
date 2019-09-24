@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_category">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
     <sc_category action="INSERT_OR_UPDATE">
         <active>true</active>
         <description/>
@@ -18,7 +17,6 @@
         <parent/>
         <roles/>
         <sc_catalog display_value="OneSphere">a8c9f25ddbeb530071ec771c8c961949</sc_catalog>
-        <show_in_cms>false</show_in_cms>
         <sys_class_name>sc_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 09:26:13</sys_created_on>

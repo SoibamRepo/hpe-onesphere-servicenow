@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
@@ -11,26 +10,34 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p style="text-align: left;"><span style="font-size: 12pt; font-family: &#39;trebuchet ms&#39;, geneva;"><span style="color: #333333;">A</span><span style="color: #333333;"> </span><var id="GUID-F294A596-C25B-4772-9E2A-F6CFDB37B74E__GUID-04377E28-C012-4B40-A988-A5A4B05DA2A0" class="keyword varname" style="box-sizing: inherit; color: #333333; font-family: Metric, Arial, sans-serif; font-size: 24px;">project</var><span style="color: #333333;"> is an abstract grouping of members (users) that is used to control access to cloud services and compute resources in </span><span class="ph" style="box-sizing: inherit; color: #333333;">HPE OneSphere</span><span style="color: #333333;">. You can also think of a project as the set of resources that is assigned to a group of members. Projects can be accessed by a single member, or they can be assigned to multiple members for collaboration across teams.</span></span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
+        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>true</ignore_price>
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>true</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
         <name>OneSphere - Project Creation</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>true</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>true</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
-        <omit_price>true</omit_price>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
         <order>100</order>
         <ordered_item_link/>
         <picture/>
@@ -38,6 +45,7 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
+        <request_method/>
         <roles/>
         <sc_catalogs>a8c9f25ddbeb530071ec771c8c961949</sc_catalogs>
         <sc_ic_item_staging/>
@@ -49,14 +57,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-26 09:28:45</sys_created_on>
         <sys_id>f4b28751db2f530071ec771c8c9619e9</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>OneSphere - Project Creation</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sc_cat_item_f4b28751db2f530071ec771c8c9619e9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 14:47:52</sys_updated_on>
+        <sys_updated_on>2019-09-22 07:51:56</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
@@ -104,19 +112,22 @@
     </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#80ceff</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height>205</image_height>
         <image_width>246</image_width>
         <size_bytes>11533</size_bytes>
         <size_compressed>11234</size_compressed>
+        <state>available</state>
         <sys_created_by>anando</sys_created_by>
         <sys_created_on>2018-07-30 16:51:14</sys_created_on>
         <sys_id>1f8e0132db6f170071ec771c8c961940</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>anando</sys_updated_by>
-        <sys_updated_on>2018-07-30 16:51:14</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-09-22 06:54:32</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>f4b28751db2f530071ec771c8c9619e9</table_sys_id>
     </sys_attachment>

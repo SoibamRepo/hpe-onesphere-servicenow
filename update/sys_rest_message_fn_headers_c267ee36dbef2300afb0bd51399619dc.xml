@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sys_rest_message_fn_headers">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_headers">
     <sys_rest_message_fn_headers action="INSERT_OR_UPDATE">
         <name>vmware-api-session-id</name>
         <rest_message_function display_value="Get VM ">32652632dbef2300afb0bd5139961958</rest_message_function>

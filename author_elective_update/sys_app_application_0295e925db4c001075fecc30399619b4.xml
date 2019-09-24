@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name/>
+        <order>100</order>
+        <roles>admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 10:13:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0295e925db4c001075fecc30399619b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HPE Storage Automation</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_app_application_0295e925db4c001075fecc30399619b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 10:13:57</sys_updated_on>
+        <title>HPE Storage Automation</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>e3b832afdbb4fb403050ac44d49619ef</instance_id>
+        <instance_name>dev82249</instance_name>
+        <name>sys_app_application_0295e925db4c001075fecc30399619b4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name/><order>100</order><roles>admin</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-22 10:13:57</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0295e925db4c001075fecc30399619b4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HPE Storage Automation</sys_name><sys_overrides/><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>sys_app_application_0295e925db4c001075fecc30399619b4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-22 10:13:57</sys_updated_on><title>HPE Storage Automation</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1297579258</payload_hash>
+        <record_name>HPE Storage Automation</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 10:13:57</sys_created_on>
+        <sys_id>30c5e925db4c001075fecc30399619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d5876b3170000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 10:13:57</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>78c5e9252c4c001028ca81ea2449f2ba</update_guid>
+        <update_guid_history>78c5e9252c4c001028ca81ea2449f2ba:-1297579258</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HPE Storage Automation">2ca7a9a5db4c001075fecc303996193d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-22 10:22:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>5eb5759c4ec24a4f99852dd16d1ac4e9</sys_id>
+        <sys_metadata>0295e925db4c001075fecc30399619b4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HPE Storage Automation</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_app_application_0295e925db4c001075fecc30399619b4</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0295e925db4c001075fecc30399619b4">30c5e925db4c001075fecc30399619bb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-22 10:22:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

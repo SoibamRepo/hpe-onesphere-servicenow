@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="3PAR" max_length="40" name="x_228286_onesphere_3par" type="collection">
+        <element label="CPG" max_length="40" name="cpg" type="string_full_utf8"/>
+        <element display="true" label="Datastore name" max_length="40" name="datastore_name" type="string_full_utf8"/>
+        <element label="ESXi hostname" max_length="40" name="esxi_hostname" type="string_full_utf8"/>
+        <element label="Hostset/ Host" max_length="40" name="hostset_host" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Volume Name" max_length="40" name="volume_name" type="string_full_utf8"/>
+        <element label="Volume size" max_length="40" name="volume_size" type="string_full_utf8"/>
+        <element choice="1" label="Volume unit " max_length="40" name="volume_unit" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="MiB" sequence="100" value="MiB"/>
+                <element inactive_on_update="false" label="GiB" sequence="200" value="GiB"/>
+                <element inactive_on_update="false" label="TiB" sequence="300" value="TiB"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

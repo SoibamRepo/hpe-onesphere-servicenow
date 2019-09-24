@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
         <sc_cat_item display_value="OneSphere - Add Networks to Project">2ae84177db67530071ec771c8c9619ed</sc_cat_item>
         <sc_catalog display_value="OneSphere">a8c9f25ddbeb530071ec771c8c961949</sc_catalog>

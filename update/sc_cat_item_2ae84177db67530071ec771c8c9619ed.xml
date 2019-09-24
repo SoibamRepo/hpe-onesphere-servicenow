@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_cat_item">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
         <availability>on_desktop</availability>
@@ -11,25 +10,33 @@
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description><![CDATA[<p><span style="color: #333333; font-family: &#39;times new roman&#39;, times; font-size: 12pt;">In OneSphere, Administrators can add networks from a set of available pre-defined VMware networks that will be made visible within that project space. When launching a deployment from a project, users can select from the set of networks made visible by the administrator. </span></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
+        <hide_sp>false</hide_sp>
         <icon/>
         <ignore_price>true</ignore_price>
         <image/>
         <list_price>0</list_price>
         <location/>
+        <mandatory_attachment>false</mandatory_attachment>
         <meta/>
         <mobile_hide_price>false</mobile_hide_price>
         <mobile_picture/>
         <mobile_picture_type>use_mobile_picture</mobile_picture_type>
         <model/>
         <name>OneSphere - Add Networks to Project</name>
+        <no_attachment_v2>false</no_attachment_v2>
         <no_cart>true</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
         <no_order>false</no_order>
         <no_order_now>false</no_order_now>
         <no_proceed_checkout>false</no_proceed_checkout>
         <no_quantity>true</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
         <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
         <omit_price>false</omit_price>
         <order>200</order>
         <ordered_item_link/>
@@ -38,6 +45,7 @@
         <price>0</price>
         <recurring_frequency/>
         <recurring_price>0</recurring_price>
+        <request_method/>
         <roles/>
         <sc_catalogs>a8c9f25ddbeb530071ec771c8c961949</sc_catalogs>
         <sc_ic_item_staging/>
@@ -49,14 +57,14 @@
         <sys_created_by>anando</sys_created_by>
         <sys_created_on>2018-08-02 19:01:33</sys_created_on>
         <sys_id>2ae84177db67530071ec771c8c9619ed</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>OneSphere - Add Networks to Project</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sc_cat_item_2ae84177db67530071ec771c8c9619ed</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-15 15:43:40</sys_updated_on>
+        <sys_updated_on>2019-09-22 09:58:55</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>false</use_sc_layout>
@@ -104,19 +112,22 @@
     </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#dbdbdb</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
         <file_name>picture</file_name>
+        <hash/>
         <image_height>224</image_height>
         <image_width>225</image_width>
         <size_bytes>20930</size_bytes>
         <size_compressed>20958</size_compressed>
+        <state>available</state>
         <sys_created_by>anando</sys_created_by>
         <sys_created_on>2018-08-02 20:18:18</sys_created_on>
         <sys_id>61ba1d33dba7530071ec771c8c961934</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>anando</sys_updated_by>
-        <sys_updated_on>2018-08-02 20:18:18</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-09-22 06:54:53</sys_updated_on>
         <table_name>ZZ_YYsc_cat_item</table_name>
         <table_sys_id>2ae84177db67530071ec771c8c9619ed</table_sys_id>
     </sys_attachment>

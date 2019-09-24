@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="update_synch=true,verify_parent_scope=false" extends="question" label="Variable" max_length="40" name="item_option_new" type="collection">
         <element choice="1" label="Project Networks" max_length="40" name="x_228286_onesphere_project_networks" type="choice">
             <choice/>

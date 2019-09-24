@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<database>
+<?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Test Virtual Machine" max_length="40" name="x_228286_onesphere_soibam_test" type="collection">
         <element display="true" label="Created On" max_length="40" name="created_on" type="string"/>
         <element label="IP Address" max_length="40" name="ip_address" type="string"/>
@@ -13,15 +12,15 @@
         <element label="Service Type" max_length="40" name="service_type" type="string"/>
         <element choice="1" label="Status" max_length="40" name="state" type="string">
             <choice>
-                <element label="Starting" sequence="1" value="Starting"/>
-                <element label="Started" sequence="2" value="Started"/>
-                <element label="Stopped" sequence="3" value="Stopped"/>
-                <element label="Resuming" sequence="4" value="Resuming"/>
-                <element label="Suspended" sequence="5" value="Suspended"/>
-                <element label="Suspending" sequence="5" value="Suspending"/>
-                <element label="Success" sequence="6" value="Success"/>
-                <element label="Failed" sequence="8" value="Failed"/>
-                <element label="Removing" sequence="10" value="Removing"/>
+                <element inactive_on_update="false" label="Starting" sequence="1" value="Starting"/>
+                <element inactive_on_update="false" label="Started" sequence="2" value="Started"/>
+                <element inactive_on_update="false" label="Stopped" sequence="3" value="Stopped"/>
+                <element inactive_on_update="false" label="Resuming" sequence="4" value="Resuming"/>
+                <element inactive_on_update="false" label="Suspended" sequence="5" value="Suspended"/>
+                <element inactive_on_update="false" label="Suspending" sequence="5" value="Suspending"/>
+                <element inactive_on_update="false" label="Success" sequence="6" value="Success"/>
+                <element inactive_on_update="false" label="Failed" sequence="8" value="Failed"/>
+                <element inactive_on_update="false" label="Removing" sequence="10" value="Removing"/>
             </choice>
         </element>
         <element label="Storage" max_length="40" name="storage" type="string"/>

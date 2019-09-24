@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update table="sc_catalog">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
     <sc_catalog action="INSERT_OR_UPDATE">
         <active>true</active>
         <background_color>white</background_color>
@@ -27,19 +26,22 @@
     <sys_translated_text action="delete_multiple" query="documentkey=a8c9f25ddbeb530071ec771c8c961949"/>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#dedede</average_image_color>
+        <chunk_size_bytes/>
         <compressed>true</compressed>
         <content_type>image/jpeg</content_type>
         <file_name>desktop_image</file_name>
+        <hash/>
         <image_height>194</image_height>
         <image_width>259</image_width>
         <size_bytes>5684</size_bytes>
         <size_compressed>3238</size_compressed>
+        <state>available</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-15 15:22:21</sys_created_on>
         <sys_id>d5a3dbb7db73570071ec771c8c9619ac</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-15 15:22:21</sys_updated_on>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>guest</sys_updated_by>
+        <sys_updated_on>2019-09-22 06:26:34</sys_updated_on>
         <table_name>ZZ_YYsc_catalog</table_name>
         <table_sys_id>a8c9f25ddbeb530071ec771c8c961949</table_sys_id>
     </sys_attachment>

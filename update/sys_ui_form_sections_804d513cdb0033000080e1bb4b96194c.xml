@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="804d513cdb0033000080e1bb4b96194c" sys_domain="global" table="x_228286_onesphere_environment_credentials" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="volume_unit" table="x_228286_onesphere_3par" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>volume_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MiB</label>
+            <language>en</language>
+            <name>x_228286_onesphere_3par</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 04:50:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fbe2e8edb4c801075fecc30399619cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 04:50:21</sys_updated_on>
+            <value>MiB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>volume_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GiB</label>
+            <language>en</language>
+            <name>x_228286_onesphere_3par</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 04:51:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>840f22cedb4c801075fecc303996197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 04:51:07</sys_updated_on>
+            <value>GiB</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>volume_unit</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TiB</label>
+            <language>en</language>
+            <name>x_228286_onesphere_3par</name>
+            <sequence>300</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 04:51:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e41f22cedb4c801075fecc3039961996</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 04:51:24</sys_updated_on>
+            <value>TiB</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>volume_unit</element>
+            <name>x_228286_onesphere_3par</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 04:50:21</sys_created_on>
+            <sys_id>40eeea8edb4c801075fecc30399619c7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>volume_unit</sys_name>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+            <sys_update_name>sys_choice_x_228286_onesphere_3par_volume_unit</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 04:50:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

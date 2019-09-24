@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_documentation element="created_on" label="Created On" language="en" table="x_228286_onesphere_virtual_machines">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>created_on</element>
