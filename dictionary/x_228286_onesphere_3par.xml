@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="3PAR" max_length="40" name="x_228286_onesphere_3par" type="collection">
         <element label="CPG" max_length="40" name="cpg" type="string_full_utf8"/>
-        <element display="true" label="Datastore name" max_length="40" name="datastore_name" type="string_full_utf8"/>
+        <element label="Datastore name" max_length="40" name="datastore_name" type="string_full_utf8"/>
         <element label="ESXi hostname" max_length="40" name="esxi_hostname" type="string_full_utf8"/>
         <element label="Hostset/ Host" max_length="40" name="hostset_host" type="string_full_utf8"/>
+        <element display="true" label="Job ID" max_length="32" name="job_id" reference="x_228286_onesphere_ansible_awx" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="RITM" max_length="40" name="ritm" reference="sc_req_item" type="reference"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="100" value="Open"/>
+                <element inactive_on_update="false" label="Closed" sequence="200" value="closed"/>
+                <element inactive_on_update="false" label="Deleting" sequence="300" value="Deleting"/>
+            </choice>
+        </element>
         <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
         <element label="Volume Name" max_length="40" name="volume_name" type="string_full_utf8"/>
         <element label="Volume size" max_length="40" name="volume_size" type="string_full_utf8"/>
@@ -16,6 +25,9 @@
             </choice>
         </element>
         <index name="index">
+            <element name="job_id"/>
+        </index>
+        <index name="index2">
             <element name="sys_class_name"/>
         </index>
     </element>

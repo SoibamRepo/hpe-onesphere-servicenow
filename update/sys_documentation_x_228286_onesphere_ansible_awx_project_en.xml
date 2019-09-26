@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="project" label="Project" language="en" table="x_228286_onesphere_ansible_awx">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>project</element>
+            <help/>
+            <hint/>
+            <label>Project</label>
+            <language>en</language>
+            <name>x_228286_onesphere_ansible_awx</name>
+            <plural>Projects</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-26 07:12:26</sys_created_on>
+            <sys_id>f09265f2db04001075fecc303996198d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Project</sys_name>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+            <sys_update_name>sys_documentation_x_228286_onesphere_ansible_awx_project_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-26 07:12:26</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
