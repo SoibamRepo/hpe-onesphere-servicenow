@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
-        <cat_item/>
+        <cat_item display_value="vSphere">6b6b1b72db0c001075fecc30399619ae</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -36,17 +36,17 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>cpg</name>
-        <order>100</order>
+        <name>approver</name>
+        <order/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Commom Provisioing Group(CPG)</question_text>
+        <question_text>Approver</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
         <record/>
         <record_producer_table/>
-        <reference/>
+        <reference>sys_user</reference>
         <reference_qual/>
         <reference_qual_condition/>
         <scale_max>5</scale_max>
@@ -57,25 +57,25 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-23 17:08:10</sys_created_on>
-        <sys_id>cbdd088edb04801075fecc3039961940</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Commom Provisioing Group(CPG)</sys_name>
+        <sys_created_on>2019-09-26 16:51:18</sys_created_on>
+        <sys_id>6af62f7edb0c001075fecc3039961945</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approver</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
-        <sys_update_name>item_option_new_cbdd088edb04801075fecc3039961940</sys_update_name>
+        <sys_update_name>item_option_new_6af62f7edb0c001075fecc3039961945</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-26 16:21:54</sys_updated_on>
+        <sys_updated_on>2019-09-26 16:54:10</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>8</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
-        <variable_set display_value="Storage">f24d8c4edb04801075fecc3039961960</variable_set>
+        <variable_set/>
         <variable_width/>
         <visibility>1</visibility>
         <visible_bundle>true</visible_bundle>
@@ -85,22 +85,22 @@
         <write_roles/>
         <x_228286_onesphere_project_networks/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=cbdd088edb04801075fecc3039961940"/>
-    <fx_price action="delete_multiple" query="id=cbdd088edb04801075fecc3039961940"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6af62f7edb0c001075fecc3039961945"/>
+    <fx_price action="delete_multiple" query="id=6af62f7edb0c001075fecc3039961945"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>cbdd088edb04801075fecc3039961940</id>
+        <id>6af62f7edb0c001075fecc3039961945</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-23 17:08:10</sys_created_on>
-        <sys_id>162e448edb04801075fecc3039961940</sys_id>
+        <sys_created_on>2019-09-26 16:51:18</sys_created_on>
+        <sys_id>141723bedb0c001075fecc30399619fe</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-23 17:08:10</sys_updated_on>
+        <sys_updated_on>2019-09-26 16:51:18</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -108,16 +108,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>cbdd088edb04801075fecc3039961940</id>
+        <id>6af62f7edb0c001075fecc3039961945</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-23 17:08:10</sys_created_on>
-        <sys_id>d62e448edb04801075fecc303996193f</sys_id>
+        <sys_created_on>2019-09-26 16:51:18</sys_created_on>
+        <sys_id>d81723bedb0c001075fecc30399619fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-23 17:08:10</sys_updated_on>
+        <sys_updated_on>2019-09-26 16:51:18</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

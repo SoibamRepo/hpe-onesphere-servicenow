@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="live_feed=true" label="Ansible AWX" max_length="40" name="x_228286_onesphere_ansible_awx" type="collection">
-        <element label="Inventory" max_length="40" name="inventory" type="string_full_utf8"/>
+        <element active="false" label="Inventory" max_length="40" name="inventory" type="string_full_utf8"/>
         <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=job_id,ref_ac_columns_search=true" display="true" label="Job ID" max_length="40" name="job_id" type="string_full_utf8"/>
         <element label="Job Template" max_length="40" name="job_template" type="string_full_utf8"/>
         <element label="Job Type" max_length="40" name="job_type" type="string_full_utf8"/>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_228286_onesphere_ansible_awx</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Hello from Business Rules</p>]]></message>
+        <name>3par_update_status</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+	
+				gs.info(" Updated From Business Rule");
+	
+// 	            gs.info(current.sys_id);
+// 	            job_id = get_job_id(current.sys_id);
+// 	            gs.info("JOb ID" + job_id);
+	            job_id = "308";
+
+			    var ansibleTower = "http://10.188.29.20/api/v2";
+				var request = new sn_ws.RESTMessageV2();
+				request.setEndpoint(ansibleTower+'/jobs/306');				
+				request.setHttpMethod('GET');
+
+				//Eg. UserName="admin", Password="admin" for this code sample.
+				//var user = 'admin';
+				//var password = 'gseteam';
+
+				//request.setBasicAuth(user,password);
+				request.setRequestHeader("Accept","application/json");   		
+				request.setRequestHeader('Content-Type','application/json');
+                request.setRequestHeader('Authorization','Basic YWRtaW46Z3NldGVhbQ==');
+				request.setMIDServer('demo-mid-server');
+				request.setEccParameter('skip_sensor', true);
+				
+				var response = request.executeAsync();
+				response.waitForResponse(120);
+	
+				var request_response_body = response.getBody();                                
+                var json = JSON.parse(request_response_body);		
+				
+                status = json.status;
+				gs.info(status);
+				
+				var target = new GlideRecord('x_228286_onesphere_ansible_awx');
+				target.addQuery('job_id', '308');
+				target.query(); // Issue the query to the database to get all records 
+				while (target.next()) { 
+					// add code here to process the incident record 
+						target.status= status;		
+						target.update();
+				}	
+
+})(current, previous);
+
+function get_job_id(current_sys_id)
+{
+	var target = new GlideRecord('x_228286_onesphere_ansible_awx');		
+	target.addQuery('sys_id', current_sys_id);
+				target.query(); // Issue the query to the database to get all records 
+				while (target.next()) { 
+					// add code here to process the incident record 
+						
+				}	
+	return target.job_id;
+}]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-26 12:21:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8aa8a23adb08001075fecc303996194f</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>3par_update_status</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_8aa8a23adb08001075fecc303996194f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 04:54:44</sys_updated_on>
+        <template/>
+        <when>async</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=8aa8a23adb08001075fecc303996194f"/>
+</record_update>

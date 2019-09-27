@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <attributes/>
         <cat_item/>
         <category/>
@@ -32,7 +32,7 @@
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
         <macro/>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
@@ -59,14 +59,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-23 17:26:54</sys_created_on>
         <sys_id>2b521042db44801075fecc303996191b</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Datastore name</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>item_option_new_2b521042db44801075fecc303996191b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-23 17:26:54</sys_updated_on>
+        <sys_updated_on>2019-09-26 16:26:04</sys_updated_on>
         <table/>
         <tooltip/>
         <type>6</type>
