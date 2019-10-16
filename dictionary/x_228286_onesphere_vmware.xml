@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VMware" max_length="40" name="x_228286_onesphere_vmware" type="collection">
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=job_id,ref_ac_columns_search=true" display="true" label="Job ID" max_length="40" name="job_id" type="string_full_utf8"/>
+        <element label="Job  Template" max_length="40" name="job_template" type="string_full_utf8"/>
+        <element label="Job Type" max_length="40" name="job_type" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Playbook" max_length="40" name="playbook" type="string_full_utf8"/>
+        <element label="Project" max_length="40" name="project" type="string_full_utf8"/>
+        <element label="Status" max_length="40" name="status" type="string_full_utf8"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>

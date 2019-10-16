@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>true</display_title>
+        <internal_name>volume</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>200</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-23 17:44:53</sys_created_on>
+        <sys_id>d98610c6db44801075fecc3039961906</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Volume</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>item_option_new_set_d98610c6db44801075fecc3039961906</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 08:01:18</sys_updated_on>
+        <title>Volume</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>e3b832afdbb4fb403050ac44d49619ef</instance_id>
+        <instance_name>dev82249</instance_name>
+        <name>item_option_new_set_d98610c6db44801075fecc3039961906</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>true</display_title><internal_name>volume</internal_name><layout>normal</layout><name/><order>200</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-09-23 17:44:53</sys_created_on><sys_id>d98610c6db44801075fecc3039961906</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Volume</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>item_option_new_set_d98610c6db44801075fecc3039961906</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-09-27 08:01:18</sys_updated_on><title>Volume</title><type>one_to_one</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>-1277742556</payload_hash>
+        <record_name>Volume</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 08:01:18</sys_created_on>
+        <sys_id>a257be4fdb48401075fecc3039961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16d71bd0f930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 08:01:18</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>2e57be4f12484010a4c787e52dcd0b10</update_guid>
+        <update_guid_history>2e57be4f12484010a4c787e52dcd0b10:-1277742556,0fa6d4c66d4480103bfb1418d0bf3511:-961723219,1c96d0c6e84480102a052960a23ad53b:-1693898674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Volume">323d7607db88401075fecc30399619f6</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-27 08:27:00</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>64a7766ccf60418cb9d913d6ba25a2e4</sys_id>
+        <sys_metadata>d98610c6db44801075fecc3039961906</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Volume</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_d98610c6db44801075fecc3039961906</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_d98610c6db44801075fecc3039961906">a257be4fdb48401075fecc3039961911</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-27 08:27:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

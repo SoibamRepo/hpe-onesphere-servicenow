@@ -34,11 +34,11 @@
 // 	            gs.info(current.sys_id);
 // 	            job_id = get_job_id(current.sys_id);
 // 	            gs.info("JOb ID" + job_id);
-	            job_id = "308";
+	            job_id = "8";
 
-			    var ansibleTower = "http://10.188.29.20/api/v2";
+			    var ansibleTower = "http://10.188.28.166/api/v2";
 				var request = new sn_ws.RESTMessageV2();
-				request.setEndpoint(ansibleTower+'/jobs/306');				
+				request.setEndpoint(ansibleTower+'/jobs/45');				
 				request.setHttpMethod('GET');
 
 				//Eg. UserName="admin", Password="admin" for this code sample.
@@ -61,8 +61,9 @@
                 status = json.status;
 				gs.info(status);
 				
-				var target = new GlideRecord('x_228286_onesphere_ansible_awx');
-				target.addQuery('job_id', '308');
+// 				var target = new GlideRecord('x_228286_onesphere_vmware');
+ 	            var target = new GlideRecord('x_228286_onesphere_ansible_awx');
+				target.addQuery('job_id', '45');
 				target.query(); // Issue the query to the database to get all records 
 				while (target.next()) { 
 					// add code here to process the incident record 
@@ -89,7 +90,7 @@ function get_job_id(current_sys_id)
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8aa8a23adb08001075fecc303996194f</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>3par_update_status</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -97,7 +98,7 @@ function get_job_id(current_sys_id)
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_script_8aa8a23adb08001075fecc303996194f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-27 04:54:44</sys_updated_on>
+        <sys_updated_on>2019-10-14 11:45:47</sys_updated_on>
         <template/>
         <when>async</when>
     </sys_script>

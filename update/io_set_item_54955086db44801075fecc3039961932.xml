@@ -14,6 +14,6 @@
         <sys_update_name>io_set_item_54955086db44801075fecc3039961932</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-24 06:58:44</sys_updated_on>
-        <variable_set display_value="Storage">3d851846db44801075fecc3039961941</variable_set>
+        <variable_set display_value="Volume">3d851846db44801075fecc3039961941</variable_set>
     </io_set_item>
 </record_update>

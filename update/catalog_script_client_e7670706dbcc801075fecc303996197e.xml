@@ -32,10 +32,10 @@
 		answer = JSON.parse(answer);
 		//print(answer);	
 		
-		g_form.clearOptions('datastore_name');	   
+		g_form.clearOptions('volume_name');	   
 		for( var i=0 ; i < answer.length ; i++)
 		{			    
-			g_form.addOption('datastore_name',answer[i],answer[i]);
+			g_form.addOption('volume_name',answer[i],answer[i]);
          }
    } 
    
@@ -46,7 +46,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e7670706dbcc801075fecc303996197e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>3PAR - List of Datastores</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -54,7 +54,7 @@
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>catalog_script_client_e7670706dbcc801075fecc303996197e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-24 06:55:58</sys_updated_on>
+        <sys_updated_on>2019-09-27 08:30:41</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>0</ui_type>

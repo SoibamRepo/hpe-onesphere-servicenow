@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>token</name>
+        <rest_message_function display_value="Default POST">ca5e7179db0c401075fecc3039961976</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-04 09:04:30</sys_created_on>
+        <sys_id>21e80799db90001075fecc303996197d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>token</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_21e80799db90001075fecc303996197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-04 09:10:09</sys_updated_on>
+        <type>string</type>
+        <value>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE1NzAxNjk5MDcsImV4cCI6MTU3MDI1NjMwN30.AVNep3GMw2F_RDcQuegNdD5qNb6RXUMuDROWFBFuN9E</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

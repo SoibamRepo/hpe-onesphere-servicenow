@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
     <sc_cat_item action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category display_value="Storage">bf0041eddb88001075fecc303996196a</category>
@@ -9,7 +9,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><strong><span style="font-family: &#39;times new roman&#39;, times;"><span style="font-size: 10pt;">Update the vCenter datastore size by finding the backed 3PAR volume and expanding its size.</span></span></strong></p>]]></description>
+        <description><![CDATA[<p><span style="font-family: &#39;times new roman&#39;, times; font-size: 10pt;">Resize an exiting LUN volume on 3PAR Storage.</span></p>]]></description>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
@@ -50,21 +50,21 @@
         <sc_catalogs>c30270a1db08001075fecc30399619eb</sc_catalogs>
         <sc_ic_item_staging/>
         <sc_ic_version/>
-        <short_description>Resize an exiting  LUN volume on 3PAR Storage </short_description>
+        <short_description/>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-22 10:08:18</sys_created_on>
         <sys_id>684421a1db4c001075fecc3039961988</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Resizing HPE 3PAR Storage</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sc_cat_item_684421a1db4c001075fecc3039961988</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-24 09:14:36</sys_updated_on>
+        <sys_updated_on>2019-10-14 08:14:12</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>

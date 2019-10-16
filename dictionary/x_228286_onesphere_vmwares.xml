@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="VMwares" max_length="40" name="x_228286_onesphere_vmwares" type="collection">
+        <element label="Server Name" mandatory="true" max_length="40" name="host_name" type="string_full_utf8"/>
+        <element label="Job ID" mandatory="true" max_length="32" name="job_id" reference="x_228286_onesphere_vmware" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="RITM" max_length="32" name="ritm" reference="sc_req_item" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <index name="index">
+            <element name="ritm"/>
+        </index>
+        <index name="index2">
+            <element name="job_id"/>
+        </index>
+        <index name="index3">
+            <element name="sys_class_name"/>
+        </index>
+    </element>
+</database>
