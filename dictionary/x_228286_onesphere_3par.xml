@@ -14,7 +14,7 @@
                 <element inactive_on_update="false" label="Deleting" sequence="300" value="Deleting"/>
             </choice>
         </element>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Volume Name" max_length="40" name="volume_name" type="string_full_utf8"/>
         <element label="Volume size" max_length="40" name="volume_size" type="string_full_utf8"/>
         <element choice="1" label="Volume unit " max_length="40" name="volume_unit" type="choice">

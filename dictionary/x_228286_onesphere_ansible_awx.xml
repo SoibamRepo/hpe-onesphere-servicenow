@@ -8,7 +8,7 @@
         <element label="Playbook" max_length="40" name="playbook" type="string_full_utf8"/>
         <element label="Project" max_length="40" name="project" type="string_full_utf8"/>
         <element label="Status" max_length="40" name="status" type="string_full_utf8"/>
-        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <index name="index">
             <element name="sys_class_name"/>
         </index>

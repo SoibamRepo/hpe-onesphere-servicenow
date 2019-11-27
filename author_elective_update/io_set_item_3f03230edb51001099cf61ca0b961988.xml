@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Copy of Provision HPE 3PAR  Storage">a303e386db51001099cf61ca0b96191e</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-25 11:56:50</sys_created_on>
+        <sys_id>3f03230edb51001099cf61ca0b961988</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vCenter.Copy of Provision HPE 3PAR  Storage</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>io_set_item_3f03230edb51001099cf61ca0b961988</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-25 11:56:50</sys_updated_on>
+        <variable_set display_value="vCenter">36119842db44801075fecc303996198f</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>a82656f2dba4f70091232f17d496192a</instance_id>
+        <instance_name>dev78958</instance_name>
+        <name>io_set_item_3f03230edb51001099cf61ca0b961988</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Copy of Provision HPE 3PAR  Storage">a303e386db51001099cf61ca0b96191e</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-11-25 11:56:50</sys_created_on><sys_id>3f03230edb51001099cf61ca0b961988</sys_id><sys_mod_count>0</sys_mod_count><sys_name>vCenter.Copy of Provision HPE 3PAR  Storage</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>io_set_item_3f03230edb51001099cf61ca0b961988</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-11-25 11:56:50</sys_updated_on><variable_set display_value="vCenter">36119842db44801075fecc303996198f</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>860792745</payload_hash>
+        <record_name>vCenter.Copy of Provision HPE 3PAR  Storage</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-25 11:56:50</sys_created_on>
+        <sys_id>3b03230edb51001099cf61ca0b96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16ea26be67c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-25 11:56:50</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>7303230e97510010f3abdea0a659078b</update_guid>
+        <update_guid_history>7303230e97510010f3abdea0a659078b:860792745</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="vCenter.Copy of Provision HPE 3PAR  Storage">8b84a74edb51001099cf61ca0b9619f0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-25 12:03:20</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>4dd7351957c14276a63fcf6cefa2a269</sys_id>
+        <sys_metadata>3f03230edb51001099cf61ca0b961988</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vCenter.Copy of Provision HPE 3PAR  Storage</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>io_set_item_3f03230edb51001099cf61ca0b961988</sys_update_name>
+        <sys_update_version display_value="io_set_item_3f03230edb51001099cf61ca0b961988">3b03230edb51001099cf61ca0b96198b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-25 12:03:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

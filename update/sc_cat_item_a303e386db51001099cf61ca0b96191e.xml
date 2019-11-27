@@ -1,35 +1,121 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
-    <sc_catalog action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
         <active>true</active>
-        <background_color>white</background_color>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Storage">bf0041eddb88001075fecc303996196a</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
-        <desktop_continue_shopping/>
-        <desktop_home_page/>
-        <desktop_image>eef563cedb51001099cf61ca0b9619b1</desktop_image>
-        <editors/>
-        <enable_wish_list>false</enable_wish_list>
-        <manager/>
-        <sys_class_name>sc_catalog</sys_class_name>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Airtel  Service Approval</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>100</order>
+        <ordered_item_link/>
+        <picture>e83627cedb51001099cf61ca0b961999</picture>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=a303e386db51001099cf61ca0b96191e&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>c30270a1db08001075fecc30399619eb</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-22 06:28:22</sys_created_on>
-        <sys_id>c30270a1db08001075fecc30399619eb</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>HPE  3PAR Automation</sys_name>
+        <sys_created_on>2019-11-25 11:56:49</sys_created_on>
+        <sys_id>a303e386db51001099cf61ca0b96191e</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Airtel  Service Approval</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
-        <sys_update_name>sc_catalog_c30270a1db08001075fecc30399619eb</sys_update_name>
+        <sys_update_name>sc_cat_item_a303e386db51001099cf61ca0b96191e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-11-25 12:09:35</sys_updated_on>
-        <title>HPE  3PAR Automation</title>
-    </sc_catalog>
-    <sys_translated_text action="delete_multiple" query="documentkey=c30270a1db08001075fecc30399619eb"/>
+        <sys_updated_on>2019-11-25 12:10:32</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="Provision 3PAR Storage">96d016e0dbe0001075fecc30399619b9</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=a303e386db51001099cf61ca0b96191e"/>
+    <fx_price action="delete_multiple" query="id=a303e386db51001099cf61ca0b96191e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>a303e386db51001099cf61ca0b96191e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-25 11:56:49</sys_created_on>
+        <sys_id>6f03e386db51001099cf61ca0b961922</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-25 11:56:50</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>a303e386db51001099cf61ca0b96191e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-25 11:56:49</sys_created_on>
+        <sys_id>e303e386db51001099cf61ca0b961924</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-25 11:56:50</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
     <sys_attachment action="INSERT_OR_UPDATE">
         <average_image_color>#ffffff</average_image_color>
         <chunk_size_bytes>700000</chunk_size_bytes>
         <compressed>true</compressed>
         <content_type>image/png</content_type>
-        <file_name>desktop_image</file_name>
+        <file_name>picture</file_name>
         <hash>071024c0b77961b0f4628890900eba50128a976bc65658e5a44d43a33998a69d</hash>
         <image_height>226</image_height>
         <image_width>223</image_width>
@@ -37,30 +123,30 @@
         <size_compressed>3044</size_compressed>
         <state>available</state>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-25 12:09:35</sys_created_on>
-        <sys_id>eef563cedb51001099cf61ca0b9619b1</sys_id>
+        <sys_created_on>2019-11-25 12:10:32</sys_created_on>
+        <sys_id>e83627cedb51001099cf61ca0b961999</sys_id>
         <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-11-25 12:09:36</sys_updated_on>
-        <table_name>ZZ_YYsc_catalog</table_name>
-        <table_sys_id>c30270a1db08001075fecc30399619eb</table_sys_id>
+        <sys_updated_on>2019-11-25 12:10:34</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>a303e386db51001099cf61ca0b96191e</table_sys_id>
     </sys_attachment>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAA==</data>
         <length>16</length>
         <position>0</position>
-        <sys_attachment display_value="desktop_image" sys_id="eef563cedb51001099cf61ca0b9619b1">eef563cedb51001099cf61ca0b9619b1</sys_attachment>
+        <sys_attachment display_value="picture" sys_id="e83627cedb51001099cf61ca0b961999">e83627cedb51001099cf61ca0b961999</sys_attachment>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-25 12:09:35</sys_created_on>
-        <sys_id>22f563cedb51001099cf61ca0b9619b2</sys_id>
+        <sys_created_on>2019-11-25 12:10:32</sys_created_on>
+        <sys_id>2c3627cedb51001099cf61ca0b961999</sys_id>
     </sys_attachment_doc>
     <sys_attachment_doc action="INSERT_OR_UPDATE">
         <data>Ac0LMvSJUE5HDQoaCgAAAA1JSERSAAAA3wAAAOIIAwAAAPnD4m0AAACQUExURf///+4cJe0AAO4YIe0AEP7z8+4OGu4FFfOChfNzdvm4uu4wN/STle4WIPJtcPSOkPrFx+0ACf3q6u84Pvexsv74+Pva2/3v7/FfYvrOz/zk5PN7fvajpfzf4PrIye87QfvT1PBSVvBJTvSChfacnu4nLvJkaPJpbfBNUvFYXfWQkvepq/WYmvi1tvBDSPWgoow/XHQAAAr4SURBVHic7Z15m6ogFMYTECqHisoWW6bNZpxm6vt/u5uVgLuWpt6H33/3TiZvbIfD4dBqKRQKhUKhUCgUCoVCoVAoFAqFQpEZa7D82R+dK532sruqujhFYq5/Zxgzhgh2IYgxDL9OVtXlKoTp+Iuiqx7ND8SMON2qC/cqZvdIw9o8MBuNqy7hK1gfdry4GxRsJ1WX8lk2HYwSxd3rEJ+qLuhTbGaIpKtzOyLoVF3W/KyODGcRdwN9m1WXNx/TBciu7gpplsAlRnnUuQK3zRG4ObNM/c4HW1Rd7IyY7RwdTwI0YyJcG3mb5gOoNcBa0/eMPifv2gV7VZc+lfmzlXcDbaoufwqH5yvvVoFfVQtIxDyyV9S5C4o690DrpbZ5g12qFhHPXHtqVvBBP6tWEcuavNT17tS3gU5oAfKuc/ygaiHRDO3XG6cL+q1aSSTmrhh5Gq7nFN95eeR8UM8BZgwKkqfBUdVaIhhm80L4dFCMacRT0KhaTAROzs5HCaDfx6+tHV5H1VFfN1frhJiN9vOp+6A+cIKP1rB9mqMcMx8kpLeWHBHLwMBUw/Elx+ACEW4HDJSD/2l8rEZEPDmqD+Hfaej5ne9x1K9AQiKZex9m7WHq8/XzwfSyDZ4UHKNN5ymUpwkwf3Px09C1THMfG8UazlupgUIt3ICrZZ1lyY7RR7zztiM1gPoNn4d0yxOyxA0wWR/6eVvBM7IgqZWHl4nfIOsD6zcVOzOdlOEFgm3Kklz6BmjUbg8iRR8myZV3ZSa+gdRvC6Kd1D6vlZcaBGKexfhZv+bZ6iaMnxilVl6rZYn5nY5q1zxb09jgAQi+s0TwSPYLO5Re3Pz0oycIyOxsptaRdz8I6+gc1KM8ZxBpfT3T41Oxiif1DDKY0KBAyrR+VjvrIvovqWkYzOoMpD5ICdhdMluR0uqqptV3xTwYgGBMMSYMnPebHKPgmFcfxDWOJ9TX/eN25xzbf6tcQ7z5yauPtcsqXFE8MXkdRPXZ2cajRjEUi0fwV3VhSqDHjTsyq7osT6FPk0ZSYbrQ2q3bM2AddrZtj/Zx05rcOmu67ZfAdI8ZhRBSxGJ8fg5vnXGfqDFdWwS2gshl3S9ocOfr+wJhotZ1Ay4Pfzau8y38Tt8I02vC11VUq7HhEs0isOgNu/2GhmeUQ1Y3l24q+6DLnp4DnzDPQl7jhs7whlLQrWnyobOB8lahEwEQ+XuY6SD+l8bJa21D6/mAX0XIow2UF26dzD96CnlYq58/MA3TCG53BuRNd1yevammjK+wDPpDA0dTrE9vaEGfdXSXpSAtyB/y/MtyEUTJZvVz5qazDvQ+4Lec/9BDPgS1d0dEEtguA/543L7naMO4dvvsmQgEUwDf/sPU8fomGtXU1ZnGBMTLW9vEa5u9pvqSfLtJQJ7WzT6gXtts5mlGl19pswXtpT/Mz8yrvEy7SjVFGl6gLcb/6QI9pgVM6rgHlhlJH+Ot0PzVeM9zGlx5LTlaBNJHMJZ5sr3DgEhr5qwgGAh/u3Zrntav7c15FHQa52cJMhTjC+6t10sHe3UHwWfzFgthvsTiDwPA448h0mp8sigH86hoSXe3uvFN80EnFC9Cgd2PCvxsJubWJ5AisDv9L3V3w9wD5O47QEgxYOefTdUFKpxJ/2xf5Rnn3jjfbnVz0IfD4X8qTaFQKBQKhUKhUCgUCoXi/Ziryf/qR2q5u18jAMA5w0m/RmJ93iJ1KWhkOEsq5tnb0WS1PR71CkuxnwIaGvORiBQMyT4yP6Wvng0QMVdv3eCeSpmXcJbkj/pqcOh920+c5zCt+amzNaLPGpTFVNruS09NY3Z2NgAIU5hb33g7crdLKSRvjVuT47HIPu3Tuu0dCsit78fbxX+vPjkgBKTeBKAbXmvOre/D29h/s74JTwSN01ObNFBfa/wIK8M0fXpoor5W1wCIsAyJJhqqr2V2PxaXTGdsmqkvO3XWZ5q6+aQFzR+T9OWNZSpTn745dWa7s33eHfvrOMPKtCKiQKbzS2f2vdsdO5e5Lutjy8nGJfB5a3BZdDqL5SDUmUvTpw86xtVwwJRCSjEB9j74bv1qOC2cz1BmNr171K7GyvVJijEC9krSpyHgYsstwhw7zP08Jtc/7g7+n6skfdaPAfwJXiDxp8g9bEe3UtHA9K4f/E+6RwAlfffvkpNFDj7lCzEos30Ba6XoWy1IxO0wEDjSz97zJni/vrEduAHCrd4kfW0QOBgC2VF6TRn6TC3m7hvkiA/x/FKyvulXqLRuU0zQ14uIy5NfU0r99eNyR0nnuaP0TezQg8xt1PH6FpFJGqWUG6XoGz7eCvFtOJDWeowbYxH61kiqPHp7lOFhhD7q6ZPO1EE53aKYRsoZX9zCQ4Ts2eFvMOi2NZEuoiN/xK9vLbLdQIRH/fFgMP65re0lffR2ydojnduQD0QQaYaB+Wvwrlx9E4CZ3Z57/VzniYQh9YbvsD6RMIrits/olua/02py5THVdDxBlLqZfyZfXCBPl1nS/LA9d+UpSiTDZJ6asD6eEJR+BpYUMfbLymudED/kcIHcJ1DW/Bf4N89Wx/PIJuhDQYdTjP255y5Gb8rjmTegppeqL8iYny318sQn6QtmzYjWp9ueGIMbfzxM3avoN+nj2Uz5if3X9fEjkVJ2xT9+ku5hLL1J38Z7L88z/ro+7sKRZtCNpxlv7/9Rqr7paj64c+B5B4rT9+3NltLtQDzpomcClKdv0t9i4CGOFxWmTxx5gaeBB+/n0J6Wqm+9daPhtRDF6ZOOfDL+O4ozBo+sb+Xo03txl/gVpy8lP/hjhi9Fn2XEJmctTt8lOQHzY4IoQ1/SnTHF6dsnJ2B+fG0Z+hzpzdclBLsicpEWpk9OnxxBefrkjoG04+F0Oo0X3MAuQV/kYro8fVJeY+YlY/3j43bx+ujZPfUSwixJ30aM0YAfFR4Xr4+bL3TXiqd4fSJvsJTdqwR9fPx8sz5xrwMRHs8S9PFunnh3QPH6uFkoX9lTgj6xujUSgg6K18eHFyxlByxBn/hPnLCD2Fx9wl+TlMK1eH08rT+VvMxl6Pvja72EAJND4fqE3YTFVkdh+iRnN7+9DGrxx6zHEYv81xCpFpDY6XhNn4h2IvKfuHswlGZyMvN+Wp5NM5TK8FlMbi9BzH/X1+wX8WGefeOmghuC/hCv1QLwFDniFoXCUt6JXDXUuC/CzI3zkv0p3EYaPkuD5YK/iR039/8yrZMDiJel4wrPOwa1bjGRmLrNDVAKnHa73ZF26KD9jL6psKGvX7lvPz4gJRrG4NxptxezEbhnxOEVKMwpCEbXjxSQM0BeQGBCCBYGNwRexstc+lptJH8l8hrBQHoT9b2KpzW3kO8jqIjcdz9xrgOKeJahfPqmPG3rrfB85vmNdVLwHFxtOe9DQVdhtEHUmgwyQ4S75NPX2siXRUj7m/3IN2mYLTyjzdxKNVjUVR8nEPIeQIbly7Zy6mttDLFxLe9Pj0nYT0GAsxGf0GfSxltRV5lYRyBtUrvJum1/ZEOP4TvcuuqRh2sh+i4/s08YuW9iypZRy/qS3+ReY0l6gaiokwYeT0JaWO7JSVsjjCGEGCM4nA7kw5nd2XpbXj1vbCAxl4np44Vx29/E/hXfqm/j65sIub3KOYWtGXPc0TBGCONCr6JZdZeXy+XUnRSXVs8cWlaENWZ1l/39/mc5nsTOcVNrPl/9P/lyFAqFQqFQKBQKhUKhUCgUCoVCoVAoFAqFQqFQKBSKMP8AbnumoanalTYAAAAASUVORK5CYIJcqtAJzQsAAA==</data>
         <length>4048</length>
         <position>1</position>
-        <sys_attachment display_value="desktop_image" sys_id="eef563cedb51001099cf61ca0b9619b1">eef563cedb51001099cf61ca0b9619b1</sys_attachment>
+        <sys_attachment display_value="picture" sys_id="e83627cedb51001099cf61ca0b961999">e83627cedb51001099cf61ca0b961999</sys_attachment>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-11-25 12:09:35</sys_created_on>
-        <sys_id>a2f563cedb51001099cf61ca0b9619b2</sys_id>
+        <sys_created_on>2019-11-25 12:10:32</sys_created_on>
+        <sys_id>ac3627cedb51001099cf61ca0b961999</sys_id>
     </sys_attachment_doc>
 </record_update>
