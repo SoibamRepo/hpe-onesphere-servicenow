@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn_parameters">
+    <sys_rest_message_fn_parameters action="INSERT_OR_UPDATE">
+        <name>approvalId</name>
+        <rest_message_function display_value="Request Approval">dcf29172dbd5801099cf61ca0b9619f1</rest_message_function>
+        <sys_class_name>sys_rest_message_fn_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-27 09:52:10</sys_created_on>
+        <sys_id>0aa951fadbd5801099cf61ca0b9619dd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>approvalId</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_parameters_0aa951fadbd5801099cf61ca0b9619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-27 09:58:16</sys_updated_on>
+        <type>string</type>
+        <value>2c9099826e884c8d016eac49245a4312</value>
+    </sys_rest_message_fn_parameters>
+</record_update>

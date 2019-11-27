@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>basic</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile display_value="cas">307b3c26db95401099cf61ca0b9619d1</basic_auth_profile>
+        <basic_auth_user/>
+        <content>&lt;ApprovalProcess&gt;&#13;
+&lt;approvalResult&gt;&#13;
+&lt;name&gt;APPROVED&lt;/name&gt;&#13;
+&lt;/approvalResult&gt;&#13;
+&lt;/ApprovalProcess&gt;&#13;
+</content>
+        <function_name>Request Approval</function_name>
+        <http_method>put</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>CSA [ Request Approval ]</qualified_name>
+        <rest_endpoint>https://hcmmasternode.gselab.local/csa/rest/catalog/${catalogId}/approval/${approvalId}?userIdentifier=${subscriberId}</rest_endpoint>
+        <rest_message display_value="CSA">84e29d76dbd5801099cf61ca0b961989</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-11-27 09:22:54</sys_created_on>
+        <sys_id>dcf29172dbd5801099cf61ca0b9619f1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Request Approval</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_rest_message_fn_dcf29172dbd5801099cf61ca0b9619f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-11-27 09:59:13</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="My_Windows_MID">470d9756db11401099cf61ca0b9619e3</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>
