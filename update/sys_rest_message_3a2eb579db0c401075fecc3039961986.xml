@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message">
     <sys_rest_message action="INSERT_OR_UPDATE">
         <access>public</access>
-        <authentication_type>no_authentication</authentication_type>
+        <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Ansible Tower">03f30afddb0c401075fecc30399619e6</basic_auth_profile>
+        <basic_auth_profile display_value="Ansible Tower">8060abfa2f52001086f849e72799b62b</basic_auth_profile>
         <basic_auth_user/>
         <description/>
         <name>Ansible Tower</name>
         <oauth2_profile/>
         <protocol_name/>
-        <rest_endpoint>http://10.188.29.20/api/v2/</rest_endpoint>
+        <rest_endpoint>http://10.188.28.166/api/v2/jobs/3</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-23 06:39:50</sys_created_on>
         <sys_id>3a2eb579db0c401075fecc3039961986</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Ansible Tower</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_rest_message_3a2eb579db0c401075fecc3039961986</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-04 08:59:34</sys_updated_on>
+        <sys_updated_on>2020-01-17 09:20:03</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

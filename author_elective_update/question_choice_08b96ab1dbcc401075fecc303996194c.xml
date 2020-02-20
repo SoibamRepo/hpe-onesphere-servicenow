@@ -19,8 +19,8 @@
         <text>1</text>
         <value>1</value>
     </question_choice>
-    <fx_price action="delete_multiple" query="id=08b96ab1dbcc401075fecc303996194c"/>
-    <fx_price action="INSERT_OR_UPDATE">
+    <fx_price action="DELETE" query="id=08b96ab1dbcc401075fecc303996194c"/>
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>misc</field>
@@ -37,7 +37,7 @@
         <table>question_choice</table>
         <type>calculated</type>
     </fx_price>
-    <fx_price action="INSERT_OR_UPDATE">
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_misc</field>

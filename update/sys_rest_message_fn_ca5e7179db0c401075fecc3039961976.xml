@@ -2,7 +2,7 @@
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
         <authentication_type>no_authentication</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Ansible Tower">03f30afddb0c401075fecc30399619e6</basic_auth_profile>
+        <basic_auth_profile/>
         <basic_auth_user>admin</basic_auth_user>
         <content/>
         <function_name>Default POST</function_name>

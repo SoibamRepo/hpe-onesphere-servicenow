@@ -2,7 +2,7 @@
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
         <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Ansible Tower">03f30afddb0c401075fecc30399619e6</basic_auth_profile>
+        <basic_auth_profile/>
         <basic_auth_user/>
         <content>	{"extra_vars": {&#13;
 		"cpg": "V247_FC_r1",&#13;

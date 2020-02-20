@@ -2,18 +2,123 @@
     <sys_ui_list parent="" relationship="" sys_domain="global" table="x_228286_onesphere_ansible_awx" version="2" view="sys_ref_list">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>execution_node</element>
-            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">b9fb617edb04001075fecc30399619f3</list_id>
+            <element>number</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-26 07:53:28</sys_created_on>
-            <sys_id>f5fb617edb04001075fecc30399619f4</sys_id>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>ef54fb0a2fc7881097a4cfedf699b6ba</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-26 07:53:28</sys_updated_on>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>inventory</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>6754fb0a2fc7881097a4cfedf699b6bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_id</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>e754fb0a2fc7881097a4cfedf699b6bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_template</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>6b54fb0a2fc7881097a4cfedf699b6bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>job_type</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>eb54fb0a2fc7881097a4cfedf699b6bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>playbook</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>6f54fb0a2fc7881097a4cfedf699b6bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>project</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>ef54fb0a2fc7881097a4cfedf699b6bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>status</element>
+            <list_id display_value="x_228286_onesphere_ansible_awx" element="NULL" name="x_228286_onesphere_ansible_awx" parent="NULL" relationship="NULL" sys_domain="global" view="387f0051db00001075fecc30399619cd">6354fb0a2fc7881097a4cfedf699b6ba</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-20 13:02:19</sys_created_on>
+            <sys_id>6354fb0a2fc7881097a4cfedf699b6bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-20 13:02:19</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>

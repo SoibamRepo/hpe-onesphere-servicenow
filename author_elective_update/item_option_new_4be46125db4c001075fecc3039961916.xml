@@ -85,9 +85,9 @@
         <write_roles/>
         <x_228286_onesphere_project_networks/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=4be46125db4c001075fecc3039961916"/>
-    <fx_price action="delete_multiple" query="id=4be46125db4c001075fecc3039961916"/>
-    <fx_price action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=4be46125db4c001075fecc3039961916"/>
+    <fx_price action="DELETE" query="id=4be46125db4c001075fecc3039961916"/>
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
@@ -104,7 +104,7 @@
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
-    <fx_price action="INSERT_OR_UPDATE">
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>

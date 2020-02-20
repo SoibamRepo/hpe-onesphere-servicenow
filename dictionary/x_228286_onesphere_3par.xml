@@ -4,7 +4,7 @@
         <element active="false" label="Datastore name" max_length="40" name="datastore_name" type="string_full_utf8"/>
         <element active="false" label="ESXi hostname" max_length="40" name="esxi_hostname" type="string_full_utf8"/>
         <element active="false" label="Hostset/ Host" max_length="40" name="hostset_host" type="string_full_utf8"/>
-        <element display="true" label="Job ID" max_length="32" name="job_id" reference="x_228286_onesphere_ansible_awx" type="reference"/>
+        <element label="Job ID" max_length="32" name="job_id" reference="x_228286_onesphere_ansible_awx" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="RITM" max_length="40" name="ritm" reference="sc_req_item" type="reference"/>
         <element active="false" choice="1" label="Status" max_length="40" name="status" type="string_full_utf8">

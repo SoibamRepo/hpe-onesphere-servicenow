@@ -74,9 +74,9 @@
         <visible_standalone>true</visible_standalone>
         <workflow display_value="create_lun_3par">04f096f9db4c401075fecc303996196f</workflow>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=aaf9c08adb04801075fecc303996193e"/>
-    <fx_price action="delete_multiple" query="id=aaf9c08adb04801075fecc303996193e"/>
-    <fx_price action="INSERT_OR_UPDATE">
+    <sys_translated_text action="DELETE" query="documentkey=aaf9c08adb04801075fecc303996193e"/>
+    <fx_price action="DELETE" query="id=aaf9c08adb04801075fecc303996193e"/>
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
@@ -93,7 +93,7 @@
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
-    <fx_price action="INSERT_OR_UPDATE">
+    <fx_price action="DELETE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
