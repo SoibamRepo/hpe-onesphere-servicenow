@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_228286_onesphere.UpdateJobStatus</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>UpdateJobStatus</name>
+        <script><![CDATA[var UpdateJobStatus = Class.create();
+UpdateJobStatus.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+process: function() { 
+	
+	var job_number = this.getParameter('sysparm_job_id');
+	gs.info("Job ID" + job_number);
+	
+	var target = {};
+	target = new GlideRecord('x_228286_onesphere_environment_credentials');
+	target.addQuery('number', 'AWX');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}	
+	user = target.user;
+	password = target.password.getDecryptedValue();
+	token = target.token.getDecryptedValue();
+	url = target.onesphere_url;
+	ansibleTower = url + 'jobs/' + job_number;
+	
+	gs.info("ansibleTower" + ansibleTower);
+	gs.info("User name" + " " + user);
+	gs.info("Password" + " " + password);
+	//gs.info("Token" + " " + token);
+	
+	var request = new sn_ws.RESTMessageV2();
+	request.setEndpoint(ansibleTower);				
+	request.setHttpMethod('GET');    
+	
+	var auth = 'Bearer' + ' ' + token;
+	auth =  '' + auth + '';
+	gs.info("Token" + " " + token);
+	
+	
+	//request.setBasicAuth(user,password);
+	request.setRequestHeader("Accept","application/json");   		
+	request.setRequestHeader('Content-Type','application/json');
+    request.setRequestHeader('Authorization', auth);
+	request.setMIDServer('t-system-new');
+	request.setEccParameter('skip_sensor', true);
+	var response = request.executeAsync();
+	response.waitForResponse(120);
+	var request_response_body = response.getBody();                                
+    var json = JSON.parse(request_response_body);		
+	status = json.status;
+	gs.info("Status" + status);
+	
+	/*
+	var target = new GlideRecord('incident');
+	target.addQuery('number', 'INC0009009');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}	
+	des = target.short_description;
+	gs.info("Description" + des);	
+	*/
+	
+	target = new GlideRecord('x_228286_onesphere_ansible_awx');
+	target.addQuery('job_id', job_number);
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}	
+	sys_id = target.sys_id;
+	gs.info("System ID" + sys_id);	
+	
+	var gr = new GlideRecord('x_228286_onesphere_ansible_awx');
+    gr.get(sys_id);
+    gr.status=status;
+    gr.update();	
+},
+	
+
+    type: 'UpdateJobStatus'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-20 18:33:02</sys_created_on>
+        <sys_id>c5df7cd62f0f881097a4cfedf699b6e4</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>UpdateJobStatus</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_include_c5df7cd62f0f881097a4cfedf699b6e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 02:46:00</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>b16b370bdba8dfc03353f22ebf9619f0</instance_id>
+        <instance_name>dev51601</instance_name>
+        <name>sys_script_include_c5df7cd62f0f881097a4cfedf699b6e4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_228286_onesphere.UpdateJobStatus&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;UpdateJobStatus&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var UpdateJobStatus = Class.create();
+UpdateJobStatus.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+process: function() { 
+	
+	var job_number = this.getParameter('sysparm_job_id');
+	gs.info("Job ID" + job_number);
+	
+	var target = {};
+	target = new GlideRecord('x_228286_onesphere_environment_credentials');
+	target.addQuery('number', 'AWX');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}	
+	user = target.user;
+	password = target.password.getDecryptedValue();
+	token = target.token.getDecryptedValue();
+	url = target.onesphere_url;
+	ansibleTower = url + 'jobs/' + job_number;
+	
+	gs.info("ansibleTower" + ansibleTower);
+	gs.info("User name" + " " + user);
+	gs.info("Password" + " " + password);
+	//gs.info("Token" + " " + token);
+	
+	var request = new sn_ws.RESTMessageV2();
+	request.setEndpoint(ansibleTower);				
+	request.setHttpMethod('GET');    
+	
+	var auth = 'Bearer' + ' ' + token;
+	auth =  '' + auth + '';
+	gs.info("Token" + " " + token);
+	
+	
+	//request.setBasicAuth(user,password);
+	request.setRequestHeader("Accept","application/json");   		
+	request.setRequestHeader('Content-Type','application/json');
+    request.setRequestHeader('Authorization', auth);
+	request.setMIDServer('t-system-new');
+	request.setEccParameter('skip_sensor', true);
+	var response = request.executeAsync();
+	response.waitForResponse(120);
+	var request_response_body = response.getBody();                                
+    var json = JSON.parse(request_response_body);		
+	status = json.status;
+	gs.info("Status" + status);
+	
+	/*
+	var target = new GlideRecord('incident');
+	target.addQuery('number', 'INC0009009');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}	
+	des = target.short_description;
+	gs.info("Description" + des);	
+	*/
+	
+	target = new GlideRecord('x_228286_onesphere_ansible_awx');
+	target.addQuery('job_id', job_number);
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}	
+	sys_id = target.sys_id;
+	gs.info("System ID" + sys_id);	
+	
+	var gr = new GlideRecord('x_228286_onesphere_ansible_awx');
+    gr.get(sys_id);
+    gr.status=status;
+    gr.update();	
+},
+	
+
+    type: 'UpdateJobStatus'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-02-20 18:33:02&lt;/sys_created_on&gt;&lt;sys_id&gt;c5df7cd62f0f881097a4cfedf699b6e4&lt;/sys_id&gt;&lt;sys_mod_count&gt;22&lt;/sys_mod_count&gt;&lt;sys_name&gt;UpdateJobStatus&lt;/sys_name&gt;&lt;sys_package display_value="OneSphere Integration" source="x_228286_onesphere"&gt;0d703a034f161300fb4cb82ca310c79e&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="OneSphere Integration"&gt;0d703a034f161300fb4cb82ca310c79e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_c5df7cd62f0f881097a4cfedf699b6e4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-02-21 02:46:00&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-378374316</payload_hash>
+        <record_name>UpdateJobStatus</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 02:46:00</sys_created_on>
+        <sys_id>05e0f61a2fc3c81097a4cfedf699b6e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17065a336ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 02:46:00</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>8de0f61a8dc3c810aacccbef786c8ae6</update_guid>
+        <update_guid_history>8de0f61a8dc3c810aacccbef786c8ae6:-378374316,4b60bed6aac3c810a40adbee9ed649ad:1791843471,5d20be96c8c3c810fb36605814158889:-113720958,090fe696f5c3c81060a6b660f5eb8eea:391224318,baad665664c3c810cf9a518316df81b3:-884762892,1ea2d95aa04f8810ba2c94fd3089b85c:-2089146814,3712dd9a994f881050a4c91831b67b27:1405580844,b551d95a234f88107a3f0611042e9b19:772641211,de11d91ae94f88101245232513435c9c:1120092750,3ea0d91a3d4f881016fecd0fd34ff859:1096448324,6a1091d6644f8810b88aeecdff6eea35:-1618218451,18df09d6f94f8810e8eab386e5bc7286:-156996970,fcfe45d6b24f8810cc0af08d49aabf56:-776436671,b8ce8d16a44f88108dd55c695f6c54a1:1938517897,0eae4196d14f88105df968a021f8f955:-22141069,fd7d4d56914f8810c90dee667ebb5c94:141801999,2e5dc956f04f88103c28e1a74ddce74a:-1164490359,2385455ed90f88104bc127cf54493c1f:298273395,3315c9da260f8810e790e23a54a08c32:1067475262,1c0481da110f88108d64224fb69e2041:-1451190223,5a8381da8c0f88105a4d7afe3ebfe83a:1215270055,1ac20dd6850f881020f6024f9a7177ff:-1804596734,0410811a3c0f8810a757fe66883cd911:-171516062</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 06:57:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0f56d514758348538d7e8a3bfef86591</sys_id>
+        <sys_metadata>c5df7cd62f0f881097a4cfedf699b6e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UpdateJobStatus</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_script_include_c5df7cd62f0f881097a4cfedf699b6e4</sys_update_name>
+        <sys_update_version display_value="sys_script_include_c5df7cd62f0f881097a4cfedf699b6e4">05e0f61a2fc3c81097a4cfedf699b6e7</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 06:57:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

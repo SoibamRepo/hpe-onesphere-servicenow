@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="scope_master=workflow_version" label="Workflow Instance" max_length="40" name="wf_workflow_instance" type="collection">
+        <element label="myvariable" max_length="100" name="x_228286_onesphere_u_myvariable" type="string_full_utf8"/>
+    </element>
+</database>

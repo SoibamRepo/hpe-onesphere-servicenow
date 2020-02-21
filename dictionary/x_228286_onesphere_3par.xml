@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="3PAR" max_length="40" name="x_228286_onesphere_3par" type="collection">
-        <element active="false" label="CPG" max_length="40" name="cpg" type="string_full_utf8"/>
+        <element label="CPG" max_length="40" name="cpg" type="string_full_utf8"/>
         <element active="false" label="Datastore name" max_length="40" name="datastore_name" type="string_full_utf8"/>
         <element active="false" label="ESXi hostname" max_length="40" name="esxi_hostname" type="string_full_utf8"/>
         <element active="false" label="Hostset/ Host" max_length="40" name="hostset_host" type="string_full_utf8"/>
@@ -14,6 +14,7 @@
                 <element inactive_on_update="false" label="Deleting" sequence="300" value="Deleting"/>
             </choice>
         </element>
+        <element label="3PAR Storage" max_length="40" name="storage_system_ip" type="string_full_utf8"/>
         <element default="javascript:current.getTableName();" dynamic_default_value="b5cb83a85f220100a9ad2572f2b4773c" label="Class" max_length="80" name="sys_class_name" type="sys_class_name" use_dynamic_default="true"/>
         <element label="Volume Name" max_length="40" name="volume_name" type="string_full_utf8"/>
         <element label="Volume size" max_length="40" name="volume_size" type="string_full_utf8"/>

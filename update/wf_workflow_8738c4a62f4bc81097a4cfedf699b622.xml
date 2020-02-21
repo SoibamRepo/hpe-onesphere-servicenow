@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"activities":{},"stages":{},"ends":["de6d402e2f4bc81097a4cfedf699b64f"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type>run_match</condition_type>
+        <description/>
+        <expected_sequences>d26d402e2f4bc81097a4cfedf699b652,526d402e2f4bc81097a4cfedf699b651,de6d402e2f4bc81097a4cfedf699b64f</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>d26d402e2f4bc81097a4cfedf699b652,526d402e2f4bc81097a4cfedf699b651,de6d402e2f4bc81097a4cfedf699b64f</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Sample Subflow</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field/>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">d26d402e2f4bc81097a4cfedf699b652</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>5a6d402e2f4bc81097a4cfedf699b64e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:33:27</sys_updated_on>
+        <table>x_228286_onesphere_3par</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Sample Subflow">8738c4a62f4bc81097a4cfedf699b622</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Sample Subflow</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:07:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8738c4a62f4bc81097a4cfedf699b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sample Subflow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>wf_workflow_8738c4a62f4bc81097a4cfedf699b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:07:36</sys_updated_on>
+        <table>x_228286_onesphere_3par</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>d26d402e2f4bc81097a4cfedf699b652</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Sample Subflow">5a6d402e2f4bc81097a4cfedf699b64e</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=d26d402e2f4bc81097a4cfedf699b652"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">d26d402e2f4bc81097a4cfedf699b652</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>da6d4c2e2f4bc81097a4cfedf699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>de6d402e2f4bc81097a4cfedf699b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Sample Subflow">5a6d402e2f4bc81097a4cfedf699b64e</workflow_version>
+        <x>559</x>
+        <y>246</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=de6d402e2f4bc81097a4cfedf699b64f"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Sample Scripts</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>526d402e2f4bc81097a4cfedf699b651</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:55</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Sample Subflow">5a6d402e2f4bc81097a4cfedf699b64e</workflow_version>
+        <x>289</x>
+        <y>0</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=526d402e2f4bc81097a4cfedf699b651"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>526d402e2f4bc81097a4cfedf699b651</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>566d402e2f4bc81097a4cfedf699b651</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:55</sys_updated_on>
+        <value>answer = ifScript();&#13;
+var variable1 = "";&#13;
+function ifScript()&#13;
+{&#13;
+   var variable1 = "Hello World";&#13;
+   return variable1;&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>526d402e2f4bc81097a4cfedf699b651</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>566d402e2f4bc81097a4cfedf699b651</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:55</sys_updated_on>
+        <value>answer = ifScript();&#13;
+var variable1 = "";&#13;
+function ifScript()&#13;
+{&#13;
+   var variable1 = "Hello World";&#13;
+   return variable1;&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Sample Scripts">526d402e2f4bc81097a4cfedf699b651</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>5e6d402e2f4bc81097a4cfedf699b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">da6d4c2e2f4bc81097a4cfedf699b69d</condition>
+        <from display_value="Begin">d26d402e2f4bc81097a4cfedf699b652</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>526d4c2e2f4bc81097a4cfedf699b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+        <to display_value="Sample Scripts">526d402e2f4bc81097a4cfedf699b651</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">5e6d402e2f4bc81097a4cfedf699b651</condition>
+        <from display_value="Sample Scripts">526d402e2f4bc81097a4cfedf699b651</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>9e6d4c2e2f4bc81097a4cfedf699b69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+        <to display_value="End">de6d402e2f4bc81097a4cfedf699b64f</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 09:30:13</sys_created_on>
+        <sys_id>da6d402e2f4bc81097a4cfedf699b64e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 09:30:13</sys_updated_on>
+        <workflow_version display_value="Sample Subflow">5a6d402e2f4bc81097a4cfedf699b64e</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=8738c4a62f4bc81097a4cfedf699b622^sys_id!=5a6d402e2f4bc81097a4cfedf699b64e">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

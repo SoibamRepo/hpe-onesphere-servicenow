@@ -7,7 +7,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="Deprovision HPE 3PAR Storage">b76790c6db44801075fecc303996190e</cat_item>
+        <cat_item display_value="Deprovision an existing  volume from 3PAR Storage">b76790c6db44801075fecc303996190e</cat_item>
         <cat_variable>IO:fdb610c6db44801075fecc3039961962</cat_variable>
         <condition/>
         <description/>
@@ -15,27 +15,27 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>3PAR - Listing of datastores</name>
+        <name>Listin of 3PAR IPs</name>
         <order/>
         <script><![CDATA[function onLoad() {
    //Type appropriate comment here, and begin script below
 	
-   var ga = new GlideAjax('ListDataStores');
+   var ga = new GlideAjax('List3PARIPs');
    ga.addParam('sysparm_name','process');
    //ga.addParam('sysparm_services',g_form.getValue('services'));
-   ga.getXML(ListDataStores);
+   ga.getXML(ListIPs);
    
 	
-   function ListDataStores(response) 
+   function ListIPs(response) 
    {	  
 		var answer = response.responseXML.documentElement.getAttribute("answer"); 
 		answer = JSON.parse(answer);
-		//print(answer);	
+		alert(answer);	
 		
-		g_form.clearOptions('volume_name');	   
+		g_form.clearOptions('storage_system_ip');	   
 		for( var i=0 ; i < answer.length ; i++)
 		{			    
-			g_form.addOption('volume_name',answer[i],answer[i]);
+			g_form.addOption('storage_system_ip',answer[i],answer[i]);
          }
    } 
 }]]></script>
@@ -45,18 +45,18 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97fb4496dbc0c01075fecc30399619d4</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>3PAR - Listing of datastores</sys_name>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Listin of 3PAR IPs</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>catalog_script_client_97fb4496dbc0c01075fecc30399619d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-27 08:21:42</sys_updated_on>
+        <sys_updated_on>2020-02-21 06:59:45</sys_updated_on>
         <table/>
         <type>onLoad</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <variable_set/>
         <view/>
     </catalog_script_client>

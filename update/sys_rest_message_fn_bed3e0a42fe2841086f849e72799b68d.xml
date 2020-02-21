@@ -2,7 +2,7 @@
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
         <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Ansible Tower">8060abfa2f52001086f849e72799b62b</basic_auth_profile>
+        <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
         <function_name>Get AutoPlat Token</function_name>

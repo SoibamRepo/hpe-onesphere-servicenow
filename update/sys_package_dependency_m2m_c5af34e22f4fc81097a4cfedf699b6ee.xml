@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Workflow Runtime Engine" source="com.glideapp.workflow">34c39815dbc0001075fecc3039961927</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-21 13:09:40</sys_created_on>
+        <sys_id>c5af34e22f4fc81097a4cfedf699b6ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-21 13:09:40</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

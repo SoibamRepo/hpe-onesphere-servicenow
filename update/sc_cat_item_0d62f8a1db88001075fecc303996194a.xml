@@ -25,7 +25,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Provision HPE 3PAR  Storage</name>
+        <name>Provision a volume from 3PAR storage</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -57,14 +57,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-22 06:30:07</sys_created_on>
         <sys_id>0d62f8a1db88001075fecc303996194a</sys_id>
-        <sys_mod_count>20</sys_mod_count>
-        <sys_name>Provision HPE 3PAR  Storage</sys_name>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Provision a volume from 3PAR storage</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sc_cat_item_0d62f8a1db88001075fecc303996194a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-20 12:11:45</sys_updated_on>
+        <sys_updated_on>2020-02-21 07:41:21</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
