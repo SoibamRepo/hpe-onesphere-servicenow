@@ -9,7 +9,7 @@
         <delivery_plan/>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
-        <description><![CDATA[<p><span style="font-family: &#39;times new roman&#39;, times; font-size: 10pt;"><strong>Remove the vCenter datastore from all the ESXi hosts and remove the volume from the 3PAR.</strong></span></p>]]></description>
+        <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
         <group/>
@@ -25,7 +25,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Deprovision an existing  volume from 3PAR Storage</name>
+        <name>Deprovision an existing  volume </name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -57,14 +57,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-23 17:48:41</sys_created_on>
         <sys_id>b76790c6db44801075fecc303996190e</sys_id>
-        <sys_mod_count>10</sys_mod_count>
-        <sys_name>Deprovision an existing  volume from 3PAR Storage</sys_name>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Deprovision an existing  volume </sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sc_cat_item_b76790c6db44801075fecc303996190e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 07:41:54</sys_updated_on>
+        <sys_updated_on>2020-02-22 05:43:42</sys_updated_on>
         <template/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
