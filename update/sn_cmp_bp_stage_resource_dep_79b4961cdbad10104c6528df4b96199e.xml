@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_dep">
+    <sn_cmp_bp_stage_resource_dep action="INSERT_OR_UPDATE">
+        <bp_stage_model display_value="">97129e18dbad10104c6528df4b9619e2</bp_stage_model>
+        <deployment_type>1</deployment_type>
+        <endpoint/>
+        <guest_association_name>Blueprint Container Resource</guest_association_name>
+        <guest_resource display_value="Provision VM using template on vCenter Blueprint Resource">71125e18dbad10104c6528df4b961926</guest_resource>
+        <host_association_name>Virtual Server</host_association_name>
+        <host_resource display_value="Virtual Server">6a4a735e0be622009e620bcb15673a04</host_resource>
+        <sys_class_name>sn_cmp_bp_stage_resource_dep</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 02:12:01</sys_created_on>
+        <sys_id>79b4961cdbad10104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_dep_79b4961cdbad10104c6528df4b96199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 02:12:01</sys_updated_on>
+    </sn_cmp_bp_stage_resource_dep>
+</record_update>

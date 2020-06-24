@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="x_228286_onesphere_vmware" label="Playbooks" max_length="40" name="x_228286_onesphere_playbooks" type="collection"/>
+</database>

@@ -30,7 +30,7 @@
    {	  
 		var answer = response.responseXML.documentElement.getAttribute("answer"); 
 		answer = JSON.parse(answer);
-		alert(answer);	
+		//alert(answer);	
 		
 		g_form.clearOptions('storage_system_ip');	   
 		for( var i=0 ; i < answer.length ; i++)
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97fb4496dbc0c01075fecc30399619d4</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Listin of 3PAR IPs</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -53,7 +53,7 @@
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>catalog_script_client_97fb4496dbc0c01075fecc30399619d4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-21 06:59:45</sys_updated_on>
+        <sys_updated_on>2020-02-26 00:34:11</sys_updated_on>
         <table/>
         <type>onLoad</type>
         <ui_type>10</ui_type>

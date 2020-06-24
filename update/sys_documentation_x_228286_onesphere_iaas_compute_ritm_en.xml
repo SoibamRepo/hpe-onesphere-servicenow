@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ritm" label="RITM" language="en" table="x_228286_onesphere_iaas_compute">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ritm</element>
+            <help/>
+            <hint/>
+            <label>RITM</label>
+            <language>en</language>
+            <name>x_228286_onesphere_iaas_compute</name>
+            <plural>RITMs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-21 01:39:33</sys_created_on>
+            <sys_id>6f0a251ddb6154104c6528df4b961917</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>RITM</sys_name>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+            <sys_update_name>sys_documentation_x_228286_onesphere_iaas_compute_ritm_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-21 01:39:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

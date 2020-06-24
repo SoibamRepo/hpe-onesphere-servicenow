@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_228286_onesphere.IaaSListEsxiHostNames</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>IaaSListEsxiHostNames</name>
+        <script><![CDATA[var IaaSListEsxiHostNames = Class.create();
+IaaSListEsxiHostNames.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	process : function()
+	{
+		var volume_name = this.getParameter('sysparm_esxi_host');
+		var array = [];		
+		var count = 0;	
+		var target = new GlideRecord('x_228286_onesphere_storage');
+		target.addQuery('volume_name', volume_name);
+		target.query(); // Issue the query to the database to get all records 
+		while (target.next()) { 
+			// add code here to process the incident record 
+			//gs.info(target.datastore_name);	
+			var ip_lists  = target.esxi_host;
+			ip_lists = '' + ip_lists + '';
+			array[count] = ip_lists;
+			count = count + 1;					
+		}
+		gs.info("Inside ListStorageTier" + JSON.stringify(array));
+		return JSON.stringify(array);			
+	},
+	
+    type: 'IaaSListEsxiHostNames'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 04:19:22</sys_created_on>
+        <sys_id>963b61d2db6558104c6528df4b961919</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IaaSListEsxiHostNames</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_include_963b61d2db6558104c6528df4b961919</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 04:21:38</sys_updated_on>
+    </sys_script_include>
+</record_update>

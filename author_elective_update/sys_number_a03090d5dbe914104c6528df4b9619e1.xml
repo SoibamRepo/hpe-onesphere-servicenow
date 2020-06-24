@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_228286_onesphere_iaas_playbook">x_228286_onesphere_iaas_playbook</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>IAA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:06:57</sys_created_on>
+        <sys_id>a03090d5dbe914104c6528df4b9619e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IAA</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_number_a03090d5dbe914104c6528df4b9619e1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:06:57</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sys_number_a03090d5dbe914104c6528df4b9619e1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_228286_onesphere_iaas_playbook">x_228286_onesphere_iaas_playbook</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>IAA</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-20 19:06:57</sys_created_on><sys_id>a03090d5dbe914104c6528df4b9619e1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IAA</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>sys_number_a03090d5dbe914104c6528df4b9619e1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-20 19:06:57</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-68275837</payload_hash>
+        <record_name>IAA</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:06:58</sys_created_on>
+        <sys_id>f030d0d5dbe914104c6528df4b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172d32070ef0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:06:58</sys_updated_on>
+        <type>Number</type>
+        <update_guid>3c30d0d502e9141097b45e2465536c3f</update_guid>
+        <update_guid_history>3c30d0d502e9141097b45e2465536c3f:-68275837</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:12:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>471899f7acf243aab9b323b38f64fde4</sys_id>
+        <sys_metadata>a03090d5dbe914104c6528df4b9619e1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IAA</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent display_value="">25dfc495dbe914104c6528df4b961942</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_number_a03090d5dbe914104c6528df4b9619e1</sys_update_name>
+        <sys_update_version display_value="sys_number_a03090d5dbe914104c6528df4b9619e1">f030d0d5dbe914104c6528df4b961940</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:12:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

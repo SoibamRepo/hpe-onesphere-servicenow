@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <misc>0</misc>
+        <order>300</order>
+        <question display_value="Volume Tier">02d850b1dbad94104c6528df4b96199c</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 09:01:43</sys_created_on>
+        <sys_id>9ad850b1dbad94104c6528df4b9619c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Platinum</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>question_choice_9ad850b1dbad94104c6528df4b9619c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 09:01:43</sys_updated_on>
+        <text>Platinum</text>
+        <value>platinum</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=9ad850b1dbad94104c6528df4b9619c6"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>9ad850b1dbad94104c6528df4b9619c6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 09:01:43</sys_created_on>
+        <sys_id>5ed850b1dbad94104c6528df4b9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 09:01:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>9ad850b1dbad94104c6528df4b9619c6</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 09:01:43</sys_created_on>
+        <sys_id>16d850b1dbad94104c6528df4b9619c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 09:01:43</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>question_choice_9ad850b1dbad94104c6528df4b9619c6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><misc>0</misc><order>300</order><question display_value="Volume Tier">02d850b1dbad94104c6528df4b96199c</question><rec_misc>0</rec_misc><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-22 09:01:43</sys_created_on><sys_id>9ad850b1dbad94104c6528df4b9619c6</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Platinum</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>question_choice_9ad850b1dbad94104c6528df4b9619c6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-22 09:01:43</sys_updated_on><text>Platinum</text><value>platinum</value></question_choice><fx_price action="delete_multiple" query="id=9ad850b1dbad94104c6528df4b9619c6"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>misc</field><id>9ad850b1dbad94104c6528df4b9619c6</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-22 09:01:43</sys_created_on><sys_id>5ed850b1dbad94104c6528df4b9619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-22 09:01:43</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>rec_misc</field><id>9ad850b1dbad94104c6528df4b9619c6</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-22 09:01:43</sys_created_on><sys_id>16d850b1dbad94104c6528df4b9619c7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-22 09:01:43</sys_updated_on><table>question_choice</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-1392215559</payload_hash>
+        <record_name>Platinum</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 09:01:43</sys_created_on>
+        <sys_id>dad850b1dbad94104c6528df4b9619c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172db430bdc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 09:01:43</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>16d850b138ad94106ae84a5332640dc9</update_guid>
+        <update_guid_history>16d850b138ad94106ae84a5332640dc9:-1392215559</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Platinum">0969d8b1dbad94104c6528df4b9619c0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 09:04:05</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>46499cba00ba4371a6c17dab37e9fbc9</sys_id>
+        <sys_metadata>9ad850b1dbad94104c6528df4b9619c6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Platinum</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>question_choice_9ad850b1dbad94104c6528df4b9619c6</sys_update_name>
+        <sys_update_version display_value="question_choice_9ad850b1dbad94104c6528df4b9619c6">dad850b1dbad94104c6528df4b9619c9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 09:04:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="DELETE">
+        <create_roles/>
+        <description/>
+        <display_title>false</display_title>
+        <internal_name>server_network_configuration</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 03:05:39</sys_created_on>
+        <sys_id>f811e77507095010c2acf48f7c1ed05d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Server Network Configuration</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>item_option_new_set_f811e77507095010c2acf48f7c1ed05d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 03:05:39</sys_updated_on>
+        <title>Server Network Configuration</title>
+        <type>one_to_many</type>
+        <write_roles/>
+    </item_option_new_set>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>ee376140db264890387021c4059619c5</instance_id>
+        <instance_name>dev97170</instance_name>
+        <name>item_option_new_set_f811e77507095010c2acf48f7c1ed05d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set"><item_option_new_set action="INSERT_OR_UPDATE"><create_roles/><description/><display_title>false</display_title><internal_name>server_network_configuration</internal_name><layout>normal</layout><name/><order>100</order><read_roles/><set_attributes/><sys_class_name>item_option_new_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-05-29 03:05:39</sys_created_on><sys_id>f811e77507095010c2acf48f7c1ed05d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Server Network Configuration</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>item_option_new_set_f811e77507095010c2acf48f7c1ed05d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-05-29 03:05:39</sys_updated_on><title>Server Network Configuration</title><type>one_to_many</type><write_roles/></item_option_new_set></record_update>]]></payload>
+        <payload_hash>163498736</payload_hash>
+        <record_name>Server Network Configuration</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 03:05:39</sys_created_on>
+        <sys_id>d03123f107095010c2acf48f7c1ed02a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1725e646ef50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 03:05:39</sys_updated_on>
+        <type>Variable Set</type>
+        <update_guid>1c3123f17a095010cfd31969b311fb29</update_guid>
+        <update_guid_history>1c3123f17a095010cfd31969b311fb29:163498736</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Server Network Configuration">ab62efb507095010c2acf48f7c1ed0ba</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 03:11:04</sys_created_on>
+        <sys_db_object display_value="" name="item_option_new_set">item_option_new_set</sys_db_object>
+        <sys_id>4150f4d8ce224ae99c2ad9d144743281</sys_id>
+        <sys_metadata>f811e77507095010c2acf48f7c1ed05d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Server Network Configuration</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>item_option_new_set_f811e77507095010c2acf48f7c1ed05d</sys_update_name>
+        <sys_update_version display_value="item_option_new_set_f811e77507095010c2acf48f7c1ed05d">d03123f107095010c2acf48f7c1ed02a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 03:11:04</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_rb_op_impl_param">
+    <sn_cmp_rb_op_impl_param action="INSERT_OR_UPDATE">
+        <applicable_to/>
+        <datasource>10</datasource>
+        <datasourcevalue>cmn_cost_center</datasourcevalue>
+        <defaultvalue>${parameter.CostCenter}</defaultvalue>
+        <error_text/>
+        <help_text/>
+        <host/>
+        <ismandatory>false</ismandatory>
+        <name>CostCenter</name>
+        <op_param/>
+        <operation display_value="Provision">b9125e18dbad10104c6528df4b961933</operation>
+        <order>130</order>
+        <read_only>false</read_only>
+        <regex/>
+        <step/>
+        <sys_class_name>sn_cmp_rb_op_impl_param</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 02:00:35</sys_created_on>
+        <sys_id>d6125e18dbad10104c6528df4b9619bb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CostCenter</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sn_cmp_rb_op_impl_param_d6125e18dbad10104c6528df4b9619bb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 02:00:35</sys_updated_on>
+        <ui_data_type/>
+        <value/>
+        <visibilty>true</visibilty>
+    </sn_cmp_rb_op_impl_param>
+</record_update>

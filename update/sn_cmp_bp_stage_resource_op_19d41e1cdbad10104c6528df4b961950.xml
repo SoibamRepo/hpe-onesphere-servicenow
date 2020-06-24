@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource_op">
+    <sn_cmp_bp_stage_resource_op action="INSERT_OR_UPDATE">
+        <alias_name>Virtual Server.Deprovision.2</alias_name>
+        <bp_stage_operation display_value="Cleanup">e3129e18dbad10104c6528df4b9619f4</bp_stage_operation>
+        <bp_stage_resource display_value="Virtual Server">f9b4961cdbad10104c6528df4b96199c</bp_stage_resource>
+        <condition_text>'${Stack.items[Virtual Server].status}'=='2'</condition_text>
+        <operation_order>700</operation_order>
+        <parent_id/>
+        <rb_operation_impl display_value="Deprovision">635a3bde0be622009e620bcb15673a0d</rb_operation_impl>
+        <resource_block display_value="Virtual Server">6a4a735e0be622009e620bcb15673a04</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource_op</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 02:12:31</sys_created_on>
+        <sys_id>19d41e1cdbad10104c6528df4b961950</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Virtual Server.Deprovision.2</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_op_19d41e1cdbad10104c6528df4b961950</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 02:12:31</sys_updated_on>
+        <type/>
+        <unique_id>3445</unique_id>
+    </sn_cmp_bp_stage_resource_op>
+</record_update>

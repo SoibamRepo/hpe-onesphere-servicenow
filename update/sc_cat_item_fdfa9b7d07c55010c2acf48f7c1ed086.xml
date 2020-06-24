@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Storage">bf0041eddb88001075fecc303996196a</category>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan/>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description><![CDATA[<p><strong><span style="font-size: 10pt; font-family: &#39;times new roman&#39;, times;">Provisioing HPE Synergy platform using OSDA tool.</span></strong></p>]]></description>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <list_price>0</list_price>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Bare-metal provisioing using OSDA</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>true</no_cart_v2>
+        <no_delivery_time_v2>true</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>true</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>10</order>
+        <ordered_item_link/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=fdfa9b7d07c55010c2acf48f7c1ed086&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <recurring_frequency/>
+        <recurring_price>0</recurring_price>
+        <request_method/>
+        <roles/>
+        <sc_catalogs>c30270a1db08001075fecc30399619eb</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:38:27</sys_created_on>
+        <sys_id>fdfa9b7d07c55010c2acf48f7c1ed086</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Bare-metal provisioing using OSDA</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sc_cat_item_fdfa9b7d07c55010c2acf48f7c1ed086</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-01 03:35:27</sys_updated_on>
+        <template/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow display_value="OSDA">8db076fa07455410c2acf48f7c1ed0b6</workflow>
+    </sc_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=fdfa9b7d07c55010c2acf48f7c1ed086"/>
+    <fx_price action="delete_multiple" query="id=fdfa9b7d07c55010c2acf48f7c1ed086"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>fdfa9b7d07c55010c2acf48f7c1ed086</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:38:27</sys_created_on>
+        <sys_id>8efa9b7d07c55010c2acf48f7c1ed08b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 02:38:30</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>fdfa9b7d07c55010c2acf48f7c1ed086</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:38:27</sys_created_on>
+        <sys_id>4efa9b7d07c55010c2acf48f7c1ed08c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 02:38:30</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/jpeg</content_type>
+        <file_name>picture</file_name>
+        <hash>d8e0c81ffadb86d3c18fa6328ee153c0b9ee4facf673c7518e96fa1c06814718</hash>
+        <image_height>171</image_height>
+        <image_width>294</image_width>
+        <size_bytes>4893</size_bytes>
+        <size_compressed>4639</size_compressed>
+        <state>available</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:38:29</sys_created_on>
+        <sys_id>aefa9b7d07c55010c2acf48f7c1ed0fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 02:38:29</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item</table_name>
+        <table_sys_id>fdfa9b7d07c55010c2acf48f7c1ed086</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="picture" sys_id="aefa9b7d07c55010c2acf48f7c1ed0fb">aefa9b7d07c55010c2acf48f7c1ed0fb</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:38:30</sys_created_on>
+        <sys_id>6afa9b7d07c55010c2acf48f7c1ed0fd</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>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</data>
+        <length>6172</length>
+        <position>1</position>
+        <sys_attachment display_value="picture" sys_id="aefa9b7d07c55010c2acf48f7c1ed0fb">aefa9b7d07c55010c2acf48f7c1ed0fb</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 02:38:30</sys_created_on>
+        <sys_id>62fa9b7d07c55010c2acf48f7c1ed0fe</sys_id>
+    </sys_attachment_doc>
+</record_update>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Storage" max_length="40" name="x_228286_onesphere_storage" type="collection">
+        <element label="Datastore Name" max_length="40" name="datastore_name" type="string_full_utf8"/>
+        <element label="ESXi Host" max_length="40" name="esxi_host" type="string_full_utf8"/>
+        <element label="Job ID" max_length="32" name="job_id" reference="x_228286_onesphere_playbooks" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="RITM" max_length="32" name="ritm" reference="sc_req_item" type="reference"/>
+        <element label="Storage Tier" max_length="40" name="storage_tier" type="string_full_utf8"/>
+        <element label="Volume Name" max_length="40" name="volume_name" type="string_full_utf8"/>
+        <element label="Volume Size" max_length="40" name="volume_size" type="string_full_utf8"/>
+        <element label="Volume Tier" max_length="40" name="volume_tier" type="string_full_utf8"/>
+        <index name="index">
+            <element name="ritm"/>
+        </index>
+        <index name="index2">
+            <element name="job_id"/>
+        </index>
+    </element>
+</database>

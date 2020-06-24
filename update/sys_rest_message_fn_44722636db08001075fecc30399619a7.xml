@@ -11,22 +11,22 @@
         <oauth2_profile/>
         <protocol_name/>
         <qualified_name>Ansible Tower [ Default GET ]</qualified_name>
-        <rest_endpoint>http://10.188.247.20/api/v2/jobs/62</rest_endpoint>
+        <rest_endpoint>http://10.188.244.139/api/v2/job_templates</rest_endpoint>
         <rest_message display_value="Ansible Tower">3a2eb579db0c401075fecc3039961986</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-09-26 11:52:03</sys_created_on>
         <sys_id>44722636db08001075fecc30399619a7</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>41</sys_mod_count>
         <sys_name>Default GET</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_rest_message_fn_44722636db08001075fecc30399619a7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-02-22 12:29:53</sys_updated_on>
+        <sys_updated_on>2020-06-23 15:33:58</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
-        <use_mid_server display_value="t-system-new">0427a5e32fb2001097a4cfedf699b601</use_mid_server>
+        <use_mid_server display_value="IaaSMidServer">2e67160ddba114104c6528df4b961948</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message_fn>
 </record_update>

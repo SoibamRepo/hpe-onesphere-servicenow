@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:17:17</sys_created_on>
+        <sys_id>fb821899dbe914104c6528df4b96191f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_228286_onesphere_playbooks.x_228286_onesphere.playbooks_user</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_security_acl display_value="x_228286_onesphere_playbooks">7f821899dbe914104c6528df4b96191a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_fb821899dbe914104c6528df4b96191f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:17:17</sys_updated_on>
+        <sys_user_role display_value="x_228286_onesphere.playbooks_user" name="x_228286_onesphere.playbooks_user">e7821459dbe914104c6528df4b961908</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sys_security_acl_role_fb821899dbe914104c6528df4b96191f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-20 19:17:17</sys_created_on><sys_id>fb821899dbe914104c6528df4b96191f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_228286_onesphere_playbooks.x_228286_onesphere.playbooks_user</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_security_acl display_value="x_228286_onesphere_playbooks">7f821899dbe914104c6528df4b96191a</sys_security_acl><sys_update_name>sys_security_acl_role_fb821899dbe914104c6528df4b96191f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-20 19:17:17</sys_updated_on><sys_user_role display_value="x_228286_onesphere.playbooks_user" name="x_228286_onesphere.playbooks_user">e7821459dbe914104c6528df4b961908</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1707726649</payload_hash>
+        <record_name>x_228286_onesphere_playbooks.x_228286_onesphere.playbooks_user</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:17:17</sys_created_on>
+        <sys_id>b3821899dbe914104c6528df4b961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172d329e2b30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:17:17</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>fb821899fae914102a69bac24622df21</update_guid>
+        <update_guid_history>fb821899fae914102a69bac24622df21:1707726649</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_228286_onesphere_playbooks.x_228286_onesphere.playbooks_user">0b5398d9dbe914104c6528df4b9619c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:20:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>34ecdc0ce0344c949799fb66163e15e1</sys_id>
+        <sys_metadata>fb821899dbe914104c6528df4b96191f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_228286_onesphere_playbooks.x_228286_onesphere.playbooks_user</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent display_value="">7f821899dbe914104c6528df4b96191a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_fb821899dbe914104c6528df4b96191f</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_fb821899dbe914104c6528df4b96191f">b3821899dbe914104c6528df4b961922</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:20:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

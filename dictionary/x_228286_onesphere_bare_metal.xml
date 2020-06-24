@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bare Metal" max_length="40" name="x_228286_onesphere_bare_metal" type="collection">
+        <element label="Gateway" max_length="40" name="gateway" type="string_full_utf8"/>
+        <element label="IP Address" max_length="40" name="ip_address" type="ip_addr"/>
+        <element label="Job ID" max_length="32" name="job_id" reference="x_228286_onesphere_playbooks" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Operating System" max_length="40" name="os" type="string_full_utf8"/>
+        <element label="RITM" max_length="32" name="ritm" reference="sc_req_item" type="reference"/>
+        <element label="Server Profile Template" max_length="40" name="server_profile_template" type="string_full_utf8"/>
+        <element label="Subnet" max_length="40" name="subnet" type="string_full_utf8"/>
+        <index name="index">
+            <element name="ritm"/>
+        </index>
+        <index name="index2">
+            <element name="job_id"/>
+        </index>
+    </element>
+</database>

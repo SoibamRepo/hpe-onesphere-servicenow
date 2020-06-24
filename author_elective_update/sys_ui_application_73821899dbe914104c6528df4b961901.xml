@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Playbooks</name>
+        <order/>
+        <roles>x_228286_onesphere.playbooks_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:17:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>73821899dbe914104c6528df4b961901</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbooks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_ui_application_73821899dbe914104c6528df4b961901</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:17:16</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sys_ui_application_73821899dbe914104c6528df4b961901</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Playbooks</name><order/><roles>x_228286_onesphere.playbooks_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-20 19:17:16</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>73821899dbe914104c6528df4b961901</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Playbooks</sys_name><sys_overrides/><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>sys_ui_application_73821899dbe914104c6528df4b961901</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-20 19:17:16</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-2079410141</payload_hash>
+        <record_name>Playbooks</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:17:16</sys_created_on>
+        <sys_id>bb821899dbe914104c6528df4b96190f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172d329e15d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:17:16</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>f38218996ce91410af2e560f78ec740f</update_guid>
+        <update_guid_history>f38218996ce91410af2e560f78ec740f:-2079410141</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:27:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>1df27d8fe175434094224983b5c82400</sys_id>
+        <sys_metadata>73821899dbe914104c6528df4b961901</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Playbooks</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_ui_application_73821899dbe914104c6528df4b961901</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_73821899dbe914104c6528df4b961901">bb821899dbe914104c6528df4b96190f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:27:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

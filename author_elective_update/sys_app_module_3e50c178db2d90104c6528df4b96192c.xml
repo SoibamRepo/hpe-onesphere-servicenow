@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="HPE IaaS Platform">2a500938db2d90104c6528df4b961985</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>HPE IaaS Platforms</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_228286_onesphere_hpe_iaas_platform</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_228286_onesphere.hpe_iaas_platform_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 09:20:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3e50c178db2d90104c6528df4b96192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HPE IaaS Platforms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_app_module_3e50c178db2d90104c6528df4b96192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 09:20:24</sys_updated_on>
+        <timeline_page/>
+        <title>HPE IaaS Platforms</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sys_app_module_3e50c178db2d90104c6528df4b96192c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="HPE IaaS Platform">2a500938db2d90104c6528df4b961985</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>HPE IaaS Platforms</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_228286_onesphere_hpe_iaas_platform</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_228286_onesphere.hpe_iaas_platform_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 09:20:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>3e50c178db2d90104c6528df4b96192c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>HPE IaaS Platforms</sys_name><sys_overrides/><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>sys_app_module_3e50c178db2d90104c6528df4b96192c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 09:20:24</sys_updated_on><timeline_page/><title>HPE IaaS Platforms</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1796860575</payload_hash>
+        <record_name>HPE IaaS Platforms</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 09:20:24</sys_created_on>
+        <sys_id>be50c178db2d90104c6528df4b96192f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172cbe1110b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 09:20:24</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f650c178212d90105c10ba3c88b6752f</update_guid>
+        <update_guid_history>f650c178212d90105c10ba3c88b6752f:1796860575</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="HPE IaaS Platforms">6dd0cd78db2d90104c6528df4b961937</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 09:22:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>50d3daeb7f794f35b9369ad8945ab479</sys_id>
+        <sys_metadata>3e50c178db2d90104c6528df4b96192c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HPE IaaS Platforms</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_app_module_3e50c178db2d90104c6528df4b96192c</sys_update_name>
+        <sys_update_version display_value="sys_app_module_3e50c178db2d90104c6528df4b96192c">be50c178db2d90104c6528df4b96192f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 09:22:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

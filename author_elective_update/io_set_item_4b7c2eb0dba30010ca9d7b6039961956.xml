@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>100</order>
+        <sc_cat_item display_value="Copy of Provision a volume from 3PAR storage">3a7c6e3cdb630010ca9d7b60399619c7</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 07:07:15</sys_created_on>
+        <sys_id>4b7c2eb0dba30010ca9d7b6039961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Storage.Copy of Provision a volume from 3PAR storage</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>io_set_item_4b7c2eb0dba30010ca9d7b6039961956</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 07:07:15</sys_updated_on>
+        <variable_set display_value="Storage">f24d8c4edb04801075fecc3039961960</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>516cd007dbb07f00b847ac44d496193e</instance_id>
+        <instance_name>dev81768</instance_name>
+        <name>io_set_item_4b7c2eb0dba30010ca9d7b6039961956</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>100</order><sc_cat_item display_value="Copy of Provision a volume from 3PAR storage">3a7c6e3cdb630010ca9d7b60399619c7</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-03-12 07:07:15</sys_created_on><sys_id>4b7c2eb0dba30010ca9d7b6039961956</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Storage.Copy of Provision a volume from 3PAR storage</sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>io_set_item_4b7c2eb0dba30010ca9d7b6039961956</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-03-12 07:07:15</sys_updated_on><variable_set display_value="Storage">f24d8c4edb04801075fecc3039961960</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1447764944</payload_hash>
+        <record_name>Storage.Copy of Provision a volume from 3PAR storage</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 07:07:15</sys_created_on>
+        <sys_id>0b7c2eb0dba30010ca9d7b603996195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>170cd91978a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 07:07:15</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>437c2eb04ca30010418f62e8911bbc5a</update_guid>
+        <update_guid_history>437c2eb04ca30010418f62e8911bbc5a:1447764944</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Storage.Copy of Provision a volume from 3PAR storage">dfb80b70db270010ca9d7b60399619ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-03-12 09:10:42</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>0008259790cb454c800128ca9640fe49</sys_id>
+        <sys_metadata>4b7c2eb0dba30010ca9d7b6039961956</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Storage.Copy of Provision a volume from 3PAR storage</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>io_set_item_4b7c2eb0dba30010ca9d7b6039961956</sys_update_name>
+        <sys_update_version display_value="io_set_item_4b7c2eb0dba30010ca9d7b6039961956">0b7c2eb0dba30010ca9d7b603996195a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-03-12 09:10:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

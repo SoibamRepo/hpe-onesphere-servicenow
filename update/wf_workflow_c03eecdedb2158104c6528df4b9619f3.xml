@@ -1,0 +1,3069 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"ends":["46517416db6158104c6528df4b9619a8"],"activities":{},"stages":{},"subflows":["696d5059db2d14104c6528df4b96198b","0b7517cddba514104c6528df4b9619e4","59f89c7a2f8b0c1097a4cfedf699b6b3","102ba41edb2158104c6528df4b96193b"]}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>c2513416db6158104c6528df4b9619fe,71513416db6158104c6528df4b9619f7,86517416db6158104c6528df4b961995,ce513416db6158104c6528df4b9619f8,86517416db6158104c6528df4b961997,ca517416db6158104c6528df4b96199c,c2517416db6158104c6528df4b961998,42517416db6158104c6528df4b9619a2,ca517416db6158104c6528df4b9619a4,0a517416db6158104c6528df4b9619a5,06517416db6158104c6528df4b9619a1,42517416db6158104c6528df4b9619a9,46517416db6158104c6528df4b9619a8</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>c2513416db6158104c6528df4b9619fe,71513416db6158104c6528df4b9619f7,86517416db6158104c6528df4b961995,0a517416db6158104c6528df4b96199f,ce513416db6158104c6528df4b9619f8,46517416db6158104c6528df4b9619a8,86517416db6158104c6528df4b961997,42513416db6158104c6528df4b9619ff,ca517416db6158104c6528df4b96199c,0e517416db6158104c6528df4b96199d,c2517416db6158104c6528df4b961998,42517416db6158104c6528df4b9619a2,ca517416db6158104c6528df4b9619a4,0a517416db6158104c6528df4b9619a5,06517416db6158104c6528df4b9619a1,42517416db6158104c6528df4b9619a9</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Iaas-Storage-Add</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration display_value="2 business days by 4pm">3bf802c20a0a0b52008e2859cd8abcf2</relative_duration>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">c2513416db6158104c6528df4b9619fe</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>79513416db6158104c6528df4b9619f4</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:08:22</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Iaas-Storage-Add">c03eecdedb2158104c6528df4b9619f3</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Iaas-Storage-Add</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 23:51:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c03eecdedb2158104c6528df4b9619f3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Iaas-Storage-Add</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>wf_workflow_c03eecdedb2158104c6528df4b9619f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 23:51:55</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>b5513416db6158104c6528df4b9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>31513416db6158104c6528df4b9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>39513416db6158104c6528df4b9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>b9513416db6158104c6528df4b9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>b1513416db6158104c6528df4b9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>35513416db6158104c6528df4b9619f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Add Storage</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca517416db6158104c6528df4b9619a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:07:13</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>543</x>
+        <y>501</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ca517416db6158104c6528df4b9619a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ca517416db6158104c6528df4b9619a4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b9619a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:07:13</sys_updated_on>
+        <value>//gs.info(workflow.scratchpad.returnedVal); // "Hello";&#13;
+url =   workflow.scratchpad.returnedVal[0];// "World";&#13;
+//url = "http://10.188.182.207/api/v2";&#13;
+//gs.info("Ansible Rest API Url" + url);&#13;
+token = workflow.scratchpad.returnedVal[1];&#13;
+//token = "Bearer"  + ' ' + "olJKrPRCAxD6ETkb5B5uLHrjtUc9hv";&#13;
+ritm =  workflow.scratchpad.ritm_number;&#13;
+&#13;
+&#13;
+var storage_tier = current.variable_pool.storage_tier;&#13;
+var volume_size = current.variable_pool.volume_size;&#13;
+var volume_tier = current.variable_pool.volume_tier;&#13;
+var esxi_host = current.variable_pool.esxi_host;&#13;
+var datastore_name = current.variable_pool.datastore_name;&#13;
+var volume_name = current.variable_pool.volume_name;&#13;
+&#13;
+//var os = current.variable_pool.os;&#13;
+//var vm_type = current.variable_pool.vm_type;&#13;
+&#13;
+storage_tier = '' + storage_tier + '';&#13;
+volume_size = '' + volume_size + '';&#13;
+volume_tier = '' + volume_tier + '';&#13;
+esxi_host = '' + esxi_host + '';&#13;
+datastore_name = '' + datastore_name + '';&#13;
+volume_name = '' + volume_name + '';&#13;
+//os = '' + os + '';&#13;
+//vm_type = '' + vm_type + '';&#13;
+&#13;
+&#13;
+//workflow.scatchpad.json_data = delete_volume(url,token);&#13;
+workflow.scratchpad.x_228286_onesphere_inputcreatejob = provision_esxi(url, token);&#13;
+//workflow.scratchpad.details = "Testing";&#13;
+gs.info("1st" + ':' + ' ' + workflow.scratchpad.x_228286_onesphere_inputcreatejob);&#13;
+&#13;
+function provision_esxi(url, token)&#13;
+{&#13;
+try {&#13;
+		gs.info("AWX URL set for  IaaS_Autoplat" + " " + url);&#13;
+		gs.info("Token generated for IaaS_Autoplat" + " " + token);&#13;
+&#13;
+		ansibleTower = url +'map/vmware-ds-create';		&#13;
+		gs.info("URL for  IaaS_Autoplat" + " " + ansibleTower);&#13;
+		var request = new sn_ws.RESTMessageV2();&#13;
+		//ansibleTower = url;&#13;
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');&#13;
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');				&#13;
+		//request.setEndpoint(ansibleTower+'map/provision-3par');	&#13;
+		request.setEndpoint(ansibleTower);&#13;
+		request.setHttpMethod('POST');&#13;
+&#13;
+		//Eg. UserName="admin", Password="admin" for this code sample.&#13;
+		//var user = 'admin';&#13;
+		//var password = 'gseteam';&#13;
+        &#13;
+		//request.setBasicAuth(user, password);&#13;
+		request.setRequestHeader('Authorization', token);&#13;
+		request.setRequestHeader("Accept", "application/json");&#13;
+		request.setRequestHeader('Content-Type', 'application/json');	&#13;
+		request.setMIDServer('IaaSMidServer');&#13;
+		request.setEccParameter('skip_sensor', true);&#13;
+	&#13;
+		&#13;
+        var body = {};&#13;
+		body["extra_vars"] = {};&#13;
+		body["extra_vars"]["storage_tier"] = storage_tier;	&#13;
+		body["extra_vars"]["size"] = volume_size;&#13;
+		body["extra_vars"]["volume_tier"] = volume_tier;&#13;
+		body["extra_vars"]["esxi_hostname"] = esxi_host;&#13;
+		body["extra_vars"]["vcenter_datastore"] = datastore_name;&#13;
+		body["extra_vars"]["volume_name"] = volume_name;&#13;
+		//body["extra_vars"]["vm_type"] = vm_type;&#13;
+		//body["extra_vars"]["oneview_hostname"] = oneview_hostname;		&#13;
+		//body["extra_vars"]["storage_system_ip"] = storage_system_ip;&#13;
+		&#13;
+         request.setRequestBody(JSON.stringify(body));&#13;
+		// 	var response = request.execute();&#13;
+		var response = request.executeAsync();&#13;
+		response.waitForResponse(160);&#13;
+	&#13;
+		var request_response_body = response.getBody();&#13;
+		var json_data = JSON.parse(request_response_body);&#13;
+		return JSON.stringify(json_data);&#13;
+		&#13;
+    } catch (x) {&#13;
+        gs.info("Failed to delete a LUN in 3PAR. Please look at logs for more details.");&#13;
+    }&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ca517416db6158104c6528df4b9619a4</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b9619a4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:07:13</sys_updated_on>
+        <value>//gs.info(workflow.scratchpad.returnedVal); // "Hello";&#13;
+url =   workflow.scratchpad.returnedVal[0];// "World";&#13;
+//url = "http://10.188.182.207/api/v2";&#13;
+//gs.info("Ansible Rest API Url" + url);&#13;
+token = workflow.scratchpad.returnedVal[1];&#13;
+//token = "Bearer"  + ' ' + "olJKrPRCAxD6ETkb5B5uLHrjtUc9hv";&#13;
+ritm =  workflow.scratchpad.ritm_number;&#13;
+&#13;
+&#13;
+var storage_tier = current.variable_pool.storage_tier;&#13;
+var volume_size = current.variable_pool.volume_size;&#13;
+var volume_tier = current.variable_pool.volume_tier;&#13;
+var esxi_host = current.variable_pool.esxi_host;&#13;
+var datastore_name = current.variable_pool.datastore_name;&#13;
+var volume_name = current.variable_pool.volume_name;&#13;
+&#13;
+//var os = current.variable_pool.os;&#13;
+//var vm_type = current.variable_pool.vm_type;&#13;
+&#13;
+storage_tier = '' + storage_tier + '';&#13;
+volume_size = '' + volume_size + '';&#13;
+volume_tier = '' + volume_tier + '';&#13;
+esxi_host = '' + esxi_host + '';&#13;
+datastore_name = '' + datastore_name + '';&#13;
+volume_name = '' + volume_name + '';&#13;
+//os = '' + os + '';&#13;
+//vm_type = '' + vm_type + '';&#13;
+&#13;
+&#13;
+//workflow.scatchpad.json_data = delete_volume(url,token);&#13;
+workflow.scratchpad.x_228286_onesphere_inputcreatejob = provision_esxi(url, token);&#13;
+//workflow.scratchpad.details = "Testing";&#13;
+gs.info("1st" + ':' + ' ' + workflow.scratchpad.x_228286_onesphere_inputcreatejob);&#13;
+&#13;
+function provision_esxi(url, token)&#13;
+{&#13;
+try {&#13;
+		gs.info("AWX URL set for  IaaS_Autoplat" + " " + url);&#13;
+		gs.info("Token generated for IaaS_Autoplat" + " " + token);&#13;
+&#13;
+		ansibleTower = url +'map/vmware-ds-create';		&#13;
+		gs.info("URL for  IaaS_Autoplat" + " " + ansibleTower);&#13;
+		var request = new sn_ws.RESTMessageV2();&#13;
+		//ansibleTower = url;&#13;
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');&#13;
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');				&#13;
+		//request.setEndpoint(ansibleTower+'map/provision-3par');	&#13;
+		request.setEndpoint(ansibleTower);&#13;
+		request.setHttpMethod('POST');&#13;
+&#13;
+		//Eg. UserName="admin", Password="admin" for this code sample.&#13;
+		//var user = 'admin';&#13;
+		//var password = 'gseteam';&#13;
+        &#13;
+		//request.setBasicAuth(user, password);&#13;
+		request.setRequestHeader('Authorization', token);&#13;
+		request.setRequestHeader("Accept", "application/json");&#13;
+		request.setRequestHeader('Content-Type', 'application/json');	&#13;
+		request.setMIDServer('IaaSMidServer');&#13;
+		request.setEccParameter('skip_sensor', true);&#13;
+	&#13;
+		&#13;
+        var body = {};&#13;
+		body["extra_vars"] = {};&#13;
+		body["extra_vars"]["storage_tier"] = storage_tier;	&#13;
+		body["extra_vars"]["size"] = volume_size;&#13;
+		body["extra_vars"]["volume_tier"] = volume_tier;&#13;
+		body["extra_vars"]["esxi_hostname"] = esxi_host;&#13;
+		body["extra_vars"]["vcenter_datastore"] = datastore_name;&#13;
+		body["extra_vars"]["volume_name"] = volume_name;&#13;
+		//body["extra_vars"]["vm_type"] = vm_type;&#13;
+		//body["extra_vars"]["oneview_hostname"] = oneview_hostname;		&#13;
+		//body["extra_vars"]["storage_system_ip"] = storage_system_ip;&#13;
+		&#13;
+         request.setRequestBody(JSON.stringify(body));&#13;
+		// 	var response = request.execute();&#13;
+		var response = request.executeAsync();&#13;
+		response.waitForResponse(160);&#13;
+	&#13;
+		var request_response_body = response.getBody();&#13;
+		var json_data = JSON.parse(request_response_body);&#13;
+		return JSON.stringify(json_data);&#13;
+		&#13;
+    } catch (x) {&#13;
+        gs.info("Failed to delete a LUN in 3PAR. Please look at logs for more details.");&#13;
+    }&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Add Storage">ca517416db6158104c6528df4b9619a4</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>9</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval Failed</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a517416db6158104c6528df4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>1081</x>
+        <y>88</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0a517416db6158104c6528df4b96199f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your approval for Project name: ${project_name} failed. Please contact  ServiceNow administrator.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Approval failed</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Approval failed</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your approval for Project name: ${project_name} failed. Please contact  ServiceNow administrator.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b96199f</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Failed">0a517416db6158104c6528df4b96199f</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b9619a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>3</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval notification Manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>141</x>
+        <y>130</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=86517416db6158104c6528df4b961995"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Hi ${approver},&#13;
+&#13;
+Pending approval request for 3PAR LUn creation.&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>76cd6eb1dbcc401075fecc30399619da</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>3PAR LUN creation request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>76cd6eb1dbcc401075fecc30399619da</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>3PAR LUN creation request</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Hi ${approver},&#13;
+&#13;
+Pending approval request for 3PAR LUn creation.&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b961995</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961995</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval notification Manager">86517416db6158104c6528df4b961995</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce517416db6158104c6528df4b961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Notification">0a6c97790a0a0b2756919eb960284334</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>11</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Approval Reject Notification</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e517416db6158104c6528df4b96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>53</x>
+        <y>581</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0e517416db6158104c6528df4b96199d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your OneSphere project request rejected.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e517416db6158104c6528df4b96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>OneSphere project request rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e517416db6158104c6528df4b96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${project_member},${project_owner}</value>
+        <variable display_value="">c35daa890a0a0ba96248a709c32994d6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">ae2121c70a0a0b3459708c9a60cd7312</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>OneSphere project request rejected</value>
+        <variable display_value="">c35db2180a0a0ba96248a709d1b6df20</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>Hi,&#13;
+&#13;
+Your OneSphere project request rejected.&#13;
+&#13;
+Regards,&#13;
+ServiceNow</value>
+        <variable display_value="">c35db5a50a0a0ba96248a70938ae8de6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">6d6816cd0a6a803f0853a8df38007572</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0e517416db6158104c6528df4b96199d</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06517416db6158104c6528df4b96199e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user or group sys_ids that you want the email sent to.&#13;
+</value>
+        <variable display_value="">c35dae3d0a0a0ba96248a7098ed9b4aa</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Approval Reject Notification">0e517416db6158104c6528df4b96199d</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b96199f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2513416db6158104c6528df4b9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>20</x>
+        <y>20</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c2513416db6158104c6528df4b9619fe"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">c2513416db6158104c6528df4b9619fe</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a513416db6158104c6528df4b9619fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="If">98f621ca0a0a0b5900f7c291f5e45a0e</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>12</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check if  Project Owner has manager</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>71513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>140</x>
+        <y>9</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=71513416db6158104c6528df4b9619f7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71513416db6158104c6528df4b9619f7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+&#13;
+answer = userHasManager();&#13;
+&#13;
+function userHasManager() {&#13;
+	if (current.variables.approver.manager != ""){&#13;
+		return 'yes';&#13;
+	}&#13;
+	gs.warn("Please make sure that Approver has manager.");&#13;
+	return 'no';&#13;
+}</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71513416db6158104c6528df4b9619f7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>f5513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71513416db6158104c6528df4b9619f7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>f9513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71513416db6158104c6528df4b9619f7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>f5513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">493cba6a0a6a803f07df24b118473551</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71513416db6158104c6528df4b9619f7</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>f9513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>1</value>
+        <variable display_value="">493d2c1d0a6a803f3217a75738ea3289</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>71513416db6158104c6528df4b9619f7</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e513416db6158104c6528df4b9619f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// This script needs to set answer to 'yes' or 'no' to indicate the state of the activity.&#13;
+//&#13;
+// For example,&#13;
+//&#13;
+//   answer = ifScript();&#13;
+//&#13;
+//   function ifScript() {&#13;
+//      if (condition is true) {&#13;
+//         return 'yes';&#13;
+//      }&#13;
+//      return 'no';&#13;
+//   }&#13;
+&#13;
+answer = userHasManager();&#13;
+&#13;
+function userHasManager() {&#13;
+	if (current.variables.approver.manager != ""){&#13;
+		return 'yes';&#13;
+	}&#13;
+	gs.warn("Please make sure that Approver has manager.");&#13;
+	return 'no';&#13;
+}</value>
+        <variable display_value="">c35e50810a0a0ba96248a709b450fc32</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check if  Project Owner has manager">71513416db6158104c6528df4b9619f7</activity>
+        <condition>activity.result == 'no'</condition>
+        <condition_default display_value="No">c1eff6430a0a0b59000f955abe842c94</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>No</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06513416db6158104c6528df4b9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check if  Project Owner has manager">71513416db6158104c6528df4b9619f7</activity>
+        <condition>activity.result == 'yes'</condition>
+        <condition_default display_value="Yes">c1ef63200a0a0b59005ef89bae78feb7</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Yes</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86513416db6158104c6528df4b9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>24</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Create a record in IaaSPlaybook table</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a517416db6158104c6528df4b9619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>782</x>
+        <y>470</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=0a517416db6158104c6528df4b9619a5"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b9619a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b9619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>42517416db6158104c6528df4b9619a6</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>0a517416db6158104c6528df4b9619a5</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b9619a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>42517416db6158104c6528df4b9619a6</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create a record in IaaSPlaybook table">0a517416db6158104c6528df4b9619a5</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e517416db6158104c6528df4b9619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>25</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Create a record in IaaSStorage table</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b9619a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>770</x>
+        <y>234</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=42517416db6158104c6528df4b9619a9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>42517416db6158104c6528df4b9619a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b9619a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>8a517416db6158104c6528df4b9619a9</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>42517416db6158104c6528df4b9619a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b9619a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>8a517416db6158104c6528df4b9619a9</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Create a record in IaaSStorage table">42517416db6158104c6528df4b9619a9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46517416db6158104c6528df4b9619a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>1324</x>
+        <y>616</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=46517416db6158104c6528df4b9619a8"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>15</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Get RITM</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b961998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>538</x>
+        <y>260</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=c2517416db6158104c6528df4b961998"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c2517416db6158104c6528df4b961998</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b961998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>02517416db6158104c6528df4b961999</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>c2517416db6158104c6528df4b961998</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b961998</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>02517416db6158104c6528df4b961999</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get RITM">c2517416db6158104c6528df4b961998</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e517416db6158104c6528df4b961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Workflow">f1afb4010a0a0b2c00d8f55e2372c728</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>22</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>IaaS_Get_AutoPlat_Credentials</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b9619a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>536</x>
+        <y>370</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=42517416db6158104c6528df4b9619a2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>42517416db6158104c6528df4b9619a2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b9619a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>8a517416db6158104c6528df4b9619a2</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>42517416db6158104c6528df4b9619a2</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2517416db6158104c6528df4b9619a2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>8a517416db6158104c6528df4b9619a2</value>
+        <variable display_value="">f25501290a0a0b2c005133d3fe2841b3</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="IaaS_Get_AutoPlat_Credentials">42517416db6158104c6528df4b9619a2</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Approval - User">35433da80a0a029a0028c639a1e51eb4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>4</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Manager Approval</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce513416db6158104c6528df4b9619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>148</x>
+        <y>217</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ce513416db6158104c6528df4b9619f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46513416db6158104c6528df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>82513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>82513416db6158104c6528df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>76cd6eb1dbcc401075fecc30399619da</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+answer = [];&#13;
+answer.push(current.variables.project_owner.manager);</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">4485eef70a6a803f6bc4bafa9e999640</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>any</value>
+        <variable display_value="">c35e5bdd0a0a0ba96248a709f495c9ae</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>101</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>82513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>approval</value>
+        <variable display_value="">e846198f0a0004f91fba434a514ba8b8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>103</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">e37b77ac0a0004f973283ad13b341c5b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>104</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">e37a96e80a0004f978b47d2d6c5e0b22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a77191a4c0a800662b403f7dff5f1bbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>115</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>82513416db6158104c6528df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a76680b9c0a8006661b107d0f21fae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a77903a7c0a8006641af7c9b1d34444e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>76cd6eb1dbcc401075fecc30399619da</value>
+        <variable display_value="">c35e4cc40a0a0ba96248a7098ec9cb06</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>reject</value>
+        <variable display_value="">502163410a6a803f0356332b24dc7945</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>approval_history</value>
+        <variable display_value="">e863e3b80a0004f911d67787e77e0f16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c2513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">a7754e91c0a800664938d0ef6d2664d7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>900</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a774138dc0a80066000be7af20961c7d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a769a182c0a8006629db7fa3fc2a863d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1120</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e513416db6158104c6528df4b9619fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">a76c6257c0a8006645cff43883470e64</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1150</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a76b8c6ec0a800664bb14d5d8b9cd7c4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46513416db6158104c6528df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a7781cb6c0a80066147dc7a5244d5d16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">a775f59ac0a8006665d72362ae687035</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1330</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value/>
+        <variable display_value="">02c618170a0a0b26436f5c2c9f7a3901</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca513416db6158104c6528df4b9619fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">a782cde9c0a8006608f39abdd85c8395</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>1370</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to '', 'approved' or 'rejected' to indicate the approval status for this approval.  When called, the following information is available:&#13;
+//&#13;
+//    counts.total = total number of users that are part of this approval&#13;
+//    counts.approved = # of users that approved so far&#13;
+//    counts.rejected = # of users that rejected so far&#13;
+//    counts.requested = # of users that are pending approval&#13;
+//    counts.not_requested = # of users that are not pending approval&#13;
+//    counts.not_required = # of users that approval is not required&#13;
+//&#13;
+</value>
+        <variable display_value="">02c86d780a0a0b261e6a356bc893d348</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>2000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86513416db6158104c6528df4b9619f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>0</value>
+        <variable display_value="">02ca01820a0a0b261cf923fb95f5e1d0</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ce513416db6158104c6528df4b9619f8</document_key>
+        <order>2050</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce513416db6158104c6528df4b9619fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>// Set the variable 'answer' to a comma-separated list of user ids and/or group ids or an array of user/group ids to add as approvers.&#13;
+//&#13;
+// For example:&#13;
+//       answer = [];&#13;
+//       answer.push('id1');&#13;
+//       answer.push('id2');&#13;
+answer = [];&#13;
+answer.push(current.variables.project_owner.manager);</value>
+        <variable display_value="">c35e582f0a0a0ba96248a70985207e63</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Manager Approval">ce513416db6158104c6528df4b9619f8</activity>
+        <condition>activity.result == 'approved' || activity.result == 'skipped'</condition>
+        <condition_default display_value="Approved">586e1fa60a0a0b5c008121ab894f2b06</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Approved</name>
+        <order>1</order>
+        <short_description>Approval request was approved</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4e513416db6158104c6528df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Manager Approval">ce513416db6158104c6528df4b9619f8</activity>
+        <condition>activity.result == 'rejected'</condition>
+        <condition_default display_value="Rejected">586e4ef60a0a0b5c00440b56c014c8a5</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Rejected</name>
+        <order>2</order>
+        <short_description>Approval request was rejected</short_description>
+        <skip_during_generate>true</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca513416db6158104c6528df4b9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Variables</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06517416db6158104c6528df4b9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>781</x>
+        <y>338</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=06517416db6158104c6528df4b9619a1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>06517416db6158104c6528df4b9619a1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>workflow.scratchpad.x_228286_onesphere_inputcreate3par = workflow.scratchpad.job_number;&#13;
+workflow.scratchpad.x_228286_onesphere_inputcreate3par1 = workflow.scratchpad.ritm_number;&#13;
+gs.info(workflow.scratchpad.x_228286_onesphere_inputcreate3par);&#13;
+gs.info(workflow.scratchpad.x_228286_onesphere_inputcreate3par1);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>06517416db6158104c6528df4b9619a1</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>workflow.scratchpad.x_228286_onesphere_inputcreate3par = workflow.scratchpad.job_number;&#13;
+workflow.scratchpad.x_228286_onesphere_inputcreate3par1 = workflow.scratchpad.ritm_number;&#13;
+gs.info(workflow.scratchpad.x_228286_onesphere_inputcreate3par);&#13;
+gs.info(workflow.scratchpad.x_228286_onesphere_inputcreate3par1);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Variables">06517416db6158104c6528df4b9619a1</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b9619a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>14</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Set Variables</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca517416db6158104c6528df4b96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>537</x>
+        <y>142</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=ca517416db6158104c6528df4b96199c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ca517416db6158104c6528df4b96199c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce517416db6158104c6528df4b96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>workflow.scratchpad.x_228286_onesphere_sys_id = current.sys_id;&#13;
+gs.info("Inside Provision ESXI on Synergy_AutoPlate Updated current sys_id" + ':' + ' ' + current.sys_id);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>ca517416db6158104c6528df4b96199c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce517416db6158104c6528df4b96199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>workflow.scratchpad.x_228286_onesphere_sys_id = current.sys_id;&#13;
+gs.info("Inside Provision ESXI on Synergy_AutoPlate Updated current sys_id" + ':' + ' ' + current.sys_id);</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Set Variables">ca517416db6158104c6528df4b96199c</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46517416db6158104c6528df4b96199d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>5</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>State Approved</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>283</x>
+        <y>390</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=86517416db6158104c6528df4b961997"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961997</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a517416db6158104c6528df4b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>request_state=Approved^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>86517416db6158104c6528df4b961997</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a517416db6158104c6528df4b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>request_state=Approved^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="State Approved">86517416db6158104c6528df4b961997</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e517416db6158104c6528df4b961997</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Set Values">1ca8d7cf0a0a0b265e9a000c2c08248c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>6</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>State Rejected</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42513416db6158104c6528df4b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x>50</x>
+        <y>392</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=42513416db6158104c6528df4b9619ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>42513416db6158104c6528df4b9619ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46513416db6158104c6528df4b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>request_state=Rejected^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>42513416db6158104c6528df4b9619ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46513416db6158104c6528df4b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>request_state=Rejected^EQ</value>
+        <variable display_value="">1cb38c8f0a0a0b266fb48e08de35f507</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="State Rejected">42513416db6158104c6528df4b9619ff</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca513416db6158104c6528df4b9619ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Yes">86513416db6158104c6528df4b9619f8</condition>
+        <from display_value="Check if  Project Owner has manager">71513416db6158104c6528df4b9619f7</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02517416db6158104c6528df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Approval notification Manager">86517416db6158104c6528df4b961995</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Rejected">ca513416db6158104c6528df4b9619fd</condition>
+        <from display_value="Manager Approval">ce513416db6158104c6528df4b9619f8</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06517416db6158104c6528df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="State Rejected">42513416db6158104c6528df4b9619ff</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c6517416db6158104c6528df4b9619a2</condition>
+        <from display_value="IaaS_Get_AutoPlat_Credentials">42517416db6158104c6528df4b9619a2</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>06517416db6158104c6528df4b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Add Storage">ca517416db6158104c6528df4b9619a4</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4e517416db6158104c6528df4b961998</condition>
+        <from display_value="Get RITM">c2517416db6158104c6528df4b961998</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0a517416db6158104c6528df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="IaaS_Get_AutoPlat_Credentials">42517416db6158104c6528df4b9619a2</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ca513416db6158104c6528df4b9619ff</condition>
+        <from display_value="State Rejected">42513416db6158104c6528df4b9619ff</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>0e517416db6158104c6528df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Approval Reject Notification">0e517416db6158104c6528df4b96199d</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8e517416db6158104c6528df4b9619a5</condition>
+        <from display_value="Create a record in IaaSPlaybook table">0a517416db6158104c6528df4b9619a5</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Set Variables">06517416db6158104c6528df4b9619a1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">0e517416db6158104c6528df4b961997</condition>
+        <from display_value="State Approved">86517416db6158104c6528df4b961997</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>46517416db6158104c6528df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Set Variables">ca517416db6158104c6528df4b96199c</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8a513416db6158104c6528df4b9619fe</condition>
+        <from display_value="Begin">c2513416db6158104c6528df4b9619fe</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>4a517416db6158104c6528df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Check if  Project Owner has manager">71513416db6158104c6528df4b9619f7</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">c6517416db6158104c6528df4b9619a9</condition>
+        <from display_value="Create a record in IaaSStorage table">42517416db6158104c6528df4b9619a9</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>82517416db6158104c6528df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="End">46517416db6158104c6528df4b9619a8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Approved">4e513416db6158104c6528df4b9619fd</condition>
+        <from display_value="Manager Approval">ce513416db6158104c6528df4b9619f8</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="State Approved">86517416db6158104c6528df4b961997</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">42517416db6158104c6528df4b9619a5</condition>
+        <from display_value="Add Storage">ca517416db6158104c6528df4b9619a4</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Create a record in IaaSPlaybook table">0a517416db6158104c6528df4b9619a5</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="No">06513416db6158104c6528df4b9619f8</condition>
+        <from display_value="Check if  Project Owner has manager">71513416db6158104c6528df4b9619f7</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e517416db6158104c6528df4b9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Approval Failed">0a517416db6158104c6528df4b96199f</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">42517416db6158104c6528df4b96199f</condition>
+        <from display_value="Approval Reject Notification">0e517416db6158104c6528df4b96199d</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8e517416db6158104c6528df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="End">46517416db6158104c6528df4b9619a8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">46517416db6158104c6528df4b96199d</condition>
+        <from display_value="Set Variables">ca517416db6158104c6528df4b96199c</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>c6517416db6158104c6528df4b9619af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Get RITM">c2517416db6158104c6528df4b961998</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">8a517416db6158104c6528df4b9619a1</condition>
+        <from display_value="Set Variables">06517416db6158104c6528df4b9619a1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca517416db6158104c6528df4b9619ac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Create a record in IaaSStorage table">42517416db6158104c6528df4b9619a9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">ce517416db6158104c6528df4b961996</condition>
+        <from display_value="Approval notification Manager">86517416db6158104c6528df4b961995</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ca517416db6158104c6528df4b9619ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="Manager Approval">ce513416db6158104c6528df4b9619f8</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">4e517416db6158104c6528df4b9619a0</condition>
+        <from display_value="Approval Failed">0a517416db6158104c6528df4b96199f</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce517416db6158104c6528df4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <to display_value="End">46517416db6158104c6528df4b9619a8</to>
+    </wf_transition>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>02517416db6158104c6528df4b961999</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${workflow.scratchpad.x_228286_onesphere_sys_id}</value>
+        <variable display_value="">e1f89c7a2f8b0c1097a4cfedf699b6bb</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Get RITM">c2517416db6158104c6528df4b961998</activity>
+        <return_map>ritm_number</return_map>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>02517416db6158104c6528df4b961999</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <workflow display_value="Get RITM">59f89c7a2f8b0c1097a4cfedf699b6b3</workflow>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x_228286_onesphere_inputcreate3par/>
+        <x_228286_onesphere_inputcreate3par1/>
+        <x_228286_onesphere_inputcreatejob/>
+        <x_228286_onesphere_sys_id/>
+        <x_228286_onesphere_u_myvariable/>
+    </wf_workflow_instance>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>42517416db6158104c6528df4b9619a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>86517416db6158104c6528df4b9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${workflow.scratchpad.x_228286_onesphere_inputcreatejob}</value>
+        <variable display_value="">b96d9459db2d14104c6528df4b961918</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Create a record in IaaSPlaybook table">0a517416db6158104c6528df4b9619a5</activity>
+        <return_map>job_number</return_map>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>42517416db6158104c6528df4b9619a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <workflow display_value="Create a record in IaaSPlaybook table">696d5059db2d14104c6528df4b96198b</workflow>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x_228286_onesphere_inputcreate3par/>
+        <x_228286_onesphere_inputcreate3par1/>
+        <x_228286_onesphere_inputcreatejob/>
+        <x_228286_onesphere_sys_id/>
+        <x_228286_onesphere_u_myvariable/>
+    </wf_workflow_instance>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="IaaS_Get_AutoPlat_Credentials">42517416db6158104c6528df4b9619a2</activity>
+        <return_map>returnedVal</return_map>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b9619a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <workflow display_value="IaaS_Get_AutoPlat_Credentials">0b7517cddba514104c6528df4b9619e4</workflow>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x_228286_onesphere_inputcreate3par/>
+        <x_228286_onesphere_inputcreate3par1/>
+        <x_228286_onesphere_inputcreatejob/>
+        <x_228286_onesphere_sys_id/>
+        <x_228286_onesphere_u_myvariable/>
+    </wf_workflow_instance>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>8a517416db6158104c6528df4b9619a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>82517416db6158104c6528df4b9619aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${workflow.scratchpad.x_228286_onesphere_inputcreate3par1}</value>
+        <variable display_value="">102ba81edb2158104c6528df4b9619d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_workflow_instance</document>
+        <document_key>8a517416db6158104c6528df4b9619a9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>ce517416db6158104c6528df4b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <value>${workflow.scratchpad.x_228286_onesphere_inputcreate3par}</value>
+        <variable display_value="">9c2ba81edb2158104c6528df4b9619e6</variable>
+    </sys_variable_value>
+    <wf_workflow_instance action="INSERT_OR_UPDATE">
+        <activity display_value="Create a record in IaaSStorage table">42517416db6158104c6528df4b9619a9</activity>
+        <return_map/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>8a517416db6158104c6528df4b9619a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <workflow display_value="Create a record in IaaSStorage table">102ba41edb2158104c6528df4b96193b</workflow>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+        <x_228286_onesphere_inputcreate3par/>
+        <x_228286_onesphere_inputcreate3par1/>
+        <x_228286_onesphere_inputcreatejob/>
+        <x_228286_onesphere_sys_id/>
+        <x_228286_onesphere_u_myvariable/>
+    </wf_workflow_instance>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 00:05:42</sys_created_on>
+        <sys_id>3d513416db6158104c6528df4b9619f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 00:05:42</sys_updated_on>
+        <workflow_version display_value="Iaas-Storage-Add">79513416db6158104c6528df4b9619f4</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=c03eecdedb2158104c6528df4b9619f3^sys_id!=79513416db6158104c6528df4b9619f4">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

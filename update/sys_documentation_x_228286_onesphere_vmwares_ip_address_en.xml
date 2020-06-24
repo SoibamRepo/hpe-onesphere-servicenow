@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="ip_address" label="IP Address" language="en" table="x_228286_onesphere_vmwares">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ip_address</element>
+            <help/>
+            <hint/>
+            <label>IP Address</label>
+            <language>en</language>
+            <name>x_228286_onesphere_vmwares</name>
+            <plural>IP Address</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-02-26 16:37:40</sys_created_on>
+            <sys_id>a43fd3c02f1f401097a4cfedf699b6f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IP Address</sys_name>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+            <sys_update_name>sys_documentation_x_228286_onesphere_vmwares_ip_address_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-02-26 16:37:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

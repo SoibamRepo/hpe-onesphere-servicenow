@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Modify Storage">42d81871dbad94104c6528df4b96197a</sc_cat_item>
+        <sc_catalog display_value="NBS IaaS Platform">bf1ce078dba990104c6528df4b9619f0</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 09:01:42</sys_created_on>
+        <sys_id>8ed81871dbad94104c6528df4b96197d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NBS IaaS Platform.Copy of Datastore Creation</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_8ed81871dbad94104c6528df4b96197d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 09:01:42</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

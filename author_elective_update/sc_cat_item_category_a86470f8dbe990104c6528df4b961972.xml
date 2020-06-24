@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Virtual Machine LifeCycle Management ">398f2874dbe990104c6528df4b9619df</sc_cat_item>
+        <sc_category display_value="IaaS">941234f4dbe990104c6528df4b9619e2</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 08:28:06</sys_created_on>
+        <sys_id>a86470f8dbe990104c6528df4b961972</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IaaS.Virtual Machine LifeCycle Management </sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sc_cat_item_category_a86470f8dbe990104c6528df4b961972</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 08:28:06</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sc_cat_item_category_a86470f8dbe990104c6528df4b961972</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Virtual Machine LifeCycle Management ">398f2874dbe990104c6528df4b9619df</sc_cat_item><sc_category display_value="IaaS">941234f4dbe990104c6528df4b9619e2</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 08:28:06</sys_created_on><sys_id>a86470f8dbe990104c6528df4b961972</sys_id><sys_mod_count>0</sys_mod_count><sys_name>IaaS.Virtual Machine LifeCycle Management </sys_name><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>sc_cat_item_category_a86470f8dbe990104c6528df4b961972</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-19 08:28:06</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1551809577</payload_hash>
+        <record_name>IaaS.Virtual Machine LifeCycle Management </record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 08:28:06</sys_created_on>
+        <sys_id>e06470f8dbe990104c6528df4b961975</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172cbb12ff00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 08:28:06</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>2c6470f88ce99010bdba3ab1705c1474</update_guid>
+        <update_guid_history>2c6470f88ce99010bdba3ab1705c1474:1551809577</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IaaS.Virtual Machine LifeCycle Management ">1a36f07cdbe990104c6528df4b961924</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 08:36:08</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>2aecb5d206cd418fa4370db97b9946f1</sys_id>
+        <sys_metadata>a86470f8dbe990104c6528df4b961972</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IaaS.Virtual Machine LifeCycle Management </sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent display_value="">398f2874dbe990104c6528df4b9619df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_a86470f8dbe990104c6528df4b961972</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_a86470f8dbe990104c6528df4b961972">e06470f8dbe990104c6528df4b961975</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-19 08:36:08</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

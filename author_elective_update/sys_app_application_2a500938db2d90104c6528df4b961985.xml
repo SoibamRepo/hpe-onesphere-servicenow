@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>HPE IaaS Platform</name>
+        <order>100</order>
+        <roles>x_228286_onesphere.hpe_iaas_platform_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-19 09:20:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2a500938db2d90104c6528df4b961985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>IaaS Playbook</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_app_application_2a500938db2d90104c6528df4b961985</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:10:31</sys_updated_on>
+        <title>IaaS Playbook</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sys_app_application_2a500938db2d90104c6528df4b961985</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>HPE IaaS Platform</name><order>100</order><roles>x_228286_onesphere.hpe_iaas_platform_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-19 09:20:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>2a500938db2d90104c6528df4b961985</sys_id><sys_mod_count>1</sys_mod_count><sys_name>IaaS Playbook</sys_name><sys_overrides/><sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package><sys_policy/><sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope><sys_update_name>sys_app_application_2a500938db2d90104c6528df4b961985</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-20 19:10:31</sys_updated_on><title>IaaS Playbook</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1258833781</payload_hash>
+        <record_name>IaaS Playbook</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:10:32</sys_created_on>
+        <sys_id>fc019cd5dbe914104c6528df4b9619c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172d323b4510000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:10:32</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>38019cd518e9141070a57aad37af02c5</update_guid>
+        <update_guid_history>38019cd518e9141070a57aad37af02c5:1258833781,be50c178322d901084e82fcbc1a0452b:2101551573</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="IaaS Playbook">30a19459dbe914104c6528df4b96197c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-20 19:13:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>1d1922d4206c41d29a0a124b5183bf84</sys_id>
+        <sys_metadata>2a500938db2d90104c6528df4b961985</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IaaS Playbook</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_app_application_2a500938db2d90104c6528df4b961985</sys_update_name>
+        <sys_update_version display_value="sys_app_application_2a500938db2d90104c6528df4b961985">fc019cd5dbe914104c6528df4b9619c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-20 19:13:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

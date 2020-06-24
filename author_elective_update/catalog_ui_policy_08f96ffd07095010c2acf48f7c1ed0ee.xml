@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_ui_policy">
+    <catalog_ui_policy action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>set</applies_to>
+        <catalog_conditions/>
+        <catalog_item/>
+        <conditions/>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>VS on visible</short_description>
+        <sys_class_name>catalog_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 03:46:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08f96ffd07095010c2acf48f7c1ed0ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VS on visible</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>catalog_ui_policy_08f96ffd07095010c2acf48f7c1ed0ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 03:46:09</sys_updated_on>
+        <table/>
+        <ui_type>0</ui_type>
+        <variable_set display_value="Server Network Configuration">6992e3f507095010c2acf48f7c1ed0de</variable_set>
+        <view/>
+    </catalog_ui_policy>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>ee376140db264890387021c4059619c5</instance_id>
+        <instance_name>dev97170</instance_name>
+        <name>catalog_ui_policy_08f96ffd07095010c2acf48f7c1ed0ee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_ui_policy"&gt;&lt;catalog_ui_policy action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;set&lt;/applies_to&gt;&lt;catalog_conditions/&gt;&lt;catalog_item/&gt;&lt;conditions/&gt;&lt;description/&gt;&lt;global&gt;true&lt;/global&gt;&lt;inherit&gt;false&lt;/inherit&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;model_id/&gt;&lt;model_table/&gt;&lt;on_load&gt;true&lt;/on_load&gt;&lt;order&gt;100&lt;/order&gt;&lt;reverse_if_false&gt;true&lt;/reverse_if_false&gt;&lt;run_scripts&gt;false&lt;/run_scripts&gt;&lt;script_false&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_false&gt;&lt;script_true&gt;&lt;![CDATA[function onCondition() {
+
+}]]&gt;&lt;/script_true&gt;&lt;set_values/&gt;&lt;short_description&gt;VS on visible&lt;/short_description&gt;&lt;sys_class_name&gt;catalog_ui_policy&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-29 03:46:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;08f96ffd07095010c2acf48f7c1ed0ee&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;VS on visible&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OneSphere Integration" source="x_228286_onesphere"&gt;0d703a034f161300fb4cb82ca310c79e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OneSphere Integration"&gt;0d703a034f161300fb4cb82ca310c79e&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_ui_policy_08f96ffd07095010c2acf48f7c1ed0ee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-05-29 03:46:09&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set display_value="Server Network Configuration"&gt;6992e3f507095010c2acf48f7c1ed0de&lt;/variable_set&gt;&lt;view/&gt;&lt;/catalog_ui_policy&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-636990668</payload_hash>
+        <record_name>VS on visible</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 03:46:09</sys_created_on>
+        <sys_id>6d7aa73107495010c2acf48f7c1ed0ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1725e8980b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 03:46:09</sys_updated_on>
+        <type>Catalog UI Policy</type>
+        <update_guid>a57aa731b1495010388e44040371bdba</update_guid>
+        <update_guid_history>a57aa731b1495010388e44040371bdba:-636990668</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="VS on visible">bb2ba77107495010c2acf48f7c1ed0db</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-29 03:49:19</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy">catalog_ui_policy</sys_db_object>
+        <sys_id>5712edf2283941be9426eb55eec0fd24</sys_id>
+        <sys_metadata>08f96ffd07095010c2acf48f7c1ed0ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>VS on visible</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_08f96ffd07095010c2acf48f7c1ed0ee</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_08f96ffd07095010c2acf48f7c1ed0ee">6d7aa73107495010c2acf48f7c1ed0ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-05-29 03:49:19</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

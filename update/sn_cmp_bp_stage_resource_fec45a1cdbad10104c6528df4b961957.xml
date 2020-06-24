@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sn_cmp_bp_stage_resource">
+    <sn_cmp_bp_stage_resource action="INSERT_OR_UPDATE">
+        <alias_name>vSphere Datacenter</alias_name>
+        <bp_stage_model display_value="">97129e18dbad10104c6528df4b9619e2</bp_stage_model>
+        <constraint/>
+        <host_ci/>
+        <resource_block display_value="vSphere Datacenter">5cc941360b632200e937c97193673a1a</resource_block>
+        <sys_class_name>sn_cmp_bp_stage_resource</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-18 02:12:22</sys_created_on>
+        <sys_id>fec45a1cdbad10104c6528df4b961957</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vSphere Datacenter</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sn_cmp_bp_stage_resource_fec45a1cdbad10104c6528df4b961957</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-18 02:12:22</sys_updated_on>
+        <type>1</type>
+    </sn_cmp_bp_stage_resource>
+</record_update>
