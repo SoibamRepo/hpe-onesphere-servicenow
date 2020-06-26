@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>u_deleteDatabase</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Remove Database</name>
+        <onclick>deleteDatabase()</onclick>
+        <order>100</order>
+        <script><![CDATA[function deleteDatabase()
+{
+	//var state = g_form.getValue('state');
+	var state = "Success";
+	//alert(state);
+	if (state == 'Success')
+	gsftSubmit(null, g_form.getFormElement(), 'u_deleteDatabase');	
+}
+
+if(typeof window == 'undefined')
+   DeleteDatabaseAction();
+
+function getToken()
+{
+	var target = {};
+	target = new GlideRecord('x_228286_onesphere_environment_credentials');
+	target.addQuery('number', 'IaaS_Autoplat');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}
+	
+	user = target.user;
+	encry_password = target.password;
+	
+	gs.info("User for IaaS_Autoplat" + " " + user);	
+    var password = encry_password.getDecryptedValue();
+	gs.info("Password for IaaS_Autoplat" + " " + password);
+	
+	url = target.onesphere_url;
+    ansibleTower = url + 'login';
+	gs.info("AWX URL for IaaS_Autoplat" + " " + ansibleTower);
+  
+    var request = new sn_ws.RESTMessageV2();
+	request.setEndpoint(ansibleTower);	
+	request.setHttpMethod('POST');
+	
+	request.setRequestHeader("Accept", "application/json");
+	request.setRequestHeader('Content-Type', 'application/json');
+	
+	request.setMIDServer('IaaSMidServer');
+	request.setEccParameter('skip_sensor', true);
+
+    var body = {};
+    body["user"] = '' + user + '';
+    body["password"] = '' + password + '';
+
+	request.setRequestBody(JSON.stringify(body));
+	var response = request.executeAsync();
+	response.waitForResponse(160);	
+	var request_response_body = response.getBody();    
+	var json_data = JSON.parse(request_response_body);	
+    var token = [url, json_data.accessToken];	
+	gs.info("URL,Access Token" + " " + token);
+    //return token; 
+	return json_data.accessToken;
+	
+}
+
+function DeleteDatabaseAction(){
+	var url = "http://10.188.244.139:3000/api/v1/";
+	//var token = "Bearer"  + ' ' + "olJKrPRCAxD6ETkb5B5uLHrjtUc9hv";
+	//token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE1OTI5ODI2MDUsImV4cCI6MTU5MzA2OTAwNX0.7AnvjHavF-FSp8mCbpTWYdte9SvWC5QMRQ1jpIaZafg";
+	
+	token = getToken();
+	token = '' + token + '';
+	gs.info("Inside Remove Server: token" + " " + token);
+	
+	var name = current.name;
+	name = '' + name + '';
+	
+	var action = "absent";
+	action = '' + action + '';
+	
+	ansibleTower = url +'map/decommission-mysql';		
+		gs.info("URL for  IaaS_Autoplat" + " " + ansibleTower);
+		var request = new sn_ws.RESTMessageV2();
+		//ansibleTower = url;
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');				
+		//request.setEndpoint(ansibleTower+'map/provision-3par');	
+		request.setEndpoint(ansibleTower);
+		request.setHttpMethod('POST');
+
+		//Eg. UserName="admin", Password="admin" for this code sample.
+		//var user = 'admin';
+		//var password = 'gseteam';
+        
+		//request.setBasicAuth(user, password);
+		request.setRequestHeader('Authorization', token);
+		request.setRequestHeader("Accept", "application/json");
+		request.setRequestHeader('Content-Type', 'application/json');	
+		request.setMIDServer('IaaSMidServer');
+		request.setEccParameter('skip_sensor', true);
+	
+		
+        var body = {};
+		body["extra_vars"] = {};
+		body["extra_vars"]["database_name"] = name;	
+	body["extra_vars"]["action"] = action;	
+		//body["extra_vars"]["size"] = volume_size;
+		//body["extra_vars"]["volume_tier"] = volume_tier;
+		//body["extra_vars"]["esxi_hostname"] = esxi_host;
+		//body["extra_vars"]["vcenter_datastore"] = datastore_name;
+		//body["extra_vars"]["volume_name"] = volume_name;
+		//body["extra_vars"]["vm_type"] = vm_type;
+		//body["extra_vars"]["oneview_hostname"] = oneview_hostname;		
+		//body["extra_vars"]["storage_system_ip"] = storage_system_ip;
+		
+         request.setRequestBody(JSON.stringify(body));
+		// 	var response = request.execute();
+		var response = request.executeAsync();
+		response.waitForResponse(160);
+	
+		var request_response_body = response.getBody();
+		var json_data = JSON.parse(request_response_body);
+	
+	var gr = new GlideRecord('x_228286_onesphere_database');
+gr.addQuery('sys_id',current.sys_id);
+gr.query();
+while (gr.next()) {
+   //Delete each record in the query result set
+   gr.deleteRecord();
+   }
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 18:19:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>615ae822dba598104c6528df4b96197f</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Remove Database</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_ui_action_615ae822dba598104c6528df4b96197f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 09:47:50</sys_updated_on>
+        <table>x_228286_onesphere_database</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</application>
+        <file_path/>
+        <instance_id>d02926f2db6c9fc08264f70fbf961924</instance_id>
+        <instance_name>dev51431</instance_name>
+        <name>sys_ui_action_615ae822dba598104c6528df4b96197f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;u_deleteDatabase&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition/&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;true&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;name&gt;Remove Database&lt;/name&gt;&lt;onclick&gt;deleteDatabase()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function deleteDatabase()
+{
+	//var state = g_form.getValue('state');
+	var state = "Success";
+	//alert(state);
+	if (state == 'Success')
+	gsftSubmit(null, g_form.getFormElement(), 'u_deleteDatabase');	
+}
+
+if(typeof window == 'undefined')
+   DeleteDatabaseAction();
+
+function getToken()
+{
+	var target = {};
+	target = new GlideRecord('x_228286_onesphere_environment_credentials');
+	target.addQuery('number', 'IaaS_Autoplat');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}
+	
+	user = target.user;
+	encry_password = target.password;
+	
+	gs.info("User for IaaS_Autoplat" + " " + user);	
+    var password = encry_password.getDecryptedValue();
+	gs.info("Password for IaaS_Autoplat" + " " + password);
+	
+	url = target.onesphere_url;
+    ansibleTower = url + 'login';
+	gs.info("AWX URL for IaaS_Autoplat" + " " + ansibleTower);
+  
+    var request = new sn_ws.RESTMessageV2();
+	request.setEndpoint(ansibleTower);	
+	request.setHttpMethod('POST');
+	
+	request.setRequestHeader("Accept", "application/json");
+	request.setRequestHeader('Content-Type', 'application/json');
+	
+	request.setMIDServer('IaaSMidServer');
+	request.setEccParameter('skip_sensor', true);
+
+    var body = {};
+    body["user"] = '' + user + '';
+    body["password"] = '' + password + '';
+
+	request.setRequestBody(JSON.stringify(body));
+	var response = request.executeAsync();
+	response.waitForResponse(160);	
+	var request_response_body = response.getBody();    
+	var json_data = JSON.parse(request_response_body);	
+    var token = [url, json_data.accessToken];	
+	gs.info("URL,Access Token" + " " + token);
+    //return token; 
+	return json_data.accessToken;
+	
+}
+
+function DeleteDatabaseAction(){
+	var url = "http://10.188.244.139:3000/api/v1/";
+	//var token = "Bearer"  + ' ' + "olJKrPRCAxD6ETkb5B5uLHrjtUc9hv";
+	//token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE1OTI5ODI2MDUsImV4cCI6MTU5MzA2OTAwNX0.7AnvjHavF-FSp8mCbpTWYdte9SvWC5QMRQ1jpIaZafg";
+	
+	token = getToken();
+	token = '' + token + '';
+	gs.info("Inside Remove Server: token" + " " + token);
+	
+	var name = current.name;
+	name = '' + name + '';
+	
+	var action = "absent";
+	action = '' + action + '';
+	
+	ansibleTower = url +'map/decommission-mysql';		
+		gs.info("URL for  IaaS_Autoplat" + " " + ansibleTower);
+		var request = new sn_ws.RESTMessageV2();
+		//ansibleTower = url;
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');
+		//request.setEndpoint(ansibleTower+'/job_templates/9/launch/');				
+		//request.setEndpoint(ansibleTower+'map/provision-3par');	
+		request.setEndpoint(ansibleTower);
+		request.setHttpMethod('POST');
+
+		//Eg. UserName="admin", Password="admin" for this code sample.
+		//var user = 'admin';
+		//var password = 'gseteam';
+        
+		//request.setBasicAuth(user, password);
+		request.setRequestHeader('Authorization', token);
+		request.setRequestHeader("Accept", "application/json");
+		request.setRequestHeader('Content-Type', 'application/json');	
+		request.setMIDServer('IaaSMidServer');
+		request.setEccParameter('skip_sensor', true);
+	
+		
+        var body = {};
+		body["extra_vars"] = {};
+		body["extra_vars"]["database_name"] = name;	
+	body["extra_vars"]["action"] = action;	
+		//body["extra_vars"]["size"] = volume_size;
+		//body["extra_vars"]["volume_tier"] = volume_tier;
+		//body["extra_vars"]["esxi_hostname"] = esxi_host;
+		//body["extra_vars"]["vcenter_datastore"] = datastore_name;
+		//body["extra_vars"]["volume_name"] = volume_name;
+		//body["extra_vars"]["vm_type"] = vm_type;
+		//body["extra_vars"]["oneview_hostname"] = oneview_hostname;		
+		//body["extra_vars"]["storage_system_ip"] = storage_system_ip;
+		
+         request.setRequestBody(JSON.stringify(body));
+		// 	var response = request.execute();
+		var response = request.executeAsync();
+		response.waitForResponse(160);
+	
+		var request_response_body = response.getBody();
+		var json_data = JSON.parse(request_response_body);
+	
+	var gr = new GlideRecord('x_228286_onesphere_database');
+gr.addQuery('sys_id',current.sys_id);
+gr.query();
+while (gr.next()) {
+   //Delete each record in the query result set
+   gr.deleteRecord();
+   }
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;true&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-24 18:19:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;615ae822dba598104c6528df4b96197f&lt;/sys_id&gt;&lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;&lt;sys_name&gt;Remove Database&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="OneSphere Integration" source="x_228286_onesphere"&gt;0d703a034f161300fb4cb82ca310c79e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="OneSphere Integration"&gt;0d703a034f161300fb4cb82ca310c79e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_615ae822dba598104c6528df4b96197f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-26 09:47:50&lt;/sys_updated_on&gt;&lt;table&gt;x_228286_onesphere_database&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;false&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1690663850</payload_hash>
+        <record_name>Remove Database</record_name>
+        <reverted_from/>
+        <source>2171f0eddb48001075fecc3039961938</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 09:47:50</sys_created_on>
+        <sys_id>78c901cbdb619c104c6528df4b961922</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172f006b4190000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 09:47:50</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>70c901cb6f619c10c18b2ec5ba647522</update_guid>
+        <update_guid_history>70c901cb6f619c10c18b2ec5ba647522:-1690663850,fddf937ef2655c10e25893afa79c4a3b:443559046,f8c313762d255c103098d22cd584880a:477613108,9cbfa36a28e9d810bb6df1b339557230:-1197186748,2f85876eb5a5d810d76d45edbc1a6eb0:469371964,130c28223ba59810647404ec061cab4f:911480824,90bba022bda59810172a8b4dbb436ba2:256007251</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-26 10:01:45</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>175b2d1e32534045b95ab65b11ff9371</sys_id>
+        <sys_metadata>615ae822dba598104c6528df4b96197f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Remove Database</sys_name>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_parent display_value="DataBase">76d018eedba198104c6528df4b96192e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>
+        <sys_update_name>sys_ui_action_615ae822dba598104c6528df4b96197f</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_615ae822dba598104c6528df4b96197f">78c901cbdb619c104c6528df4b961922</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-26 10:01:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

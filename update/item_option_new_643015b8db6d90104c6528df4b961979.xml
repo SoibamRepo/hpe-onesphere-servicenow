@@ -37,7 +37,7 @@
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
         <name>os</name>
-        <order>200</order>
+        <order>300</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <question_text>OS</question_text>
@@ -59,17 +59,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-19 10:29:53</sys_created_on>
         <sys_id>643015b8db6d90104c6528df4b961979</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>OS</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>item_option_new_643015b8db6d90104c6528df4b961979</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-20 08:11:50</sys_updated_on>
+        <sys_updated_on>2020-06-26 10:22:28</sys_updated_on>
         <table/>
         <tooltip/>
-        <type>6</type>
+        <type>5</type>
         <ui_page/>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>

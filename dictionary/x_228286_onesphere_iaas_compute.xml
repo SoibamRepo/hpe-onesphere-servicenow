@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Compute" max_length="40" name="x_228286_onesphere_iaas_compute" type="collection">
+    <element label="Virtual Machines" max_length="40" name="x_228286_onesphere_iaas_compute" type="collection">
         <element label="Job ID" max_length="32" name="job_id" reference="x_228286_onesphere_playbooks" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="RITM" max_length="32" name="ritm" reference="sc_req_item" type="reference"/>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-06-24 07:57:58">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2020-06-26 12:43:52">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout display_value="layout_2_across">f6defafa0a0a0b12000d5016bd12ff06</layout>
         <order/>
@@ -26,136 +26,271 @@
         <related_items_node>
             <sys_portal action="INSERT_OR_UPDATE">
                 <dropzone>dropzone0</dropzone>
-                <offset>0</offset>
+                <offset>2</offset>
                 <page display_value="catalog_hpe_iaas_platform">953c6070dbe990104c6528df4b96193c</page>
                 <summary/>
                 <sys_created_by>admin</sys_created_by>
-                <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                <sys_id>1f29a09adb2158104c6528df4b9619ed</sys_id>
+                <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                <sys_id>44165ceadbe198104c6528df4b961911</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin</sys_updated_by>
-                <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>render_title</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5329a09adb2158104c6528df4b9619ef</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5329a09adb2158104c6528df4b9619f0</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>Storage</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>catalog</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5729a09adb2158104c6528df4b9619ef</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>bf1ce078dba990104c6528df4b9619f0</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>macro</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5b29a09adb2158104c6528df4b9619ee</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>sc_catalog_homepage_category_item</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_link_class</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5b29a09adb2158104c6528df4b9619ef</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>category_title_link</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5f29a09adb2158104c6528df4b9619ee</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>40165ceadbe198104c6528df4b961912</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>com.glideapp.servicecatalog.RenderCategory</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5f29a09adb2158104c6528df4b9619ef</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>40165ceadbe198104c6528df4b961913</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=c4711479db6d94104c6528df4b961940&amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;amp;amp;amp;amp;amp;amp;sysparm_parent=a7093830db2d90104c6528df4b96198b&amp;amp;amp;amp;amp;amp;amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;amp;amp;amp;amp;amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>44165ceadbe198104c6528df4b961912</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>44165ceadbe198104c6528df4b961913</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='category_title_link' href='com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=a7093830db2d90104c6528df4b96198b&amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform&amp;amp;sysparm_view=catalogs_default'&amp;gt;Virtual Machine&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>48165ceadbe198104c6528df4b961912</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>bf1ce078dba990104c6528df4b9619f0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>4c165ceadbe198104c6528df4b961911</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>sc_catalog_homepage_category_item</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>4c165ceadbe198104c6528df4b961912</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c0165ceadbe198104c6528df4b961914</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>953c6070dbe990104c6528df4b96193c</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>sys_id</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>9f29a09adb2158104c6528df4b9619ed</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c4165ceadbe198104c6528df4b961911</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>c4711479db6d94104c6528df4b961940</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>a7093830db2d90104c6528df4b96198b</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d729a09adb2158104c6528df4b9619f0</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c8165ceadbe198104c6528df4b961913</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>category</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>catalog_view</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">44165ceadbe198104c6528df4b961911</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>db29a09adb2158104c6528df4b9619f0</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>cc165ceadbe198104c6528df4b961913</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>catalog_hpe_iaas_platform</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone0</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_hpe_iaas_platform">953c6070dbe990104c6528df4b96193c</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                <sys_id>84165ceadbe198104c6528df4b96190a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>macro</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>08165ceadbe198104c6528df4b96190a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>sc_catalog_homepage_category_item</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>40165ceadbe198104c6528df4b96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>c4711479db6d94104c6528df4b961940</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>40165ceadbe198104c6528df4b96190d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>44165ceadbe198104c6528df4b96190d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
                         <value>catalog_hpe_iaas_platform</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>current_page</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">1f29a09adb2158104c6528df4b9619ed</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>df29a09adb2158104c6528df4b9619f0</sys_id>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>48165ceadbe198104c6528df4b96190d</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
                         <value>953c6070dbe990104c6528df4b96193c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>c0165ceadbe198104c6528df4b96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>category_title_link</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>c4165ceadbe198104c6528df4b96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>c4165ceadbe198104c6528df4b96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;amp;amp;sysparm_parent=c4711479db6d94104c6528df4b961940&amp;amp;amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>c8165ceadbe198104c6528df4b96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>c8165ceadbe198104c6528df4b96190c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='category_title_link' href='com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=c4711479db6d94104c6528df4b961940&amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform&amp;amp;sysparm_view=catalogs_default'&amp;gt;Storage&amp;lt;/a&amp;gt;</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 2020-06-24 09:44:59">84165ceadbe198104c6528df4b96190a</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:44:59</sys_created_on>
+                        <sys_id>cc165ceadbe198104c6528df4b96190b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:44:59</sys_updated_on>
+                        <value>bf1ce078dba990104c6528df4b9619f0</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
@@ -165,267 +300,267 @@
                 <page display_value="catalog_hpe_iaas_platform">953c6070dbe990104c6528df4b96193c</page>
                 <summary/>
                 <sys_created_by>admin</sys_created_by>
-                <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                <sys_id>5b29a09adb2158104c6528df4b9619f1</sys_id>
+                <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                <sys_id>c0165ceadbe198104c6528df4b96190e</sys_id>
                 <sys_mod_count>0</sys_mod_count>
                 <sys_updated_by>admin</sys_updated_by>
-                <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                 <related_items_node>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_link_class</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5329a09adb2158104c6528df4b9619f3</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>40165ceadbe198104c6528df4b961911</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>category_title_link</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>953c6070dbe990104c6528df4b96193c</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
+                        <name>macro</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5729a09adb2158104c6528df4b9619f2</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>44165ceadbe198104c6528df4b96190e</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>sc_catalog_homepage_category_item</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title_link</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5729a09adb2158104c6528df4b9619f3</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>48165ceadbe198104c6528df4b96190e</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;amp;amp;sysparm_parent=4fbec978db6d90104c6528df4b9619e0&amp;amp;amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>4fbec978db6d90104c6528df4b9619e0</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>type</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>48165ceadbe198104c6528df4b961910</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>category</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>4c165ceadbe198104c6528df4b961910</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>catalog_hpe_iaas_platform</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>render_title</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5b29a09adb2158104c6528df4b9619f2</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c0165ceadbe198104c6528df4b96190f</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>true</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5b29a09adb2158104c6528df4b9619f3</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c0165ceadbe198104c6528df4b961910</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='category_title_link' href='com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=4fbec978db6d90104c6528df4b9619e0&amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform&amp;amp;sysparm_view=catalogs_default'&amp;gt;Bare-Metal&amp;lt;/a&amp;gt;</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>catalog</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5f29a09adb2158104c6528df4b9619f2</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c4165ceadbe198104c6528df4b96190f</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>bf1ce078dba990104c6528df4b9619f0</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>type</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d329a09adb2158104c6528df4b9619f4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>category</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d729a09adb2158104c6528df4b9619f4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>953c6070dbe990104c6528df4b96193c</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>macro</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>db29a09adb2158104c6528df4b9619f1</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>sc_catalog_homepage_category_item</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>df29a09adb2158104c6528df4b9619f1</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>4fbec978db6d90104c6528df4b9619e0</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>catalog_view</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">5b29a09adb2158104c6528df4b9619f1</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>df29a09adb2158104c6528df4b9619f3</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>catalog_hpe_iaas_platform</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone>dropzone0</dropzone>
-                <offset>2</offset>
-                <page display_value="catalog_hpe_iaas_platform">953c6070dbe990104c6528df4b96193c</page>
-                <summary/>
-                <sys_created_by>admin</sys_created_by>
-                <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                <sys_id>db29a09adb2158104c6528df4b9619f4</sys_id>
-                <sys_mod_count>0</sys_mod_count>
-                <sys_updated_by>admin</sys_updated_by>
-                <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>current_page</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5b29a09adb2158104c6528df4b9619f7</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>953c6070dbe990104c6528df4b96193c</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>5f29a09adb2158104c6528df4b9619f4</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>a7093830db2d90104c6528df4b96198b</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>macro</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d329a09adb2158104c6528df4b9619f5</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>sc_catalog_homepage_category_item</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link_class</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d329a09adb2158104c6528df4b9619f6</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c8165ceadbe198104c6528df4b96190f</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>category_title_link</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
-                        <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d329a09adb2158104c6528df4b9619f7</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>&amp;lt;a onmousedown='Event.stop(event); return false;' class='category_title_link' href='com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=a7093830db2d90104c6528df4b96198b&amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform&amp;amp;sysparm_view=catalogs_default'&amp;gt;Virtual Machine&amp;lt;/a&amp;gt;</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>renderer</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d729a09adb2158104c6528df4b9619f5</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>cc165ceadbe198104c6528df4b96190e</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>com.glideapp.servicecatalog.RenderCategory</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>title_link</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c0165ceadbe198104c6528df4b96190e</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>d729a09adb2158104c6528df4b9619f6</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>cc165ceadbe198104c6528df4b96190f</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;amp;amp;amp;amp;sysparm_parent=a7093830db2d90104c6528df4b96198b&amp;amp;amp;amp;amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;amp;amp;amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;amp;amp;amp;amp;sysparm_parent=4fbec978db6d90104c6528df4b9619e0&amp;amp;amp;amp;amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;amp;amp;amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone999</dropzone>
+                <offset>0</offset>
+                <page display_value="catalog_hpe_iaas_platform">953c6070dbe990104c6528df4b96193c</page>
+                <summary/>
+                <sys_created_by>admin</sys_created_by>
+                <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                <sys_id>c4165ceadbe198104c6528df4b961914</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>admin</sys_updated_by>
+                <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog_view</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>40165ceadbe198104c6528df4b961917</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>catalog_hpe_iaas_platform</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>render_title</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <name>current_page</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>db29a09adb2158104c6528df4b9619f5</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>44165ceadbe198104c6528df4b961917</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>true</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>953c6070dbe990104c6528df4b96193c</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>48165ceadbe198104c6528df4b961914</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>ad44942adbe198104c6528df4b961957</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
                         <name>type</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>db29a09adb2158104c6528df4b9619f6</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>4c165ceadbe198104c6528df4b961916</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>category</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>catalog</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>df29a09adb2158104c6528df4b9619f5</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c0165ceadbe198104c6528df4b961915</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>com.glideapp.servicecatalog.RenderCategory</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c0165ceadbe198104c6528df4b961916</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>com.glideapp.servicecatalog_category_view.do?v=1&amp;amp;sysparm_parent=ad44942adbe198104c6528df4b961957&amp;amp;sysparm_catalog=bf1ce078dba990104c6528df4b9619f0&amp;amp;sysparm_catalog_view=catalog_hpe_iaas_platform</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>render_title</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c4165ceadbe198104c6528df4b961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>false</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c4165ceadbe198104c6528df4b961916</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>Database</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>catalog</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>c8165ceadbe198104c6528df4b961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
                         <value>bf1ce078dba990104c6528df4b9619f0</value>
                     </sys_portal_preferences>
                     <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>catalog_view</name>
-                        <portal_section display_value="Created 2020-06-23 16:30:01">db29a09adb2158104c6528df4b9619f4</portal_section>
+                        <name>macro</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
                         <sys_created_by>admin</sys_created_by>
-                        <sys_created_on>2020-06-23 23:30:01</sys_created_on>
-                        <sys_id>df29a09adb2158104c6528df4b9619f6</sys_id>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>cc165ceadbe198104c6528df4b961914</sys_id>
                         <sys_mod_count>0</sys_mod_count>
                         <sys_updated_by>admin</sys_updated_by>
-                        <sys_updated_on>2020-06-23 23:30:01</sys_updated_on>
-                        <value>catalog_hpe_iaas_platform</value>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>sc_catalog_homepage_category_item</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title_link_class</name>
+                        <portal_section display_value="Created 2020-06-24 09:45:00">c4165ceadbe198104c6528df4b961914</portal_section>
+                        <sys_created_by>admin</sys_created_by>
+                        <sys_created_on>2020-06-24 16:45:00</sys_created_on>
+                        <sys_id>cc165ceadbe198104c6528df4b961915</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>admin</sys_updated_by>
+                        <sys_updated_on>2020-06-24 16:45:00</sys_updated_on>
+                        <value>category_title_link</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>

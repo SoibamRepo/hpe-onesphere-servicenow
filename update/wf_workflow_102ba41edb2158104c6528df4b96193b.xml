@@ -31,12 +31,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-23 23:38:33</sys_created_on>
         <sys_id>9c2ba41edb2158104c6528df4b96193b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 00:20:35</sys_updated_on>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_updated_by>soibam</sys_updated_by>
+        <sys_updated_on>2020-06-25 13:54:29</sys_updated_on>
         <table>x_228286_onesphere_3par</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="Create a record in IaaSStorage table">102ba41edb2158104c6528df4b96193b</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

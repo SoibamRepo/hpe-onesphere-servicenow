@@ -114,7 +114,7 @@
         <sys_mod_count>0</sys_mod_count>
         <sys_name>JobID</sys_name>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
-        <sys_parent display_value="Compute">2a275011db2d14104c6528df4b961968</sys_parent>
+        <sys_parent display_value="Virtual Machines">2a275011db2d14104c6528df4b961968</sys_parent>
         <sys_policy/>
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_scope_delete display_value="">82c850f06e0040a88a81bb0a645aee40</sys_scope_delete>

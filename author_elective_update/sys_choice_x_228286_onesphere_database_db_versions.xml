@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="db_versions" table="x_228286_onesphere_database" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>db_versions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mysql  5.7</label>
+            <language>en</language>
+            <name>x_228286_onesphere_database</name>
+            <sequence>100</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-24 16:31:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>38725c26dbe198104c6528df4b96199b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-24 16:32:24</sys_updated_on>
+            <value>mysql</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>db_versions</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>postgres 12.5</label>
+            <language>en</language>
+            <name>x_228286_onesphere_database</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-24 16:32:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d503d026dbe198104c6528df4b9619a9</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-24 16:32:30</sys_updated_on>
+            <value>postgres</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>db_versions</element>
+            <name>x_228286_onesphere_database</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-06-24 16:31:37</sys_created_on>
+            <sys_id>58031426dbe198104c6528df4b961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>db_versions</sys_name>
+            <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+            <sys_update_name>sys_choice_x_228286_onesphere_database_db_versions</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-06-24 16:31:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

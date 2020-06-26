@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DataBase" max_length="40" name="x_228286_onesphere_database" type="collection">
+        <element label="DB Type" max_length="40" name="db_versions" read_only="true" type="string_full_utf8"/>
+        <element label="Name" max_length="40" name="name" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="password" max_length="255" name="password" type="password2"/>
+        <element label="Storage" max_length="40" name="storage" type="string_full_utf8"/>
+        <element label="username" max_length="40" name="username" type="string_full_utf8"/>
+    </element>
+</database>
