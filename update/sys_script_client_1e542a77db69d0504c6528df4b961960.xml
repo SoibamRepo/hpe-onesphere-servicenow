@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>IaaSGetVMIP</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	
+	//Type appropriate comment here, and begin script below
+	//Type appropriate comment here, and begin script below
+   var ga = new GlideAjax('GetDatabaseVmIp') ;
+   ga.addParam('sysparm_name','process');
+   ga.addParam('sysparm_job_id',g_form.getValue('job_id'));   
+   ga.getXML(HelloWorldParse);
+	
+   function HelloWorldParse(response) {
+    
+   var answer = response.responseXML.documentElement.getAttribute("answer");
+   answer = JSON.parse(answer);
+   //alert(answer);	 
+   g_form.clearOptions('vm_ip_address');
+		
+		for( var i=0 ; i < answer.length ; i++)		   		     
+			g_form.addOption('vm_ip_address',answer[i],answer[i]);
+   }
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-29 00:21:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1e542a77db69d0504c6528df4b961960</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>IaaSGetVMIP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
+        <sys_update_name>sys_script_client_1e542a77db69d0504c6528df4b961960</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-29 06:31:36</sys_updated_on>
+        <table>x_228286_onesphere_database</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

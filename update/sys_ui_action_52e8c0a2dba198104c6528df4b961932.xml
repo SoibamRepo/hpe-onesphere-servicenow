@@ -40,11 +40,63 @@
 if(typeof window == 'undefined')
    ExpandVolumeAction();
 
+
+function getToken()
+{
+	var target = {};
+	target = new GlideRecord('x_228286_onesphere_environment_credentials');
+	target.addQuery('number', 'IaaS_Autoplat');
+	target.query(); 
+	while (target.next()) { 
+		// code 
+	}
+	
+	user = target.user;
+	encry_password = target.password;
+	
+	gs.info("User for IaaS_Autoplat" + " " + user);	
+    var password = encry_password.getDecryptedValue();
+	gs.info("Password for IaaS_Autoplat" + " " + password);
+	
+	url = target.onesphere_url;
+    ansibleTower = url + 'login';
+	gs.info("AWX URL for IaaS_Autoplat" + " " + ansibleTower);
+  
+    var request = new sn_ws.RESTMessageV2();
+	request.setEndpoint(ansibleTower);	
+	request.setHttpMethod('POST');
+	
+	request.setRequestHeader("Accept", "application/json");
+	request.setRequestHeader('Content-Type', 'application/json');
+	
+	request.setMIDServer('IaaSMidServer');
+	request.setEccParameter('skip_sensor', true);
+
+    var body = {};
+    body["user"] = '' + user + '';
+    body["password"] = '' + password + '';
+
+	request.setRequestBody(JSON.stringify(body));
+	var response = request.executeAsync();
+	response.waitForResponse(160);	
+	var request_response_body = response.getBody();    
+	var json_data = JSON.parse(request_response_body);	
+    var token = [url, json_data.accessToken];	
+	gs.info("URL,Access Token" + " " + token);
+    //return token; 
+	return json_data.accessToken;
+	
+}
+
 function ExpandVolumeAction(){
 	
 	var url = "http://10.188.244.139:3000/api/v1/";
 	//var token = "Bearer"  + ' ' + "olJKrPRCAxD6ETkb5B5uLHrjtUc9hv";
-	token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE1OTMwOTQ4NjUsImV4cCI6MTU5MzE4MTI2NX0.uuaz2VFmWrpKQnKJBw1HQvaEl5-jci-aaWQWqGFxyjU";
+	//token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiYWRtaW4iLCJpYXQiOjE1OTMwOTQ4NjUsImV4cCI6MTU5MzE4MTI2NX0.uuaz2VFmWrpKQnKJBw1HQvaEl5-jci-aaWQWqGFxyjU";
+	token = getToken();
+token = '' + token + '';
+gs.info("Inside Remove Server: token" + " " + token);
+
 	
 	var storage_tier = current.storage_tier;
 var volume_size = current.volume_size;
@@ -114,7 +166,7 @@ datastore_name = '' + datastore_name + '';
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>52e8c0a2dba198104c6528df4b961932</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>Resize Volume</sys_name>
         <sys_overrides/>
         <sys_package display_value="OneSphere Integration" source="x_228286_onesphere">0d703a034f161300fb4cb82ca310c79e</sys_package>
@@ -122,7 +174,7 @@ datastore_name = '' + datastore_name + '';
         <sys_scope display_value="OneSphere Integration">0d703a034f161300fb4cb82ca310c79e</sys_scope>
         <sys_update_name>sys_ui_action_52e8c0a2dba198104c6528df4b961932</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-25 17:28:49</sys_updated_on>
+        <sys_updated_on>2020-06-29 05:04:01</sys_updated_on>
         <table>x_228286_onesphere_storage</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
